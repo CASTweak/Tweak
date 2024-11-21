@@ -6,6 +6,11 @@
 @interface TINDocumentPageViewController : UIViewController
 @end
 
+// Forward declare the TINAssessmentManager class
+@interface TINAssessmentManager : NSObject
+- (void)assessmentSessionDidBegin:(id)session;
+@end
+
 %hook TINDocumentPageViewController
 
 - (void)openHelp:(id)sender {
@@ -55,6 +60,22 @@
 
     // Log the session and error objects
     NSLog(@"assessmentSession:failedToBeginWithError: called with session: %@, error: %@", session, error);
+
+    // Call the assessmentSessionDidBegin: method
+    [self assessmentSessionDidBegin:session];
+
+    // Do not call the original method
+    // %orig(session, error);
+
+    // Return immediately
+    return;
+}
+
+- (void)assessmentSession:(id)session wasInterruptedWithError:(NSError *)error {
+    %log; // Log the method call
+
+    // Log the session and error objects
+    NSLog(@"assessmentSession:wasInterruptedWithError: called with session: %@, error: %@", session, error);
 
     // Do not call the original method
     // %orig(session, error);

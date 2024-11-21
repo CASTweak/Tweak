@@ -1,47 +1,53 @@
-struct anonymous_type_215 {
+struct anonymous_type_215
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_186 {
+struct anonymous_type_186
+{
     int field_1;
     int field_2;
-    int * field_3;
+    int *field_3;
     unsigned int field_4;
     unsigned int field_5;
     unsigned int field_6;
-    int * field_7;
-    void * * field_8;
+    int *field_7;
+    void **field_8;
     long long field_9;
-    char * field_10;
+    char *field_10;
 };
 
-struct anonymous_type_297 {
+struct anonymous_type_297
+{
     unsigned int field_1;
     unsigned int field_2;
     unsigned int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_123 {
+struct anonymous_type_123
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_234 {
+struct anonymous_type_234
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    char * field_4;
+    char *field_4;
     int field_5;
 };
 
-struct anonymous_type_345 {
+struct anonymous_type_345
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -50,7 +56,8 @@ struct anonymous_type_345 {
     long long field_6;
 };
 
-struct anonymous_type_437 {
+struct anonymous_type_437
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -62,23 +69,26 @@ struct anonymous_type_437 {
     int field_9;
 };
 
-struct anonymous_type_456 {
+struct anonymous_type_456
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_142 {
+struct anonymous_type_142
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_253 {
+struct anonymous_type_253
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -95,113 +105,127 @@ struct anonymous_type_253 {
     float field_14;
 };
 
-struct anonymous_type_364 {
+struct anonymous_type_364
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
     int field_5;
     unsigned int field_6;
-    void * field_7;
+    void *field_7;
 };
 
 struct anonymous_type_301; /* Incomplete type */
 
-struct anonymous_type_412 {
+struct anonymous_type_412
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_475 {
+struct anonymous_type_475
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_161 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    int field_4;
-    int field_5;
-    int * field_6;
-};
-
-struct anonymous_type_320 {
+struct anonymous_type_161
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_272 {
+struct anonymous_type_320
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int field_5;
+    int *field_6;
 };
 
-struct anonymous_type_383 {
+struct anonymous_type_272
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct anonymous_type_384 * field_4;
-    int * field_5;
-    char * field_6;
+    int field_4;
+    int *field_5;
 };
 
-struct anonymous_type_431 {
+struct anonymous_type_383
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    struct anonymous_type_384 *field_4;
+    int *field_5;
+    char *field_6;
 };
 
-struct CGRect {
+struct anonymous_type_431
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    void *field_4;
+};
+
+struct CGRect
+{
     struct CGPoint field_1;
     struct CGSize field_2;
 };
 
-struct anonymous_type_180 {
+struct anonymous_type_180
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    struct TI_ASI_PeripheralStruct * field_5;
+    struct TI_ASI_PeripheralStruct *field_5;
     unsigned long long field_6;
-    char * field_7;
+    char *field_7;
 };
 
 struct anonymous_type_291; /* Incomplete type */
 
-struct anonymous_type_450 {
+struct anonymous_type_450
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     short field_4;
 };
 
-struct anonymous_type_494 {
+struct anonymous_type_494
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_504 {
+struct anonymous_type_504
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
 };
 
-struct anonymous_type_523 {
+struct anonymous_type_523
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -210,18 +234,20 @@ struct anonymous_type_523 {
     long long field_6;
 };
 
-struct anonymous_type_542 {
-    int * field_1;
+struct anonymous_type_542
+{
+    int *field_1;
     int field_2;
     int field_3;
-    void * * field_4;
+    void **field_4;
     long long field_5;
-    char * field_6;
+    char *field_6;
 };
 
 struct anonymous_type_548; /* Incomplete type */
 
-union anonymous_type_98 {
+union anonymous_type_98
+{
     struct anonymous_type_99 field_1;
     struct anonymous_type_100 field_2;
     struct anonymous_type_101 field_3;
@@ -264,72 +290,82 @@ union anonymous_type_98 {
     struct anonymous_type_139 field_40;
 };
 
-struct anonymous_type_84 {
+struct anonymous_type_84
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    char * field_4;
+    char *field_4;
     int field_5;
 };
 
-struct anonymous_type_68 {
+struct anonymous_type_68
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_70 {
+struct anonymous_type_70
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
 };
 
-struct TI_Operation {
+struct TI_Operation
+{
     int field_1;
-    struct anonymous_type_399 * field_2;
-    void * field_3;
+    struct anonymous_type_399 *field_2;
+    void *field_3;
     union anonymous_type_400 field_4;
 };
 
 struct anonymous_type_38; /* Incomplete type */
 
-struct anonymous_type_40 {
-    void * field_1;
+struct anonymous_type_40
+{
+    void *field_1;
 };
 
-struct anonymous_type_139 {
+struct anonymous_type_139
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_409 {
+struct anonymous_type_409
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_158 {
+struct anonymous_type_158
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    char * field_6;
+    char *field_6;
 };
 
 struct anonymous_type_24; /* Incomplete type */
 
-struct anonymous_type_206 {
+struct anonymous_type_206
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_317 {
+struct anonymous_type_317
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -346,7 +382,8 @@ struct anonymous_type_317 {
     float field_14;
 };
 
-struct anonymous_type_269 {
+struct anonymous_type_269
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -355,75 +392,85 @@ struct anonymous_type_269 {
 
 struct anonymous_type_428; /* Incomplete type */
 
-struct anonymous_type_177 {
+struct anonymous_type_177
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_225 {
+struct anonymous_type_225
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_336 {
+struct anonymous_type_336
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_288 {
+struct anonymous_type_288
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_114 {
+struct anonymous_type_114
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
 struct anonymous_type_399; /* Incomplete type */
 
 struct anonymous_type_196; /* Incomplete type */
 
-struct anonymous_type_133 {
+struct anonymous_type_133
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_244 {
+struct anonymous_type_244
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_355 {
-    void * * field_1;
+struct anonymous_type_355
+{
+    void **field_1;
     long long field_2;
 };
 
-struct anonymous_type_403 {
+struct anonymous_type_403
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-union anonymous_type_447 {
+union anonymous_type_447
+{
     struct anonymous_type_448 field_1;
     struct anonymous_type_449 field_2;
     struct anonymous_type_450 field_3;
@@ -466,44 +513,50 @@ union anonymous_type_447 {
     struct anonymous_type_488 field_40;
 };
 
-struct anonymous_type_466 {
+struct anonymous_type_466
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
+    void *field_5;
 };
 
-struct anonymous_type_152 {
+struct anonymous_type_152
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_263 {
+struct anonymous_type_263
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_374 {
+struct anonymous_type_374
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
 struct anonymous_type_200; /* Incomplete type */
 
-struct transferCompleteStruct {
-    int * field_1;
-    int * field_2;
+struct transferCompleteStruct
+{
+    int *field_1;
+    int *field_2;
     unsigned int field_3;
 };
 
-union anonymous_type_311 {
+union anonymous_type_311
+{
     struct anonymous_type_312 field_1;
     struct anonymous_type_313 field_2;
     struct anonymous_type_314 field_3;
@@ -546,29 +599,33 @@ union anonymous_type_311 {
     struct anonymous_type_352 field_40;
 };
 
-struct anonymous_type_171 {
+struct anonymous_type_171
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_330 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    int field_4;
-    void * field_5;
-};
-
-struct anonymous_type_282 {
+struct anonymous_type_330
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
+    void *field_5;
 };
 
-struct anonymous_type_393 {
+struct anonymous_type_282
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    int field_4;
+};
+
+struct anonymous_type_393
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -580,52 +637,58 @@ struct anonymous_type_393 {
     int field_9;
 };
 
-struct anonymous_type_422 {
+struct anonymous_type_422
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_441 {
+struct anonymous_type_441
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    struct TI_ASI_PeripheralStruct * field_5;
+    struct TI_ASI_PeripheralStruct *field_5;
     unsigned long long field_6;
-    char * field_7;
+    char *field_7;
 };
 
-struct anonymous_type_485 {
+struct anonymous_type_485
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
+    void *field_5;
+    void *field_6;
+    void *field_7;
     long long field_8;
-    void * field_9;
+    void *field_9;
 };
 
-struct anonymous_type_460 {
+struct anonymous_type_460
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_514 {
+struct anonymous_type_514
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_533 {
+struct anonymous_type_533
+{
     char field_1[8];
     int field_2;
     int field_3;
@@ -667,7 +730,8 @@ struct anonymous_type_533 {
     unsigned int field_39;
 };
 
-struct anonymous_type_539 {
+struct anonymous_type_539
+{
     char field_1[8];
     int field_2;
     int field_3;
@@ -711,33 +775,37 @@ struct anonymous_type_539 {
 
 struct anonymous_type_552; /* Incomplete type */
 
-struct anonymous_type_93 {
+struct anonymous_type_93
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
+    void *field_5;
+    void *field_6;
+    void *field_7;
     long long field_8;
-    void * field_9;
+    void *field_9;
 };
 
-struct anonymous_type_77 {
+struct anonymous_type_77
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_63 {
+struct anonymous_type_63
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct CGAffineTransform {
+struct CGAffineTransform
+{
     double field_1;
     double field_2;
     double field_3;
@@ -746,40 +814,46 @@ struct CGAffineTransform {
     double field_6;
 };
 
-struct CGPath {
+struct CGPath
+{
 };
 
-struct anonymous_type_33 {
+struct anonymous_type_33
+{
     unsigned int field_1;
     unsigned int field_2;
     unsigned int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_149 {
+struct anonymous_type_149
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
 struct anonymous_type_308; /* Incomplete type */
 
-struct anonymous_type_419 {
+struct anonymous_type_419
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    char * field_6;
+    char *field_6;
 };
 
-struct CGLayer {
+struct CGLayer
+{
 };
 
-struct anonymous_type_279 {
+struct anonymous_type_279
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -788,42 +862,46 @@ struct anonymous_type_279 {
     int field_6;
 };
 
-struct anonymous_type_105 {
+struct anonymous_type_105
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
     int field_5;
     unsigned int field_6;
-    void * field_7;
+    void *field_7;
 };
 
-struct anonymous_type_216 {
+struct anonymous_type_216
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_327 {
+struct anonymous_type_327
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_17 {
+struct anonymous_type_17
+{
     int field_1;
     int field_2;
     struct docStruct field_3;
-    void * field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
-    void * field_8;
+    void *field_4;
+    void *field_5;
+    void *field_6;
+    void *field_7;
+    void *field_8;
     unsigned int field_9;
-    void * field_10;
-    struct _TPM_RootNode * field_11[13];
+    void *field_10;
+    struct _TPM_RootNode *field_11[13];
     long long field_12;
     long long field_13;
     long long field_14;
@@ -832,61 +910,65 @@ struct anonymous_type_17 {
     struct _ToolPaletteMenuInfo field_17;
     int field_18;
     int field_19;
-    struct anonymous_type_25 * field_20;
+    struct anonymous_type_25 *field_20;
     int field_21;
     int field_22;
     int field_23;
     int field_24;
     int field_25;
-    struct _Widget * field_26;
+    struct _Widget *field_26;
     int field_27;
     int field_28;
     int field_29;
-    struct _Widget * field_30;
-    struct _Widget * field_31;
+    struct _Widget *field_30;
+    struct _Widget *field_31;
     struct _StatusButtonInfo field_32[4];
-    struct anonymous_type_28 * field_33;
+    struct anonymous_type_28 *field_33;
     struct anonymous_type_29 field_34;
     int field_35;
     int field_36;
     struct transferCompleteStruct field_37;
     struct anonymous_type_31 field_38;
     struct anonymous_type_33 field_39;
-    void * field_40;
-    struct anonymous_type_34 * field_41;
+    void *field_40;
+    struct anonymous_type_34 *field_41;
     float field_42;
     float field_43;
     float field_44;
 };
 
-struct anonymous_type_168 {
+struct anonymous_type_168
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_187 {
+struct anonymous_type_187
+{
     int field_1;
     int field_2;
-    int * field_3;
+    int *field_3;
     unsigned int field_4;
     unsigned int field_5;
     unsigned int field_6;
-    int * field_7;
-    void * * field_8;
+    int *field_7;
+    void **field_8;
     long long field_9;
-    char * field_10;
+    char *field_10;
 };
 
-struct anonymous_type_235 {
+struct anonymous_type_235
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_346 {
+struct anonymous_type_346
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -895,30 +977,34 @@ struct anonymous_type_346 {
 
 struct anonymous_type_298; /* Incomplete type */
 
-struct anonymous_type_124 {
+struct anonymous_type_124
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct anonymous_type_125 * field_4;
-    int * field_5;
-    char * field_6;
+    struct anonymous_type_125 *field_4;
+    int *field_5;
+    char *field_6;
 };
 
-struct anonymous_type_438 {
+struct anonymous_type_438
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_457 {
+struct anonymous_type_457
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_143 {
+struct anonymous_type_143
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -927,107 +1013,121 @@ struct anonymous_type_143 {
 
 struct anonymous_type_302; /* Incomplete type */
 
-struct docStruct {
-    void * field_1;
+struct docStruct
+{
+    void *field_1;
     char field_2[1536];
     char field_3[1536];
 };
 
-struct anonymous_type_254 {
+struct anonymous_type_254
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
     int field_5;
     unsigned int field_6;
-    void * field_7;
+    void *field_7;
 };
 
-struct anonymous_type_365 {
+struct anonymous_type_365
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_413 {
+struct anonymous_type_413
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_162 {
+struct anonymous_type_162
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_273 {
+struct anonymous_type_273
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct anonymous_type_274 * field_4;
-    int * field_5;
-    char * field_6;
+    struct anonymous_type_274 *field_4;
+    int *field_5;
+    char *field_6;
 };
 
 struct anonymous_type_384; /* Incomplete type */
 
-struct anonymous_type_210 {
+struct anonymous_type_210
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_321 {
+struct anonymous_type_321
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_432 {
+struct anonymous_type_432
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_181 {
+struct anonymous_type_181
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_340 {
+struct anonymous_type_340
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    char * field_4;
+    char *field_4;
     int field_5;
 };
 
 struct anonymous_type_292; /* Incomplete type */
 
-struct anonymous_type_451 {
+struct anonymous_type_451
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_476 {
+struct anonymous_type_476
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    char * field_4;
+    char *field_4;
     int field_5;
 };
 
-struct anonymous_type_495 {
+struct anonymous_type_495
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1044,57 +1144,65 @@ struct anonymous_type_495 {
     float field_14;
 };
 
-struct anonymous_type_505 {
+struct anonymous_type_505
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_470 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    int field_4;
-};
-
-struct anonymous_type_524 {
+struct anonymous_type_470
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_543 {
+struct anonymous_type_524
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    int field_4;
+};
+
+struct anonymous_type_543
+{
     unsigned int field_1;
     unsigned int field_2;
     unsigned int field_3;
-    void * * field_4;
+    void **field_4;
     long long field_5;
-    char * field_6;
+    char *field_6;
 };
 
 struct anonymous_type_549; /* Incomplete type */
 
-struct CGContext {
+struct CGContext
+{
 };
 
-struct anonymous_type_86 {
+struct anonymous_type_86
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_72 {
+struct anonymous_type_72
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_56 {
+struct anonymous_type_56
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1102,50 +1210,55 @@ struct anonymous_type_56 {
 
 struct anonymous_type_42; /* Incomplete type */
 
-struct anonymous_type_159 {
+struct anonymous_type_159
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
+    void *field_5;
 };
 
-struct anonymous_type_207 {
+struct anonymous_type_207
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_318 {
+struct anonymous_type_318
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
     int field_5;
     unsigned int field_6;
-    void * field_7;
+    void *field_7;
 };
 
-struct anonymous_type_429 {
+struct anonymous_type_429
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_289 {
+struct anonymous_type_289
+{
     int field_1;
     int field_2;
     struct docStruct field_3;
-    void * field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
-    void * field_8;
+    void *field_4;
+    void *field_5;
+    void *field_6;
+    void *field_7;
+    void *field_8;
     unsigned int field_9;
-    void * field_10;
-    struct _TPM_RootNode * field_11[13];
+    void *field_10;
+    struct _TPM_RootNode *field_11[13];
     long long field_12;
     long long field_13;
     long long field_14;
@@ -1154,72 +1267,77 @@ struct anonymous_type_289 {
     struct _ToolPaletteMenuInfo field_17;
     int field_18;
     int field_19;
-    struct anonymous_type_292 * field_20;
+    struct anonymous_type_292 *field_20;
     int field_21;
     int field_22;
     int field_23;
     int field_24;
     int field_25;
-    struct _Widget * field_26;
+    struct _Widget *field_26;
     int field_27;
     int field_28;
     int field_29;
-    struct _Widget * field_30;
-    struct _Widget * field_31;
+    struct _Widget *field_30;
+    struct _Widget *field_31;
     struct _StatusButtonInfo field_32[4];
-    struct anonymous_type_293 * field_33;
+    struct anonymous_type_293 *field_33;
     struct anonymous_type_294 field_34;
     int field_35;
     int field_36;
     struct transferCompleteStruct field_37;
     struct anonymous_type_295 field_38;
     struct anonymous_type_297 field_39;
-    void * field_40;
-    struct anonymous_type_298 * field_41;
+    void *field_40;
+    struct anonymous_type_298 *field_41;
     float field_42;
     float field_43;
     float field_44;
 };
 
-struct anonymous_type_115 {
+struct anonymous_type_115
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_226 {
+struct anonymous_type_226
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_337 {
+struct anonymous_type_337
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct anonymous_type_338 * field_4;
-    int * field_5;
-    char * field_6;
+    struct anonymous_type_338 *field_4;
+    int *field_5;
+    char *field_6;
 };
 
-struct anonymous_type_178 {
+struct anonymous_type_178
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
+    void *field_5;
+    void *field_6;
+    void *field_7;
     long long field_8;
-    void * field_9;
+    void *field_9;
 };
 
-struct anonymous_type_448 {
+struct anonymous_type_448
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1227,7 +1345,8 @@ struct anonymous_type_448 {
 
 struct anonymous_type_197; /* Incomplete type */
 
-struct anonymous_type_134 {
+struct anonymous_type_134
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1239,92 +1358,104 @@ struct anonymous_type_134 {
     int field_9;
 };
 
-struct anonymous_type_245 {
+struct anonymous_type_245
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    struct TI_ASI_PeripheralStruct * field_5;
+    struct TI_ASI_PeripheralStruct *field_5;
     unsigned long long field_6;
-    char * field_7;
+    char *field_7;
 };
 
-struct anonymous_type_356 {
-    void * * field_1;
-    void * * field_2;
-    struct _Widget * field_3;
+struct anonymous_type_356
+{
+    void **field_1;
+    void **field_2;
+    struct _Widget *field_3;
     union anonymous_type_357 field_4;
 };
 
-struct anonymous_type_404 {
+struct anonymous_type_404
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     short field_4;
 };
 
-struct anonymous_type_467 {
+struct anonymous_type_467
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_515 {
+struct anonymous_type_515
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct anonymous_type_516 * field_4;
-    int * field_5;
-    char * field_6;
+    struct anonymous_type_516 *field_4;
+    int *field_5;
+    char *field_6;
 };
 
-struct anonymous_type_153 {
+struct anonymous_type_153
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_201 {
+struct anonymous_type_201
+{
     unsigned int field_1;
     unsigned int field_2;
     unsigned int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_312 {
+struct anonymous_type_312
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_264 {
+struct anonymous_type_264
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_375 {
+struct anonymous_type_375
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    char * field_6;
+    char *field_6;
 };
 
-struct anonymous_type_423 {
+struct anonymous_type_423
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_172 {
+struct anonymous_type_172
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1333,7 +1464,8 @@ struct anonymous_type_172 {
     int field_6;
 };
 
-struct anonymous_type_283 {
+struct anonymous_type_283
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1345,37 +1477,42 @@ struct anonymous_type_283 {
     int field_9;
 };
 
-struct anonymous_type_220 {
+struct anonymous_type_220
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
 };
 
-struct anonymous_type_331 {
+struct anonymous_type_331
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_394 {
+struct anonymous_type_394
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_442 {
+struct anonymous_type_442
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_191 {
+struct anonymous_type_191
+{
     char field_1[8];
     int field_2;
     int field_3;
@@ -1417,18 +1554,20 @@ struct anonymous_type_191 {
     unsigned int field_39;
 };
 
-struct anonymous_type_350 {
+struct anonymous_type_350
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_461 {
+struct anonymous_type_461
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
     int field_5;
     int field_6;
     int field_7;
@@ -1436,51 +1575,57 @@ struct anonymous_type_461 {
     int field_9;
 };
 
-struct anonymous_type_486 {
+struct anonymous_type_486
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_534 {
+struct anonymous_type_534
+{
     int field_1;
     int field_2;
-    int * field_3;
+    int *field_3;
     unsigned int field_4;
     unsigned int field_5;
     unsigned int field_6;
-    int * field_7;
-    void * * field_8;
+    int *field_7;
+    void **field_8;
     long long field_9;
-    char * field_10;
+    char *field_10;
 };
 
-struct anonymous_type_553 {
+struct anonymous_type_553
+{
     unsigned int field_1;
     unsigned int field_2;
     unsigned int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_480 {
+struct anonymous_type_480
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_95 {
+struct anonymous_type_95
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    struct TI_ASI_PeripheralStruct * field_5;
+    struct TI_ASI_PeripheralStruct *field_5;
     unsigned long long field_6;
-    char * field_7;
+    char *field_7;
 };
 
-struct anonymous_type_79 {
+struct anonymous_type_79
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1490,7 +1635,8 @@ struct anonymous_type_79 {
     int field_7;
 };
 
-struct event_data {
+struct event_data
+{
     int field_1;
     int field_2;
     int field_3;
@@ -1498,16 +1644,18 @@ struct event_data {
     int field_5;
 };
 
-struct anonymous_type_81 {
+struct anonymous_type_81
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct anonymous_type_82 * field_4;
-    int * field_5;
-    char * field_6;
+    struct anonymous_type_82 *field_4;
+    int *field_5;
+    char *field_6;
 };
 
-struct anonymous_type_65 {
+struct anonymous_type_65
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1516,30 +1664,33 @@ struct anonymous_type_65 {
 
 struct anonymous_type_49; /* Incomplete type */
 
-struct UIEdgeInsets {
+struct UIEdgeInsets
+{
     double top;
     double left;
     double bottom;
     double right;
 };
 
-struct __CFDictionary {
+struct __CFDictionary
+{
 };
 
 struct anonymous_type_309; /* Incomplete type */
 
-struct anonymous_type_35 {
+struct anonymous_type_35
+{
     int field_1;
     int field_2;
     struct docStruct field_3;
-    void * field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
-    void * field_8;
+    void *field_4;
+    void *field_5;
+    void *field_6;
+    void *field_7;
+    void *field_8;
     unsigned int field_9;
-    void * field_10;
-    struct _TPM_RootNode * field_11[13];
+    void *field_10;
+    struct _TPM_RootNode *field_11[13];
     long long field_12;
     long long field_13;
     long long field_14;
@@ -1548,99 +1699,106 @@ struct anonymous_type_35 {
     struct _ToolPaletteMenuInfo field_17;
     int field_18;
     int field_19;
-    struct anonymous_type_38 * field_20;
+    struct anonymous_type_38 *field_20;
     int field_21;
     int field_22;
     int field_23;
     int field_24;
     int field_25;
-    struct _Widget * field_26;
+    struct _Widget *field_26;
     int field_27;
     int field_28;
     int field_29;
-    struct _Widget * field_30;
-    struct _Widget * field_31;
+    struct _Widget *field_30;
+    struct _Widget *field_31;
     struct _StatusButtonInfo field_32[4];
-    struct anonymous_type_39 * field_33;
+    struct anonymous_type_39 *field_33;
     struct anonymous_type_40 field_34;
     int field_35;
     int field_36;
     struct transferCompleteStruct field_37;
     struct anonymous_type_41 field_38;
     struct anonymous_type_43 field_39;
-    void * field_40;
-    struct anonymous_type_44 * field_41;
+    void *field_40;
+    struct anonymous_type_44 *field_41;
     float field_42;
     float field_43;
     float field_44;
 };
 
-struct anonymous_type_169 {
+struct anonymous_type_169
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    char * field_4;
+    char *field_4;
     int field_5;
 };
 
-struct anonymous_type_106 {
+struct anonymous_type_106
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_217 {
+struct anonymous_type_217
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_328 {
+struct anonymous_type_328
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_439 {
+struct anonymous_type_439
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
+    void *field_5;
+    void *field_6;
+    void *field_7;
     long long field_8;
-    void * field_9;
+    void *field_9;
 };
 
-struct anonymous_type_188 {
+struct anonymous_type_188
+{
     int field_1;
     int field_2;
-    int * field_3;
+    int *field_3;
     unsigned int field_4;
     unsigned int field_5;
     unsigned int field_6;
-    int * field_7;
-    void * * field_8;
+    int *field_7;
+    void **field_8;
     long long field_9;
-    char * field_10;
+    char *field_10;
 };
 
-struct anonymous_type_299 {
+struct anonymous_type_299
+{
     int field_1;
     int field_2;
     struct docStruct field_3;
-    void * field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
-    void * field_8;
+    void *field_4;
+    void *field_5;
+    void *field_6;
+    void *field_7;
+    void *field_8;
     unsigned int field_9;
-    void * field_10;
-    struct _TPM_RootNode * field_11[13];
+    void *field_10;
+    struct _TPM_RootNode *field_11[13];
     long long field_12;
     long long field_13;
     long long field_14;
@@ -1649,28 +1807,28 @@ struct anonymous_type_299 {
     struct _ToolPaletteMenuInfo field_17;
     int field_18;
     int field_19;
-    struct anonymous_type_302 * field_20;
+    struct anonymous_type_302 *field_20;
     int field_21;
     int field_22;
     int field_23;
     int field_24;
     int field_25;
-    struct _Widget * field_26;
+    struct _Widget *field_26;
     int field_27;
     int field_28;
     int field_29;
-    struct _Widget * field_30;
-    struct _Widget * field_31;
+    struct _Widget *field_30;
+    struct _Widget *field_31;
     struct _StatusButtonInfo field_32[4];
-    struct anonymous_type_303 * field_33;
+    struct anonymous_type_303 *field_33;
     struct anonymous_type_304 field_34;
     int field_35;
     int field_36;
     struct transferCompleteStruct field_37;
     struct anonymous_type_305 field_38;
     struct anonymous_type_307 field_39;
-    void * field_40;
-    struct anonymous_type_308 * field_41;
+    void *field_40;
+    struct anonymous_type_308 *field_41;
     float field_42;
     float field_43;
     float field_44;
@@ -1678,19 +1836,22 @@ struct anonymous_type_299 {
 
 struct anonymous_type_21; /* Incomplete type */
 
-struct __SCNetworkReachability {
+struct __SCNetworkReachability
+{
 };
 
 struct anonymous_type_125; /* Incomplete type */
 
-struct anonymous_type_236 {
+struct anonymous_type_236
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_347 {
+struct anonymous_type_347
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1702,59 +1863,67 @@ struct anonymous_type_347 {
     int field_9;
 };
 
-struct anonymous_type_144 {
+struct anonymous_type_144
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_255 {
+struct anonymous_type_255
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_366 {
+struct anonymous_type_366
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
 struct anonymous_type_303; /* Incomplete type */
 
-struct anonymous_type_414 {
+struct anonymous_type_414
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_458 {
+struct anonymous_type_458
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_163 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    int field_4;
-};
-
-struct anonymous_type_100 {
+struct anonymous_type_163
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_211 {
+struct anonymous_type_100
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    int field_4;
+};
+
+struct anonymous_type_211
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1771,53 +1940,59 @@ struct anonymous_type_211 {
     float field_14;
 };
 
-struct anonymous_type_322 {
+struct anonymous_type_322
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
 struct anonymous_type_274; /* Incomplete type */
 
-struct anonymous_type_385 {
+struct anonymous_type_385
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_182 {
+struct anonymous_type_182
+{
     int field_1;
     int field_2;
-    int * field_3;
+    int *field_3;
     unsigned int field_4;
     unsigned int field_5;
     unsigned int field_6;
-    int * field_7;
-    void * * field_8;
+    int *field_7;
+    void **field_8;
     long long field_9;
-    char * field_10;
+    char *field_10;
 };
 
 struct anonymous_type_293; /* Incomplete type */
 
-struct anonymous_type_230 {
+struct anonymous_type_230
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_341 {
+struct anonymous_type_341
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_433 {
+struct anonymous_type_433
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1826,28 +2001,32 @@ struct anonymous_type_433 {
     int field_6;
 };
 
-struct anonymous_type_452 {
+struct anonymous_type_452
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_477 {
+struct anonymous_type_477
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_360 {
+struct anonymous_type_360
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     short field_4;
 };
 
-struct anonymous_type_471 {
+struct anonymous_type_471
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1857,47 +2036,54 @@ struct anonymous_type_471 {
     int field_7;
 };
 
-struct anonymous_type_496 {
+struct anonymous_type_496
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
     int field_5;
     unsigned int field_6;
-    void * field_7;
+    void *field_7;
 };
 
-struct CGColor {
+struct CGColor
+{
 };
 
-struct anonymous_type_500 {
+struct anonymous_type_500
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_506 {
+struct anonymous_type_506
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_490 {
+struct anonymous_type_490
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct sockaddr {
+struct sockaddr
+{
     unsigned char field_1;
     unsigned char field_2;
     char field_3[14];
 };
 
-struct anonymous_type_525 {
+struct anonymous_type_525
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -1909,96 +2095,109 @@ struct anonymous_type_525 {
     int field_9;
 };
 
-struct anonymous_type_544 {
+struct anonymous_type_544
+{
     unsigned int field_1;
     unsigned int field_2;
     unsigned int field_3;
-    void * * field_4;
+    void **field_4;
     long long field_5;
-    char * field_6;
+    char *field_6;
 };
 
-struct anonymous_type_88 {
+struct anonymous_type_88
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_90 {
+struct anonymous_type_90
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct _NSRange {
+struct _NSRange
+{
     unsigned long long field_1;
     unsigned long long field_2;
 };
 
-struct anonymous_type_74 {
+struct anonymous_type_74
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
+    void *field_5;
 };
 
-struct anonymous_type_58 {
+struct anonymous_type_58
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     short field_4;
 };
 
-struct anonymous_type_60 {
+struct anonymous_type_60
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct _ToolPaletteMenuInfo {
-    struct anonymous_type_546 * field_1;
+struct _ToolPaletteMenuInfo
+{
+    struct anonymous_type_546 *field_1;
     struct _MenuTimer field_2;
 };
 
 struct anonymous_type_44; /* Incomplete type */
 
-struct anonymous_type_208 {
+struct anonymous_type_208
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     short field_4;
 };
 
-struct anonymous_type_319 {
+struct anonymous_type_319
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
 struct anonymous_type_28; /* Incomplete type */
 
-struct anonymous_type_179 {
+struct anonymous_type_179
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_116 {
+struct anonymous_type_116
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    char * field_6;
+    char *field_6;
 };
 
-struct anonymous_type_227 {
+struct anonymous_type_227
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -2007,7 +2206,8 @@ struct anonymous_type_227 {
 
 struct anonymous_type_338; /* Incomplete type */
 
-struct anonymous_type_449 {
+struct anonymous_type_449
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -2016,27 +2216,31 @@ struct anonymous_type_449 {
 
 struct _MenuTimerVtbl; /* Incomplete type */
 
-struct anonymous_type_198 {
-    void * field_1;
+struct anonymous_type_198
+{
+    void *field_1;
 };
 
-struct anonymous_type_135 {
+struct anonymous_type_135
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
 struct anonymous_type_14; /* Incomplete type */
 
-struct anonymous_type_246 {
+struct anonymous_type_246
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-union anonymous_type_357 {
+union anonymous_type_357
+{
     struct anonymous_type_358 field_1;
     struct anonymous_type_359 field_2;
     struct anonymous_type_360 field_3;
@@ -2079,24 +2283,27 @@ union anonymous_type_357 {
     struct anonymous_type_398 field_40;
 };
 
-struct _StatusButtonInfo {
-    void * field_1;
+struct _StatusButtonInfo
+{
+    void *field_1;
     int field_2;
     int field_3;
 };
 
-struct anonymous_type_405 {
+struct anonymous_type_405
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_154 {
+struct anonymous_type_154
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
     int field_5;
     int field_6;
     int field_7;
@@ -2104,88 +2311,99 @@ struct anonymous_type_154 {
     int field_9;
 };
 
-struct anonymous_type_265 {
+struct anonymous_type_265
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    char * field_6;
+    char *field_6;
 };
 
-struct anonymous_type_376 {
+struct anonymous_type_376
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
+    void *field_5;
 };
 
 struct anonymous_type_202; /* Incomplete type */
 
-struct anonymous_type_313 {
+struct anonymous_type_313
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_424 {
+struct anonymous_type_424
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_173 {
+struct anonymous_type_173
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_110 {
+struct anonymous_type_110
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_221 {
+struct anonymous_type_221
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_332 {
+struct anonymous_type_332
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_284 {
+struct anonymous_type_284
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_395 {
+struct anonymous_type_395
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
+    void *field_5;
+    void *field_6;
+    void *field_7;
     long long field_8;
-    void * field_9;
+    void *field_9;
 };
 
-struct anonymous_type_192 {
+struct anonymous_type_192
+{
     char field_1[8];
     int field_2;
     int field_3;
@@ -2227,61 +2445,69 @@ struct anonymous_type_192 {
     unsigned int field_39;
 };
 
-struct anonymous_type_240 {
+struct anonymous_type_240
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_351 {
+struct anonymous_type_351
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    struct TI_ASI_PeripheralStruct * field_5;
+    struct TI_ASI_PeripheralStruct *field_5;
     unsigned long long field_6;
-    char * field_7;
+    char *field_7;
 };
 
-struct anonymous_type_443 {
+struct anonymous_type_443
+{
     int field_1;
     int field_2;
 };
 
-struct anonymous_type_462 {
+struct anonymous_type_462
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
 };
 
-struct anonymous_type_468 {
+struct anonymous_type_468
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_487 {
+struct anonymous_type_487
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    struct TI_ASI_PeripheralStruct * field_5;
+    struct TI_ASI_PeripheralStruct *field_5;
     unsigned long long field_6;
-    char * field_7;
+    char *field_7;
 };
 
-struct anonymous_type_370 {
+struct anonymous_type_370
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_481 {
+struct anonymous_type_481
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -2290,18 +2516,20 @@ struct anonymous_type_481 {
     long long field_6;
 };
 
-struct anonymous_type_510 {
+struct anonymous_type_510
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
 struct anonymous_type_516; /* Incomplete type */
 
-struct anonymous_type_535 {
+struct anonymous_type_535
+{
     char field_1[8];
     int field_2;
     int field_3;
@@ -2343,28 +2571,32 @@ struct anonymous_type_535 {
     unsigned int field_39;
 };
 
-struct CGPoint {
+struct CGPoint
+{
     double field_1;
     double field_2;
 };
 
 struct anonymous_type_554; /* Incomplete type */
 
-struct anonymous_type_97 {
+struct anonymous_type_97
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_83 {
+struct anonymous_type_83
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_67 {
+struct anonymous_type_67
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -2374,44 +2606,50 @@ struct anonymous_type_53; /* Incomplete type */
 
 struct anonymous_type_37; /* Incomplete type */
 
-struct anonymous_type_107 {
+struct anonymous_type_107
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_218 {
+struct anonymous_type_218
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_329 {
+struct anonymous_type_329
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    char * field_6;
+    char *field_6;
 };
 
-struct _D2Editor {
+struct _D2Editor
+{
 };
 
-struct anonymous_type_348 {
+struct anonymous_type_348
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_189 {
-    void * field_1;
-    void * field_2;
-    struct TI_Operation * field_3;
+struct anonymous_type_189
+{
+    void *field_1;
+    void *field_2;
+    struct TI_Operation *field_3;
     int field_4;
     int field_5[64];
     int field_6;
@@ -2423,14 +2661,16 @@ struct anonymous_type_189 {
     int field_12;
 };
 
-struct anonymous_type_126 {
+struct anonymous_type_126
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_237 {
+struct anonymous_type_237
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -2439,53 +2679,60 @@ struct anonymous_type_237 {
     int field_6;
 };
 
-struct anonymous_type_459 {
+struct anonymous_type_459
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_507 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    int field_4;
-    int field_5;
-    char * field_6;
-};
-
-struct anonymous_type_145 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    int field_4;
-};
-
-struct anonymous_type_304 {
-    void * field_1;
-};
-
-struct anonymous_type_256 {
+struct anonymous_type_507
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    char *field_6;
 };
 
-struct anonymous_type_367 {
+struct anonymous_type_145
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_415 {
+struct anonymous_type_304
+{
+    void *field_1;
+};
+
+struct anonymous_type_256
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    int field_4;
+    int field_5;
+    int *field_6;
+};
+
+struct anonymous_type_367
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    int field_4;
+};
+
+struct anonymous_type_415
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    struct _GC *field_4;
     int field_5;
     int field_6;
     int field_7;
@@ -2493,14 +2740,16 @@ struct anonymous_type_415 {
     int field_9;
 };
 
-struct anonymous_type_478 {
+struct anonymous_type_478
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_164 {
+struct anonymous_type_164
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -2510,92 +2759,104 @@ struct anonymous_type_164 {
     int field_7;
 };
 
-struct anonymous_type_275 {
+struct anonymous_type_275
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_386 {
+struct anonymous_type_386
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    char * field_4;
+    char *field_4;
     int field_5;
 };
 
-struct anonymous_type_101 {
+struct anonymous_type_101
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     short field_4;
 };
 
-struct anonymous_type_212 {
+struct anonymous_type_212
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
     int field_5;
     unsigned int field_6;
-    void * field_7;
+    void *field_7;
 };
 
-struct anonymous_type_323 {
+struct anonymous_type_323
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_183 {
+struct anonymous_type_183
+{
     int field_1;
     int field_2;
-    int * field_3;
+    int *field_3;
     unsigned int field_4;
     unsigned int field_5;
     unsigned int field_6;
-    int * field_7;
-    void * * field_8;
+    int *field_7;
+    void **field_8;
     long long field_9;
-    char * field_10;
+    char *field_10;
 };
 
-struct anonymous_type_120 {
+struct anonymous_type_120
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_231 {
+struct anonymous_type_231
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct anonymous_type_232 * field_4;
-    int * field_5;
-    char * field_6;
+    struct anonymous_type_232 *field_4;
+    int *field_5;
+    char *field_6;
 };
 
-struct anonymous_type_342 {
+struct anonymous_type_342
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_294 {
-    void * field_1;
+struct anonymous_type_294
+{
+    void *field_1;
 };
 
-struct anonymous_type_434 {
+struct anonymous_type_434
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_453 {
+struct anonymous_type_453
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -2612,81 +2873,91 @@ struct anonymous_type_453 {
     float field_14;
 };
 
-struct anonymous_type_361 {
+struct anonymous_type_361
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_250 {
+struct anonymous_type_250
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     short field_4;
 };
 
-struct anonymous_type_472 {
+struct anonymous_type_472
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_497 {
+struct anonymous_type_497
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_501 {
+struct anonymous_type_501
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_520 {
+struct anonymous_type_520
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_380 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    int field_4;
-};
-
-struct anonymous_type_491 {
+struct anonymous_type_380
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_526 {
+struct anonymous_type_491
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    int field_4;
 };
 
-struct anonymous_type_545 {
+struct anonymous_type_526
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    void *field_4;
+};
+
+struct anonymous_type_545
+{
     int field_1;
     int field_2;
     struct docStruct field_3;
-    void * field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
-    void * field_8;
+    void *field_4;
+    void *field_5;
+    void *field_6;
+    void *field_7;
+    void *field_8;
     unsigned int field_9;
-    void * field_10;
-    struct _TPM_RootNode * field_11[13];
+    void *field_10;
+    struct _TPM_RootNode *field_11[13];
     long long field_12;
     long long field_13;
     long long field_14;
@@ -2695,62 +2966,66 @@ struct anonymous_type_545 {
     struct _ToolPaletteMenuInfo field_17;
     int field_18;
     int field_19;
-    struct anonymous_type_548 * field_20;
+    struct anonymous_type_548 *field_20;
     int field_21;
     int field_22;
     int field_23;
     int field_24;
     int field_25;
-    struct _Widget * field_26;
+    struct _Widget *field_26;
     int field_27;
     int field_28;
     int field_29;
-    struct _Widget * field_30;
-    struct _Widget * field_31;
+    struct _Widget *field_30;
+    struct _Widget *field_31;
     struct _StatusButtonInfo field_32[4];
-    struct anonymous_type_549 * field_33;
+    struct anonymous_type_549 *field_33;
     struct anonymous_type_550 field_34;
     int field_35;
     int field_36;
     struct transferCompleteStruct field_37;
     struct anonymous_type_551 field_38;
     struct anonymous_type_553 field_39;
-    void * field_40;
-    struct anonymous_type_554 * field_41;
+    void *field_40;
+    struct anonymous_type_554 *field_41;
     float field_42;
     float field_43;
     float field_44;
 };
 
-struct anonymous_type_92 {
+struct anonymous_type_92
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_76 {
+struct anonymous_type_76
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_62 {
+struct anonymous_type_62
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
     int field_5;
     unsigned int field_6;
-    void * field_7;
+    void *field_7;
 };
 
 struct anonymous_type_46; /* Incomplete type */
 
-struct anonymous_type_209 {
+struct anonymous_type_209
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -2759,39 +3034,43 @@ struct anonymous_type_209 {
 
 struct anonymous_type_32; /* Incomplete type */
 
-struct anonymous_type_117 {
+struct anonymous_type_117
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
+    void *field_5;
 };
 
-struct anonymous_type_228 {
+struct anonymous_type_228
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_339 {
+struct anonymous_type_339
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_199 {
+struct anonymous_type_199
+{
     int field_1;
     int field_2;
-    struct anonymous_type_200 * field_3;
-    void * field_4;
+    struct anonymous_type_200 *field_3;
+    void *field_4;
     int field_5;
-    void * field_6;
-    void * field_7[9];
-    void * field_8;
-    void * field_9;
-    struct _Widget * field_10;
+    void *field_6;
+    void *field_7[9];
+    void *field_8;
+    void *field_9;
+    struct _Widget *field_10;
     int field_11;
     int field_12;
     int field_13;
@@ -2800,30 +3079,34 @@ struct anonymous_type_199 {
     int field_16;
 };
 
-struct anonymous_type_358 {
+struct anonymous_type_358
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_136 {
+struct anonymous_type_136
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
+    void *field_5;
+    void *field_6;
+    void *field_7;
     long long field_8;
-    void * field_9;
+    void *field_9;
 };
 
-struct anonymous_type_16 {
+struct anonymous_type_16
+{
     int field_1;
     int field_2;
 };
 
-union anonymous_type_247 {
+union anonymous_type_247
+{
     struct anonymous_type_248 field_1;
     struct anonymous_type_249 field_2;
     struct anonymous_type_250 field_3;
@@ -2866,28 +3149,32 @@ union anonymous_type_247 {
     struct anonymous_type_288 field_40;
 };
 
-struct anonymous_type_406 {
+struct anonymous_type_406
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_469 {
+struct anonymous_type_469
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_155 {
+struct anonymous_type_155
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
 };
 
-struct anonymous_type_203 {
+struct anonymous_type_203
+{
     char field_1[8];
     int field_2;
     int field_3;
@@ -2929,37 +3216,41 @@ struct anonymous_type_203 {
     unsigned int field_39;
 };
 
-struct anonymous_type_314 {
+struct anonymous_type_314
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     short field_4;
 };
 
-struct anonymous_type_266 {
+struct anonymous_type_266
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
+    void *field_5;
 };
 
-struct anonymous_type_377 {
+struct anonymous_type_377
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct D2EditorSettings {
+struct D2EditorSettings
+{
     int field_1;
     int field_2;
     int field_3;
     int field_4;
     int field_5;
-    void * * field_6;
+    void **field_6;
     int field_7;
     unsigned int field_8;
     int field_9;
@@ -2981,11 +3272,11 @@ struct D2EditorSettings {
     int field_25;
     int field_26;
     int field_27;
-    void * * field_28;
-    void * * field_29;
+    void **field_28;
+    void **field_29;
     unsigned int field_30;
-    void * * field_31;
-    void * * field_32;
+    void **field_31;
+    void **field_32;
     int field_33;
     int field_34;
     unsigned int field_35;
@@ -2999,8 +3290,8 @@ struct D2EditorSettings {
     unsigned int field_43;
     unsigned int field_44;
     int field_45;
-    void * * field_46;
-    void * * field_47;
+    void **field_46;
+    void **field_47;
     int field_48;
     int field_49;
     int field_50;
@@ -3025,7 +3316,8 @@ struct D2EditorSettings {
     int field_69;
 };
 
-struct anonymous_type_174 {
+struct anonymous_type_174
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3034,58 +3326,64 @@ struct anonymous_type_174 {
     long long field_6;
 };
 
-struct anonymous_type_285 {
+struct anonymous_type_285
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
+    void *field_5;
+    void *field_6;
+    void *field_7;
     long long field_8;
-    void * field_9;
+    void *field_9;
 };
 
-struct anonymous_type_111 {
+struct anonymous_type_111
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_222 {
+struct anonymous_type_222
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_333 {
+struct anonymous_type_333
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_396 {
+struct anonymous_type_396
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_193 {
+struct anonymous_type_193
+{
     int field_1;
     int field_2;
     struct docStruct field_3;
-    void * field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
-    void * field_8;
+    void *field_4;
+    void *field_5;
+    void *field_6;
+    void *field_7;
+    void *field_8;
     unsigned int field_9;
-    void * field_10;
-    struct _TPM_RootNode * field_11[13];
+    void *field_10;
+    struct _TPM_RootNode *field_11[13];
     long long field_12;
     long long field_13;
     long long field_14;
@@ -3094,34 +3392,35 @@ struct anonymous_type_193 {
     struct _ToolPaletteMenuInfo field_17;
     int field_18;
     int field_19;
-    struct anonymous_type_196 * field_20;
+    struct anonymous_type_196 *field_20;
     int field_21;
     int field_22;
     int field_23;
     int field_24;
     int field_25;
-    struct _Widget * field_26;
+    struct _Widget *field_26;
     int field_27;
     int field_28;
     int field_29;
-    struct _Widget * field_30;
-    struct _Widget * field_31;
+    struct _Widget *field_30;
+    struct _Widget *field_31;
     struct _StatusButtonInfo field_32[4];
-    struct anonymous_type_197 * field_33;
+    struct anonymous_type_197 *field_33;
     struct anonymous_type_198 field_34;
     int field_35;
     int field_36;
     struct transferCompleteStruct field_37;
     struct anonymous_type_199 field_38;
     struct anonymous_type_201 field_39;
-    void * field_40;
-    struct anonymous_type_202 * field_41;
+    void *field_40;
+    struct anonymous_type_202 *field_41;
     float field_42;
     float field_43;
     float field_44;
 };
 
-struct anonymous_type_130 {
+struct anonymous_type_130
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3130,7 +3429,8 @@ struct anonymous_type_130 {
     int field_6;
 };
 
-struct anonymous_type_241 {
+struct anonymous_type_241
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3142,14 +3442,16 @@ struct anonymous_type_241 {
     int field_9;
 };
 
-struct anonymous_type_352 {
+struct anonymous_type_352
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-union anonymous_type_400 {
+union anonymous_type_400
+{
     union anonymous_type_401 field_1;
     struct anonymous_type_443 field_2;
     struct anonymous_type_444 field_3;
@@ -3158,7 +3460,8 @@ union anonymous_type_400 {
     int field_6;
 };
 
-struct anonymous_type_425 {
+struct anonymous_type_425
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3168,16 +3471,18 @@ struct anonymous_type_425 {
     int field_7;
 };
 
-struct anonymous_type_444 {
-    void * * field_1;
+struct anonymous_type_444
+{
+    void **field_1;
     long long field_2;
 };
 
-struct anonymous_type_371 {
+struct anonymous_type_371
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
     int field_5;
     int field_6;
     int field_7;
@@ -3185,62 +3490,71 @@ struct anonymous_type_371 {
     int field_9;
 };
 
-struct anonymous_type_260 {
+struct anonymous_type_260
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_463 {
+struct anonymous_type_463
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_482 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    int field_4;
-};
-
-struct anonymous_type_488 {
+struct anonymous_type_482
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_511 {
+struct anonymous_type_488
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    int field_4;
+};
+
+struct anonymous_type_511
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_390 {
+struct anonymous_type_390
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_517 {
+struct anonymous_type_517
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_530 {
+struct anonymous_type_530
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_536 {
+struct anonymous_type_536
+{
     char field_1[8];
     int field_2;
     int field_3;
@@ -3282,31 +3596,35 @@ struct anonymous_type_536 {
     unsigned int field_39;
 };
 
-struct anonymous_type_555 {
-    int * field_1;
-    void * * field_2;
+struct anonymous_type_555
+{
+    int *field_1;
+    void **field_2;
     long long field_3;
-    char * field_4;
+    char *field_4;
 };
 
-struct anonymous_type_99 {
+struct anonymous_type_99
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_85 {
+struct anonymous_type_85
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_69 {
+struct anonymous_type_69
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
     int field_5;
     int field_6;
     int field_7;
@@ -3314,14 +3632,16 @@ struct anonymous_type_69 {
     int field_9;
 };
 
-struct anonymous_type_71 {
+struct anonymous_type_71
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-union anonymous_type_55 {
+union anonymous_type_55
+{
     struct anonymous_type_56 field_1;
     struct anonymous_type_57 field_2;
     struct anonymous_type_58 field_3;
@@ -3366,17 +3686,18 @@ union anonymous_type_55 {
 
 struct anonymous_type_39; /* Incomplete type */
 
-struct anonymous_type_41 {
+struct anonymous_type_41
+{
     int field_1;
     int field_2;
-    struct anonymous_type_42 * field_3;
-    void * field_4;
+    struct anonymous_type_42 *field_3;
+    void *field_4;
     int field_5;
-    void * field_6;
-    void * field_7[9];
-    void * field_8;
-    void * field_9;
-    struct _Widget * field_10;
+    void *field_6;
+    void *field_7[9];
+    void *field_8;
+    void *field_9;
+    struct _Widget *field_10;
     int field_11;
     int field_12;
     int field_13;
@@ -3385,18 +3706,20 @@ struct anonymous_type_41 {
     int field_16;
 };
 
-struct anonymous_type_108 {
+struct anonymous_type_108
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_219 {
+struct anonymous_type_219
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
     int field_5;
     int field_6;
     int field_7;
@@ -3404,68 +3727,75 @@ struct anonymous_type_219 {
     int field_9;
 };
 
-struct anonymous_type_127 {
+struct anonymous_type_127
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    char * field_4;
+    char *field_4;
     int field_5;
 };
 
-struct anonymous_type_238 {
+struct anonymous_type_238
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_349 {
+struct anonymous_type_349
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
+    void *field_5;
+    void *field_6;
+    void *field_7;
     long long field_8;
-    void * field_9;
+    void *field_9;
 };
 
 struct anonymous_type_25; /* Incomplete type */
 
-struct anonymous_type_508 {
+struct anonymous_type_508
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
+    void *field_5;
 };
 
-struct anonymous_type_257 {
+struct anonymous_type_257
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_368 {
+struct anonymous_type_368
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_305 {
+struct anonymous_type_305
+{
     int field_1;
     int field_2;
-    struct anonymous_type_306 * field_3;
-    void * field_4;
+    struct anonymous_type_306 *field_3;
+    void *field_4;
     int field_5;
-    void * field_6;
-    void * field_7[9];
-    void * field_8;
-    void * field_9;
-    struct _Widget * field_10;
+    void *field_6;
+    void *field_7[9];
+    void *field_8;
+    void *field_9;
+    struct _Widget *field_10;
     int field_11;
     int field_12;
     int field_13;
@@ -3474,7 +3804,8 @@ struct anonymous_type_305 {
     int field_16;
 };
 
-struct anonymous_type_146 {
+struct anonymous_type_146
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3491,14 +3822,16 @@ struct anonymous_type_146 {
     float field_14;
 };
 
-struct anonymous_type_416 {
+struct anonymous_type_416
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
 };
 
-struct anonymous_type_479 {
+struct anonymous_type_479
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3507,73 +3840,81 @@ struct anonymous_type_479 {
     int field_6;
 };
 
-struct anonymous_type_165 {
+struct anonymous_type_165
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_102 {
+struct anonymous_type_102
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_213 {
+struct anonymous_type_213
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_324 {
+struct anonymous_type_324
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_276 {
+struct anonymous_type_276
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    char * field_4;
+    char *field_4;
     int field_5;
 };
 
-struct anonymous_type_387 {
+struct anonymous_type_387
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_184 {
+struct anonymous_type_184
+{
     int positionPriority;
     int groupNum;
-    int * textName;
+    int *textName;
     unsigned int iconModuleId;
     unsigned int onIconId;
     unsigned int offIconId;
-    int * toolTip;
-    void * * callback;
+    int *toolTip;
+    void **callback;
     long long contextData;
-    char * atName;
+    char *atName;
 };
 
-struct anonymous_type_295 {
+struct anonymous_type_295
+{
     int field_1;
     int field_2;
-    struct anonymous_type_296 * field_3;
-    void * field_4;
+    struct anonymous_type_296 *field_3;
+    void *field_4;
     int field_5;
-    void * field_6;
-    void * field_7[9];
-    void * field_8;
-    void * field_9;
-    struct _Widget * field_10;
+    void *field_6;
+    void *field_7[9];
+    void *field_8;
+    void *field_9;
+    struct _Widget *field_10;
     int field_11;
     int field_12;
     int field_13;
@@ -3582,7 +3923,8 @@ struct anonymous_type_295 {
     int field_16;
 };
 
-struct anonymous_type_121 {
+struct anonymous_type_121
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3591,7 +3933,8 @@ struct anonymous_type_121 {
 
 struct anonymous_type_232; /* Incomplete type */
 
-struct anonymous_type_343 {
+struct anonymous_type_343
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3602,7 +3945,8 @@ struct anonymous_type_343 {
 
 struct filter_list; /* Incomplete type */
 
-struct anonymous_type_435 {
+struct anonymous_type_435
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3611,7 +3955,8 @@ struct anonymous_type_435 {
     long long field_6;
 };
 
-union anonymous_type_140 {
+union anonymous_type_140
+{
     struct anonymous_type_141 field_1;
     struct anonymous_type_142 field_2;
     struct anonymous_type_143 field_3;
@@ -3654,56 +3999,63 @@ union anonymous_type_140 {
     struct anonymous_type_181 field_40;
 };
 
-struct anonymous_type_251 {
+struct anonymous_type_251
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_362 {
+struct anonymous_type_362
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_410 {
+struct anonymous_type_410
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_454 {
+struct anonymous_type_454
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
     int field_5;
     unsigned int field_6;
-    void * field_7;
+    void *field_7;
 };
 
-struct anonymous_type_473 {
+struct anonymous_type_473
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct anonymous_type_474 * field_4;
-    int * field_5;
-    char * field_6;
+    struct anonymous_type_474 *field_4;
+    int *field_5;
+    char *field_6;
 };
 
-struct anonymous_type_270 {
+struct anonymous_type_270
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_381 {
+struct anonymous_type_381
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3713,29 +4065,33 @@ struct anonymous_type_381 {
     int field_7;
 };
 
-struct anonymous_type_492 {
+struct anonymous_type_492
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     short field_4;
 };
 
-struct anonymous_type_498 {
+struct anonymous_type_498
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_502 {
+struct anonymous_type_502
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_521 {
+struct anonymous_type_521
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3744,59 +4100,66 @@ struct anonymous_type_521 {
     int field_6;
 };
 
-struct anonymous_type_527 {
+struct anonymous_type_527
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
+    void *field_5;
+    void *field_6;
+    void *field_7;
     long long field_8;
-    void * field_9;
+    void *field_9;
 };
 
-struct anonymous_type_540 {
-    int * field_1;
+struct anonymous_type_540
+{
+    int *field_1;
     long long field_2;
-    char * field_3;
+    char *field_3;
 };
 
 struct anonymous_type_546; /* Incomplete type */
 
-struct anonymous_type_94 {
+struct anonymous_type_94
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_78 {
+struct anonymous_type_78
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_80 {
+struct anonymous_type_80
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_64 {
+struct anonymous_type_64
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct _GC {
-    struct anonymous_type_204 * field_1;
+struct _GC
+{
+    struct anonymous_type_204 *field_1;
     int field_2;
     char field_3;
     char field_4;
@@ -3809,16 +4172,18 @@ struct _GC {
     unsigned int field_11;
 };
 
-struct anonymous_type_118 {
+struct anonymous_type_118
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_229 {
+struct anonymous_type_229
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3832,27 +4197,31 @@ struct anonymous_type_34; /* Incomplete type */
 
 struct TI_ASI_PeripheralStruct; /* Incomplete type */
 
-struct anonymous_type_137 {
+struct anonymous_type_137
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_248 {
+struct anonymous_type_248
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_359 {
+struct anonymous_type_359
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_407 {
+struct anonymous_type_407
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -3869,68 +4238,76 @@ struct anonymous_type_407 {
     float field_14;
 };
 
-struct anonymous_type_518 {
+struct anonymous_type_518
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    char * field_4;
+    char *field_4;
     int field_5;
 };
 
-struct anonymous_type_156 {
+struct anonymous_type_156
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_267 {
+struct anonymous_type_267
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_378 {
+struct anonymous_type_378
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
 struct anonymous_type_204; /* Incomplete type */
 
-struct anonymous_type_315 {
+struct anonymous_type_315
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_426 {
+struct anonymous_type_426
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_175 {
+struct anonymous_type_175
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_112 {
+struct anonymous_type_112
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
     int field_5;
     int field_6;
     int field_7;
@@ -3938,61 +4315,69 @@ struct anonymous_type_112 {
     int field_9;
 };
 
-struct anonymous_type_223 {
+struct anonymous_type_223
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    char * field_6;
+    char *field_6;
 };
 
-struct anonymous_type_334 {
+struct anonymous_type_334
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_286 {
+struct anonymous_type_286
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_397 {
+struct anonymous_type_397
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    struct TI_ASI_PeripheralStruct * field_5;
+    struct TI_ASI_PeripheralStruct *field_5;
     unsigned long long field_6;
-    char * field_7;
+    char *field_7;
 };
 
 struct anonymous_type_194; /* Incomplete type */
 
-struct anonymous_type_131 {
+struct anonymous_type_131
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_242 {
+struct anonymous_type_242
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_353 {
+struct anonymous_type_353
+{
     int field_1;
     int field_2;
 };
 
-union anonymous_type_401 {
+union anonymous_type_401
+{
     struct anonymous_type_402 field_1;
     struct anonymous_type_403 field_2;
     struct anonymous_type_404 field_3;
@@ -4035,31 +4420,35 @@ union anonymous_type_401 {
     struct anonymous_type_442 field_40;
 };
 
-struct anonymous_type_445 {
-    void * * field_1;
+struct anonymous_type_445
+{
+    void **field_1;
     long long field_2;
 };
 
-struct anonymous_type_464 {
+struct anonymous_type_464
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_150 {
+struct anonymous_type_150
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_261 {
+struct anonymous_type_261
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
     int field_5;
     int field_6;
     int field_7;
@@ -4067,22 +4456,25 @@ struct anonymous_type_261 {
     int field_9;
 };
 
-struct anonymous_type_372 {
+struct anonymous_type_372
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
 };
 
-struct anonymous_type_420 {
+struct anonymous_type_420
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
+    void *field_5;
 };
 
-struct anonymous_type_483 {
+struct anonymous_type_483
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4094,7 +4486,8 @@ struct anonymous_type_483 {
     int field_9;
 };
 
-union anonymous_type_489 {
+union anonymous_type_489
+{
     struct anonymous_type_490 field_1;
     struct anonymous_type_491 field_2;
     struct anonymous_type_492 field_3;
@@ -4137,14 +4530,16 @@ union anonymous_type_489 {
     struct anonymous_type_530 field_40;
 };
 
-struct anonymous_type_280 {
+struct anonymous_type_280
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_391 {
+struct anonymous_type_391
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4153,14 +4548,16 @@ struct anonymous_type_391 {
     long long field_6;
 };
 
-struct anonymous_type_512 {
+struct anonymous_type_512
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_537 {
+struct anonymous_type_537
+{
     char field_1[8];
     int field_2;
     int field_3;
@@ -4202,17 +4599,20 @@ struct anonymous_type_537 {
     unsigned int field_39;
 };
 
-struct anonymous_type_550 {
-    void * field_1;
+struct anonymous_type_550
+{
+    void *field_1;
 };
 
-struct _MenuTimer {
-    struct _MenuTimerVtbl * field_1;
-    struct anonymous_type_547 * field_2;
-    void * field_3;
+struct _MenuTimer
+{
+    struct _MenuTimerVtbl *field_1;
+    struct anonymous_type_547 *field_2;
+    void *field_3;
 };
 
-struct anonymous_type_87 {
+struct anonymous_type_87
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4221,17 +4621,19 @@ struct anonymous_type_87 {
     int field_6;
 };
 
-struct anonymous_type_73 {
+struct anonymous_type_73
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    char * field_6;
+    char *field_6;
 };
 
-struct _Widget {
-    struct vtbl_widget * field_1;
+struct _Widget
+{
+    struct vtbl_widget *field_1;
     int field_2;
     int field_3;
     int field_4;
@@ -4239,45 +4641,50 @@ struct _Widget {
     int field_6;
     int field_7;
     int field_8;
-    void * field_9;
-    void * field_10;
-    struct _Widget * field_11;
-    struct _Widget * field_12;
-    struct _Widget * field_13;
+    void *field_9;
+    void *field_10;
+    struct _Widget *field_11;
+    struct _Widget *field_12;
+    struct _Widget *field_13;
     int field_14;
-    struct filter_list * field_15;
+    struct filter_list *field_15;
     int field_16;
 };
 
-struct anonymous_type_57 {
+struct anonymous_type_57
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_43 {
+struct anonymous_type_43
+{
     unsigned int field_1;
     unsigned int field_2;
     unsigned int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_109 {
+struct anonymous_type_109
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_128 {
+struct anonymous_type_128
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_239 {
+struct anonymous_type_239
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4286,33 +4693,37 @@ struct anonymous_type_239 {
     long long field_6;
 };
 
-struct anonymous_type_509 {
+struct anonymous_type_509
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_147 {
+struct anonymous_type_147
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
     int field_5;
     unsigned int field_6;
-    void * field_7;
+    void *field_7;
 };
 
-struct anonymous_type_258 {
+struct anonymous_type_258
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_369 {
+struct anonymous_type_369
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4320,64 +4731,72 @@ struct anonymous_type_369 {
 
 struct anonymous_type_306; /* Incomplete type */
 
-struct anonymous_type_417 {
+struct anonymous_type_417
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_528 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    int field_4;
-};
-
-struct anonymous_type_166 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    struct anonymous_type_167 * field_4;
-    int * field_5;
-    char * field_6;
-};
-
-struct anonymous_type_277 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    void * field_4;
-};
-
-struct anonymous_type_388 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    void * field_4;
-};
-
-struct anonymous_type_103 {
+struct anonymous_type_528
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_214 {
+struct anonymous_type_166
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    struct anonymous_type_167 *field_4;
+    int *field_5;
+    char *field_6;
+};
+
+struct anonymous_type_277
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    void *field_4;
+};
+
+struct anonymous_type_388
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    void *field_4;
+};
+
+struct anonymous_type_103
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    int field_4;
+};
+
+struct anonymous_type_214
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_325 {
+struct anonymous_type_325
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
     int field_5;
     int field_6;
     int field_7;
@@ -4385,20 +4804,22 @@ struct anonymous_type_325 {
     int field_9;
 };
 
-struct anonymous_type_185 {
+struct anonymous_type_185
+{
     int field_1;
     int field_2;
-    int * field_3;
+    int *field_3;
     unsigned int field_4;
     unsigned int field_5;
     unsigned int field_6;
-    int * field_7;
-    void * * field_8;
+    int *field_7;
+    void **field_8;
     long long field_9;
-    char * field_10;
+    char *field_10;
 };
 
-struct anonymous_type_122 {
+struct anonymous_type_122
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4408,14 +4829,16 @@ struct anonymous_type_122 {
     int field_7;
 };
 
-struct anonymous_type_233 {
+struct anonymous_type_233
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_344 {
+struct anonymous_type_344
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4426,14 +4849,16 @@ struct anonymous_type_296; /* Incomplete type */
 
 struct anonymous_type_13; /* Incomplete type */
 
-struct anonymous_type_436 {
+struct anonymous_type_436
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_141 {
+struct anonymous_type_141
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4441,14 +4866,16 @@ struct anonymous_type_141 {
 
 struct anonymous_type_300; /* Incomplete type */
 
-struct anonymous_type_252 {
+struct anonymous_type_252
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_363 {
+struct anonymous_type_363
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4465,30 +4892,34 @@ struct anonymous_type_363 {
     float field_14;
 };
 
-struct anonymous_type_411 {
+struct anonymous_type_411
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_455 {
+struct anonymous_type_455
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_160 {
+struct anonymous_type_160
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_271 {
+struct anonymous_type_271
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4498,25 +4929,28 @@ struct anonymous_type_271 {
     int field_7;
 };
 
-struct anonymous_type_382 {
+struct anonymous_type_382
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_430 {
+struct anonymous_type_430
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    char * field_4;
+    char *field_4;
     int field_5;
 };
 
 struct anonymous_type_474; /* Incomplete type */
 
-struct anonymous_type_493 {
+struct anonymous_type_493
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4525,18 +4959,20 @@ struct anonymous_type_493 {
 
 struct anonymous_type_290; /* Incomplete type */
 
-struct anonymous_type_499 {
+struct anonymous_type_499
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_503 {
+struct anonymous_type_503
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
     int field_5;
     int field_6;
     int field_7;
@@ -4544,112 +4980,126 @@ struct anonymous_type_503 {
     int field_9;
 };
 
-struct anonymous_type_522 {
+struct anonymous_type_522
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_541 {
-    int * field_1;
+struct anonymous_type_541
+{
+    int *field_1;
     long long field_2;
-    char * field_3;
+    char *field_3;
 };
 
 struct anonymous_type_547; /* Incomplete type */
 
 struct anonymous_type_82; /* Incomplete type */
 
-struct anonymous_type_66 {
+struct anonymous_type_66
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct __CFFileDescriptor {
+struct __CFFileDescriptor
+{
 };
 
-struct anonymous_type_119 {
+struct anonymous_type_119
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
 struct anonymous_type_36; /* Incomplete type */
 
 struct vtbl_widget; /* Incomplete type */
 
-struct anonymous_type_138 {
+struct anonymous_type_138
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    struct TI_ASI_PeripheralStruct * field_5;
+    struct TI_ASI_PeripheralStruct *field_5;
     unsigned long long field_6;
-    char * field_7;
+    char *field_7;
 };
 
-struct anonymous_type_249 {
+struct anonymous_type_249
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_408 {
+struct anonymous_type_408
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
     int field_5;
     unsigned int field_6;
-    void * field_7;
+    void *field_7;
 };
 
-struct anonymous_type_519 {
+struct anonymous_type_519
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_157 {
-    int field_1;
-    unsigned int field_2;
-    int field_3;
-    int field_4;
-    int * field_5;
-};
-
-struct anonymous_type_316 {
+struct anonymous_type_157
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
+    int *field_5;
 };
 
-struct anonymous_type_268 {
+struct anonymous_type_316
+{
+    int field_1;
+    unsigned int field_2;
+    int field_3;
+    int field_4;
+};
+
+struct anonymous_type_268
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_379 {
+struct anonymous_type_379
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     unsigned int field_4;
 };
 
-union anonymous_type_205 {
+union anonymous_type_205
+{
     struct anonymous_type_206 field_1;
     struct anonymous_type_207 field_2;
     struct anonymous_type_208 field_3;
@@ -4692,16 +5142,18 @@ union anonymous_type_205 {
     struct anonymous_type_246 field_40;
 };
 
-struct anonymous_type_427 {
+struct anonymous_type_427
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct anonymous_type_428 * field_4;
-    int * field_5;
-    char * field_6;
+    struct anonymous_type_428 *field_4;
+    int *field_5;
+    char *field_6;
 };
 
-struct anonymous_type_176 {
+struct anonymous_type_176
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4713,32 +5165,36 @@ struct anonymous_type_176 {
     int field_9;
 };
 
-struct anonymous_type_287 {
+struct anonymous_type_287
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    struct TI_ASI_PeripheralStruct * field_5;
+    struct TI_ASI_PeripheralStruct *field_5;
     unsigned long long field_6;
-    char * field_7;
+    char *field_7;
 };
 
-struct anonymous_type_113 {
+struct anonymous_type_113
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
 };
 
-struct anonymous_type_224 {
+struct anonymous_type_224
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
+    void *field_5;
 };
 
-struct anonymous_type_335 {
+struct anonymous_type_335
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4748,7 +5204,8 @@ struct anonymous_type_335 {
     int field_7;
 };
 
-struct anonymous_type_398 {
+struct anonymous_type_398
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4757,7 +5214,8 @@ struct anonymous_type_398 {
 
 struct anonymous_type_195; /* Incomplete type */
 
-struct anonymous_type_132 {
+struct anonymous_type_132
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4768,44 +5226,50 @@ struct anonymous_type_132 {
 
 struct _TPM_RootNode; /* Incomplete type */
 
-struct anonymous_type_243 {
+struct anonymous_type_243
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    void * field_5;
-    void * field_6;
-    void * field_7;
+    void *field_5;
+    void *field_6;
+    void *field_7;
     long long field_8;
-    void * field_9;
+    void *field_9;
 };
 
-struct anonymous_type_354 {
-    void * * field_1;
+struct anonymous_type_354
+{
+    void **field_1;
     long long field_2;
 };
 
-struct anonymous_type_402 {
+struct anonymous_type_402
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_446 {
-    void * * field_1;
-    void * * field_2;
-    struct _Widget * field_3;
+struct anonymous_type_446
+{
+    void **field_1;
+    void **field_2;
+    struct _Widget *field_3;
     union anonymous_type_447 field_4;
 };
 
-struct anonymous_type_151 {
+struct anonymous_type_151
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-union anonymous_type_310 {
+union anonymous_type_310
+{
     union anonymous_type_311 field_1;
     struct anonymous_type_353 field_2;
     struct anonymous_type_354 field_3;
@@ -4814,42 +5278,48 @@ union anonymous_type_310 {
     int field_6;
 };
 
-struct anonymous_type_262 {
+struct anonymous_type_262
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
 };
 
-struct anonymous_type_373 {
+struct anonymous_type_373
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_421 {
+struct anonymous_type_421
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct CGSize {
+struct CGSize
+{
     double field_1;
     double field_2;
 };
 
-struct anonymous_type_170 {
+struct anonymous_type_170
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_281 {
+struct anonymous_type_281
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4858,37 +5328,42 @@ struct anonymous_type_281 {
     long long field_6;
 };
 
-struct anonymous_type_392 {
+struct anonymous_type_392
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_440 {
+struct anonymous_type_440
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_465 {
+struct anonymous_type_465
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
     int field_5;
-    char * field_6;
+    char *field_6;
 };
 
-struct anonymous_type_484 {
+struct anonymous_type_484
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_513 {
+struct anonymous_type_513
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4898,10 +5373,11 @@ struct anonymous_type_513 {
     int field_7;
 };
 
-struct anonymous_type_532 {
-    void * field_1;
-    void * field_2;
-    struct TI_Operation * field_3;
+struct anonymous_type_532
+{
+    void *field_1;
+    void *field_2;
+    struct TI_Operation *field_3;
     int field_4;
     int field_5[64];
     int field_6;
@@ -4913,7 +5389,8 @@ struct anonymous_type_532 {
     int field_12;
 };
 
-struct anonymous_type_538 {
+struct anonymous_type_538
+{
     char field_1[8];
     int field_2;
     int field_3;
@@ -4955,17 +5432,18 @@ struct anonymous_type_538 {
     unsigned int field_39;
 };
 
-struct anonymous_type_551 {
+struct anonymous_type_551
+{
     int field_1;
     int field_2;
-    struct anonymous_type_552 * field_3;
-    void * field_4;
+    struct anonymous_type_552 *field_3;
+    void *field_4;
     int field_5;
-    void * field_6;
-    void * field_7[9];
-    void * field_8;
-    void * field_9;
-    struct _Widget * field_10;
+    void *field_6;
+    void *field_7[9];
+    void *field_8;
+    void *field_9;
+    struct _Widget *field_10;
     int field_11;
     int field_12;
     int field_13;
@@ -4974,7 +5452,8 @@ struct anonymous_type_551 {
     int field_16;
 };
 
-struct anonymous_type_89 {
+struct anonymous_type_89
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4983,7 +5462,8 @@ struct anonymous_type_89 {
     long long field_6;
 };
 
-struct anonymous_type_91 {
+struct anonymous_type_91
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -4995,26 +5475,30 @@ struct anonymous_type_91 {
     int field_9;
 };
 
-struct _NSZone {
+struct _NSZone
+{
 };
 
-struct anonymous_type_75 {
+struct anonymous_type_75
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
     int field_5;
-    int * field_6;
+    int *field_6;
 };
 
-struct anonymous_type_59 {
+struct anonymous_type_59
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
 };
 
-struct anonymous_type_61 {
+struct anonymous_type_61
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -5033,28 +5517,31 @@ struct anonymous_type_61 {
 
 struct anonymous_type_45; /* Incomplete type */
 
-struct anonymous_type_129 {
+struct anonymous_type_129
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_29 {
-    void * field_1;
+struct anonymous_type_29
+{
+    void *field_1;
 };
 
-struct anonymous_type_31 {
+struct anonymous_type_31
+{
     int field_1;
     int field_2;
-    struct anonymous_type_32 * field_3;
-    void * field_4;
+    struct anonymous_type_32 *field_3;
+    void *field_4;
     int field_5;
-    void * field_6;
-    void * field_7[9];
-    void * field_8;
-    void * field_9;
-    struct _Widget * field_10;
+    void *field_6;
+    void *field_7[9];
+    void *field_8;
+    void *field_9;
+    struct _Widget *field_10;
     int field_11;
     int field_12;
     int field_13;
@@ -5063,61 +5550,69 @@ struct anonymous_type_31 {
     int field_16;
 };
 
-struct anonymous_type_148 {
+struct anonymous_type_148
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    int * field_4;
+    int *field_4;
 };
 
-struct anonymous_type_307 {
+struct anonymous_type_307
+{
     unsigned int field_1;
     unsigned int field_2;
     unsigned int field_3;
     unsigned int field_4;
 };
 
-struct anonymous_type_259 {
+struct anonymous_type_259
+{
     int field_1;
     unsigned int field_2;
     int field_3;
 };
 
-struct anonymous_type_418 {
+struct anonymous_type_418
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    int * field_5;
+    int *field_5;
 };
 
-struct anonymous_type_529 {
+struct anonymous_type_529
+{
     int field_1;
     unsigned int field_2;
     int field_3;
     int field_4;
-    struct TI_ASI_PeripheralStruct * field_5;
+    struct TI_ASI_PeripheralStruct *field_5;
     unsigned long long field_6;
-    char * field_7;
+    char *field_7;
 };
 
 struct anonymous_type_167; /* Incomplete type */
 
-struct anonymous_type_326 {
+struct anonymous_type_326
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    struct _GC * field_4;
+    struct _GC *field_4;
 };
 
-struct anonymous_type_278 {
+struct anonymous_type_278
+{
     int field_1;
     unsigned int field_2;
     int field_3;
-    void * field_4;
+    void *field_4;
 };
 
-struct anonymous_type_389 {
+struct anonymous_type_389
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -5126,7 +5621,8 @@ struct anonymous_type_389 {
     int field_6;
 };
 
-struct anonymous_type_104 {
+struct anonymous_type_104
+{
     int field_1;
     unsigned int field_2;
     int field_3;
@@ -5143,15 +5639,13 @@ struct anonymous_type_104 {
     float field_14;
 };
 
-
-
 /*****************************************************************/
 
 @protocol NSObject
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (int)isEqual:(id)v1;
 - (Class)class;
 - (id)self;
@@ -5164,7 +5658,7 @@ struct anonymous_type_104 {
 - (int)conformsToProtocol:(id)v1;
 - (int)respondsToSelector:(SEL)v1;
 - (id)retain;
-- (oneway  void)release;
+- (oneway void)release;
 - (id)autorelease;
 - (unsigned long long)retainCount;
 - (struct _NSZone *)zone;
@@ -5176,10 +5670,9 @@ struct anonymous_type_104 {
 - (id)debugDescription;
 @end
 
-
 /*****************************************************************/
 
-@protocol UITableViewDataSource<NSObject>
+@protocol UITableViewDataSource <NSObject>
 - (long long)tableView:(id)v1 numberOfRowsInSection:(long long)v2;
 - (id)tableView:(id)v1 cellForRowAtIndexPath:(id)v2;
 
@@ -5195,10 +5688,9 @@ struct anonymous_type_104 {
 - (void)tableView:(id)v1 moveRowAtIndexPath:(id)v2 toIndexPath:(id)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIScrollViewDelegate<NSObject>
+@protocol UIScrollViewDelegate <NSObject>
 
 @optional
 - (void)scrollViewDidScroll:(id)v1;
@@ -5217,10 +5709,9 @@ struct anonymous_type_104 {
 - (void)scrollViewDidChangeAdjustedContentInset:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol UITableViewDelegate<NSObject,UIScrollViewDelegate>
+@protocol UITableViewDelegate <NSObject, UIScrollViewDelegate>
 
 @optional
 - (void)tableView:(id)v1 willDisplayCell:(id)v2 forRowAtIndexPath:(id)v3;
@@ -5278,10 +5769,9 @@ struct anonymous_type_104 {
 - (void)tableView:(id)v1 willEndContextMenuInteractionWithConfiguration:(id)v2 animator:(id)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol UINavigationControllerDelegate<NSObject>
+@protocol UINavigationControllerDelegate <NSObject>
 
 @optional
 - (void)navigationController:(id)v1 willShowViewController:(id)v2 animated:(int)v3;
@@ -5292,10 +5782,9 @@ struct anonymous_type_104 {
 - (id)navigationController:(id)v1 animationControllerForOperation:(long long)v2 fromViewController:(id)v3 toViewController:(id)v4;
 @end
 
-
 /*****************************************************************/
 
-@protocol CBCentralManagerDelegate<NSObject>
+@protocol CBCentralManagerDelegate <NSObject>
 - (void)centralManagerDidUpdateState:(id)v1;
 
 @optional
@@ -5309,10 +5798,9 @@ struct anonymous_type_104 {
 - (void)centralManager:(id)v1 didUpdateANCSAuthorizationForPeripheral:(id)v2;
 @end
 
-
 /*****************************************************************/
 
-@protocol CBPeripheralDelegate<NSObject>
+@protocol CBPeripheralDelegate <NSObject>
 
 @optional
 - (void)peripheralDidUpdateName:(id)v1;
@@ -5332,10 +5820,9 @@ struct anonymous_type_104 {
 - (void)peripheral:(id)v1 didOpenL2CAPChannel:(id)v2 error:(id)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol ApplicationCardBarDelegate<NSObject>
+@protocol ApplicationCardBarDelegate <NSObject>
 - (void)buttonAdded:(id)v1;
 - (void)buttonRemoved:(id)v1;
 - (void)toggleButton:(id)v1 state:(int)v2;
@@ -5343,11 +5830,10 @@ struct anonymous_type_104 {
 - (id)viewFrame;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIApplicationDelegate<NSObject>
-@property (retain,nonatomic) UIWindow * window;
+@protocol UIApplicationDelegate <NSObject>
+@property(retain, nonatomic) UIWindow *window;
 
 @optional
 - (void)applicationDidFinishLaunching:(id)v1;
@@ -5370,18 +5856,18 @@ struct anonymous_type_104 {
 - (void)application:(id)v1 didFailToRegisterForRemoteNotificationsWithError:(id)v2;
 - (void)application:(id)v1 didReceiveRemoteNotification:(id)v2;
 - (void)application:(id)v1 didReceiveLocalNotification:(id)v2;
-- (void)application:(id)v1 handleActionWithIdentifier:(id)v2 forLocalNotification:(id)v3 completionHandler:(void (^ /* unknown block signature */)(void))v4;
-- (void)application:(id)v1 handleActionWithIdentifier:(id)v2 forRemoteNotification:(id)v3 withResponseInfo:(id)v4 completionHandler:(void (^ /* unknown block signature */)(void))v5;
-- (void)application:(id)v1 handleActionWithIdentifier:(id)v2 forRemoteNotification:(id)v3 completionHandler:(void (^ /* unknown block signature */)(void))v4;
-- (void)application:(id)v1 handleActionWithIdentifier:(id)v2 forLocalNotification:(id)v3 withResponseInfo:(id)v4 completionHandler:(void (^ /* unknown block signature */)(void))v5;
-- (void)application:(id)v1 didReceiveRemoteNotification:(id)v2 fetchCompletionHandler:(void (^ /* unknown block signature */)(void))v3;
-- (void)application:(id)v1 performFetchWithCompletionHandler:(void (^ /* unknown block signature */)(void))v2;
-- (void)application:(id)v1 performActionForShortcutItem:(id)v2 completionHandler:(void (^ /* unknown block signature */)(void))v3;
-- (void)application:(id)v1 handleEventsForBackgroundURLSession:(id)v2 completionHandler:(void (^ /* unknown block signature */)(void))v3;
-- (void)application:(id)v1 handleWatchKitExtensionRequest:(id)v2 reply:(void (^ /* unknown block signature */)(void))v3;
+- (void)application:(id)v1 handleActionWithIdentifier:(id)v2 forLocalNotification:(id)v3 completionHandler:(void (^/* unknown block signature */)(void))v4;
+- (void)application:(id)v1 handleActionWithIdentifier:(id)v2 forRemoteNotification:(id)v3 withResponseInfo:(id)v4 completionHandler:(void (^/* unknown block signature */)(void))v5;
+- (void)application:(id)v1 handleActionWithIdentifier:(id)v2 forRemoteNotification:(id)v3 completionHandler:(void (^/* unknown block signature */)(void))v4;
+- (void)application:(id)v1 handleActionWithIdentifier:(id)v2 forLocalNotification:(id)v3 withResponseInfo:(id)v4 completionHandler:(void (^/* unknown block signature */)(void))v5;
+- (void)application:(id)v1 didReceiveRemoteNotification:(id)v2 fetchCompletionHandler:(void (^/* unknown block signature */)(void))v3;
+- (void)application:(id)v1 performFetchWithCompletionHandler:(void (^/* unknown block signature */)(void))v2;
+- (void)application:(id)v1 performActionForShortcutItem:(id)v2 completionHandler:(void (^/* unknown block signature */)(void))v3;
+- (void)application:(id)v1 handleEventsForBackgroundURLSession:(id)v2 completionHandler:(void (^/* unknown block signature */)(void))v3;
+- (void)application:(id)v1 handleWatchKitExtensionRequest:(id)v2 reply:(void (^/* unknown block signature */)(void))v3;
 - (void)applicationShouldRequestHealthAuthorization:(id)v1;
 - (id)application:(id)v1 handlerForIntent:(id)v2;
-- (void)application:(id)v1 handleIntent:(id)v2 completionHandler:(void (^ /* unknown block signature */)(void))v3;
+- (void)application:(id)v1 handleIntent:(id)v2 completionHandler:(void (^/* unknown block signature */)(void))v3;
 - (void)applicationDidEnterBackground:(id)v1;
 - (void)applicationWillEnterForeground:(id)v1;
 - (void)applicationProtectedDataWillBecomeUnavailable:(id)v1;
@@ -5396,7 +5882,7 @@ struct anonymous_type_104 {
 - (int)application:(id)v1 shouldSaveApplicationState:(id)v2;
 - (int)application:(id)v1 shouldRestoreApplicationState:(id)v2;
 - (int)application:(id)v1 willContinueUserActivityWithType:(id)v2;
-- (int)application:(id)v1 continueUserActivity:(id)v2 restorationHandler:(void (^ /* unknown block signature */)(void))v3;
+- (int)application:(id)v1 continueUserActivity:(id)v2 restorationHandler:(void (^/* unknown block signature */)(void))v3;
 - (void)application:(id)v1 didFailToContinueUserActivityWithType:(id)v2 error:(id)v3;
 - (void)application:(id)v1 didUpdateUserActivity:(id)v2;
 - (void)application:(id)v1 userDidAcceptCloudKitShareWithMetadata:(id)v2;
@@ -5407,25 +5893,23 @@ struct anonymous_type_104 {
 - (void)setWindow:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIDocumentBrowserViewControllerDelegate<NSObject>
+@protocol UIDocumentBrowserViewControllerDelegate <NSObject>
 
 @optional
 - (void)documentBrowser:(id)v1 didPickDocumentURLs:(id)v2;
 - (void)documentBrowser:(id)v1 didPickDocumentsAtURLs:(id)v2;
-- (void)documentBrowser:(id)v1 didRequestDocumentCreationWithHandler:(void (^ /* unknown block signature */)(void))v2;
+- (void)documentBrowser:(id)v1 didRequestDocumentCreationWithHandler:(void (^/* unknown block signature */)(void))v2;
 - (void)documentBrowser:(id)v1 didImportDocumentAtURL:(id)v2 toDestinationURL:(id)v3;
 - (void)documentBrowser:(id)v1 failedToImportDocumentAtURL:(id)v2 error:(id)v3;
 - (id)documentBrowser:(id)v1 applicationActivitiesForDocumentURLs:(id)v2;
 - (void)documentBrowser:(id)v1 willPresentActivityViewController:(id)v2;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIViewControllerTransitioningDelegate<NSObject>
+@protocol UIViewControllerTransitioningDelegate <NSObject>
 
 @optional
 - (id)animationControllerForPresentedController:(id)v1 presentingController:(id)v2 sourceController:(id)v3;
@@ -5435,26 +5919,23 @@ struct anonymous_type_104 {
 - (id)presentationControllerForPresentedViewController:(id)v1 presentingViewController:(id)v2 sourceViewController:(id)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol MFMailComposeViewControllerDelegate<NSObject>
+@protocol MFMailComposeViewControllerDelegate <NSObject>
 
 @optional
 - (void)mailComposeController:(id)v1 didFinishWithResult:(long long)v2 error:(id)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol DirectoryWatcherDelegate<NSObject>
+@protocol DirectoryWatcherDelegate <NSObject>
 - (void)directoryDidChange:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIAdaptivePresentationControllerDelegate<NSObject>
+@protocol UIAdaptivePresentationControllerDelegate <NSObject>
 
 @optional
 - (long long)adaptivePresentationStyleForPresentationController:(id)v1;
@@ -5468,10 +5949,9 @@ struct anonymous_type_104 {
 - (void)presentationControllerDidAttemptToDismiss:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIPopoverPresentationControllerDelegate<UIAdaptivePresentationControllerDelegate>
+@protocol UIPopoverPresentationControllerDelegate <UIAdaptivePresentationControllerDelegate>
 
 @optional
 - (void)prepareForPopoverPresentation:(id)v1;
@@ -5480,10 +5960,9 @@ struct anonymous_type_104 {
 - (void)popoverPresentationController:(id)v1 willRepositionPopoverToRect:(struct CGRect *)v2 inView:(id *)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol ThumbImageViewDelegate<NSObject>
+@protocol ThumbImageViewDelegate <NSObject>
 
 @optional
 - (void)thumbImageViewWasTapped:(id)v1 tapCount:(int)v2;
@@ -5499,10 +5978,9 @@ struct anonymous_type_104 {
 - (int)resignProblemTextField;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIGestureRecognizerDelegate<NSObject>
+@protocol UIGestureRecognizerDelegate <NSObject>
 
 @optional
 - (int)gestureRecognizerShouldBegin:(id)v1;
@@ -5514,7 +5992,6 @@ struct anonymous_type_104 {
 - (int)gestureRecognizer:(id)v1 shouldReceiveEvent:(id)v2;
 @end
 
-
 /*****************************************************************/
 
 @protocol ThumbViewEdit
@@ -5524,10 +6001,9 @@ struct anonymous_type_104 {
 - (void)endEditting;
 @end
 
-
 /*****************************************************************/
 
-@protocol UITextFieldDelegate<NSObject>
+@protocol UITextFieldDelegate <NSObject>
 
 @optional
 - (int)textFieldShouldBeginEditing:(id)v1;
@@ -5544,26 +6020,24 @@ struct anonymous_type_104 {
 - (void)textField:(id)v1 willDismissEditMenuWithAnimator:(id)v2;
 @end
 
-
 /*****************************************************************/
 
-@protocol UISearchResultsUpdating<NSObject>
+@protocol UISearchResultsUpdating <NSObject>
 - (void)updateSearchResultsForSearchController:(id)v1;
 
 @optional
 - (void)updateSearchResultsForSearchController:(id)v1 selectingSearchSuggestion:(id)v2;
 @end
 
-
 /*****************************************************************/
 
 @protocol ToolPaletteDataSource
-@property (retain,nonatomic) NSMutableArray * items;
-@property (retain,nonatomic) NSMutableArray * originalItems;
-@property (retain,nonatomic) NSString * name;
-@property (retain,nonatomic) NSString * navigationBarName;
-@property (retain,nonatomic) NSString * filteringText;
-@property (nonatomic) int emptyTools;
+@property(retain, nonatomic) NSMutableArray *items;
+@property(retain, nonatomic) NSMutableArray *originalItems;
+@property(retain, nonatomic) NSString *name;
+@property(retain, nonatomic) NSString *navigationBarName;
+@property(retain, nonatomic) NSString *filteringText;
+@property(nonatomic) int emptyTools;
 + (int)isRowSelectionAvailable:(id)v1;
 - (id)initWithName:(id)v1 navigationBarName:(id)v2;
 - (id)initWithName:(id)v1 navigationBarName:(id)v2 items:(id)v3;
@@ -5583,34 +6057,32 @@ struct anonymous_type_104 {
 - (void)setEmptyTools:(int)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIInputViewAudioFeedback<NSObject>
-@property (readonly,nonatomic) int enableInputClicksWhenVisible;
+@protocol UIInputViewAudioFeedback <NSObject>
+@property(readonly, nonatomic) int enableInputClicksWhenVisible;
 
 @optional
 - (int)enableInputClicksWhenVisible;
 @end
 
-
 /*****************************************************************/
 
-@protocol UITextInputTraits<NSObject>
-@property (nonatomic) long long autocapitalizationType;
-@property (nonatomic) long long autocorrectionType;
-@property (nonatomic) long long spellCheckingType;
-@property (nonatomic) long long smartQuotesType;
-@property (nonatomic) long long smartDashesType;
-@property (nonatomic) long long smartInsertDeleteType;
-@property (nonatomic) long long inlinePredictionType;
-@property (nonatomic) long long keyboardType;
-@property (nonatomic) long long keyboardAppearance;
-@property (nonatomic) long long returnKeyType;
-@property (nonatomic) int enablesReturnKeyAutomatically;
-@property (nonatomic,getter=isSecureTextEntry) int secureTextEntry;
-@property (copy,nonatomic) NSString * textContentType;
-@property (copy,nonatomic) UITextInputPasswordRules * passwordRules;
+@protocol UITextInputTraits <NSObject>
+@property(nonatomic) long long autocapitalizationType;
+@property(nonatomic) long long autocorrectionType;
+@property(nonatomic) long long spellCheckingType;
+@property(nonatomic) long long smartQuotesType;
+@property(nonatomic) long long smartDashesType;
+@property(nonatomic) long long smartInsertDeleteType;
+@property(nonatomic) long long inlinePredictionType;
+@property(nonatomic) long long keyboardType;
+@property(nonatomic) long long keyboardAppearance;
+@property(nonatomic) long long returnKeyType;
+@property(nonatomic) int enablesReturnKeyAutomatically;
+@property(nonatomic, getter=isSecureTextEntry) int secureTextEntry;
+@property(copy, nonatomic) NSString *textContentType;
+@property(copy, nonatomic) UITextInputPasswordRules *passwordRules;
 
 @optional
 - (long long)autocapitalizationType;
@@ -5643,26 +6115,23 @@ struct anonymous_type_104 {
 - (void)setPasswordRules:(id)v1;
 @end
 
-
 /*****************************************************************/
 
 @protocol SettingsDelegate
 - (void)updateSetting:(long long)v1 newSettingValue:(long long)v2;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIBarPositioningDelegate<NSObject>
+@protocol UIBarPositioningDelegate <NSObject>
 
 @optional
 - (long long)positionForBar:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol UISearchBarDelegate<UIBarPositioningDelegate>
+@protocol UISearchBarDelegate <UIBarPositioningDelegate>
 
 @optional
 - (int)searchBarShouldBeginEditing:(id)v1;
@@ -5678,10 +6147,9 @@ struct anonymous_type_104 {
 - (void)searchBar:(id)v1 selectedScopeButtonIndexDidChange:(long long)v2;
 @end
 
-
 /*****************************************************************/
 
-@protocol UICollectionViewDataSource<NSObject>
+@protocol UICollectionViewDataSource <NSObject>
 - (long long)collectionView:(id)v1 numberOfItemsInSection:(long long)v2;
 - (id)collectionView:(id)v1 cellForItemAtIndexPath:(id)v2;
 
@@ -5694,10 +6162,9 @@ struct anonymous_type_104 {
 - (id)collectionView:(id)v1 indexPathForIndexTitle:(id)v2 atIndex:(long long)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol UICollectionViewDelegate<UIScrollViewDelegate>
+@protocol UICollectionViewDelegate <UIScrollViewDelegate>
 
 @optional
 - (int)collectionView:(id)v1 shouldHighlightItemAtIndexPath:(id)v2;
@@ -5742,10 +6209,9 @@ struct anonymous_type_104 {
 - (id)collectionView:(id)v1 previewForDismissingContextMenuWithConfiguration:(id)v2;
 @end
 
-
 /*****************************************************************/
 
-@protocol UICollectionViewDelegateFlowLayout<UICollectionViewDelegate>
+@protocol UICollectionViewDelegateFlowLayout <UICollectionViewDelegate>
 
 @optional
 - (struct CGSize)collectionView:(id)v1 layout:(id)v2 sizeForItemAtIndexPath:(id)v3;
@@ -5756,10 +6222,9 @@ struct anonymous_type_104 {
 - (struct CGSize)collectionView:(id)v1 layout:(id)v2 referenceSizeForFooterInSection:(long long)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol AEAssessmentSessionDelegate<NSObject>
+@protocol AEAssessmentSessionDelegate <NSObject>
 
 @optional
 - (void)assessmentSessionDidBegin:(id)v1;
@@ -5770,17 +6235,15 @@ struct anonymous_type_104 {
 - (void)assessmentSession:(id)v1 failedToUpdateToConfiguration:(id)v2 error:(id)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol TINDocumentDelegate<NSObject>
+@protocol TINDocumentDelegate <NSObject>
 - (id)getDocument;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIImagePickerControllerDelegate<NSObject>
+@protocol UIImagePickerControllerDelegate <NSObject>
 
 @optional
 - (void)imagePickerController:(id)v1 didFinishPickingImage:(id)v2 editingInfo:(id)v3;
@@ -5788,20 +6251,17 @@ struct anonymous_type_104 {
 - (void)imagePickerControllerDidCancel:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol PHPickerViewControllerDelegate<NSObject>
+@protocol PHPickerViewControllerDelegate <NSObject>
 - (void)picker:(id)v1 didFinishPicking:(id)v2;
 @end
-
 
 /*****************************************************************/
 
 @protocol RestrictionsDelegates
 - (void)updateSetting:(long long)v1 newSettingValue:(int)v2;
 @end
-
 
 /*****************************************************************/
 
@@ -5810,10 +6270,9 @@ struct anonymous_type_104 {
 - (id)previewController:(id)v1 previewItemAtIndex:(long long)v2;
 @end
 
-
 /*****************************************************************/
 
-@protocol QLPreviewControllerDelegate<NSObject>
+@protocol QLPreviewControllerDelegate <NSObject>
 
 @optional
 - (void)previewControllerWillDismiss:(id)v1;
@@ -5827,30 +6286,28 @@ struct anonymous_type_104 {
 - (void)previewController:(id)v1 didSaveEditedCopyOfPreviewItem:(id)v2 atURL:(id)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIKeyInput<UITextInputTraits>
-@property (readonly,nonatomic) int hasText;
+@protocol UIKeyInput <UITextInputTraits>
+@property(readonly, nonatomic) int hasText;
 - (void)insertText:(id)v1;
 - (void)deleteBackward;
 - (int)hasText;
 @end
 
-
 /*****************************************************************/
 
-@protocol UITextInput<UIKeyInput>
-@property (copy) UITextRange * selectedTextRange;
-@property (readonly,nonatomic) UITextRange * markedTextRange;
-@property (copy,nonatomic) NSDictionary * markedTextStyle;
-@property (readonly,nonatomic) UITextPosition * beginningOfDocument;
-@property (readonly,nonatomic) UITextPosition * endOfDocument;
-@property (nonatomic) NSObject<UITextInputDelegate> * inputDelegate;
-@property (readonly,nonatomic) NSObject<UITextInputTokenizer> * tokenizer;
-@property (readonly,nonatomic) UIView * textInputView;
-@property (nonatomic) long long selectionAffinity;
-@property (readonly,nonatomic) id insertDictationResultPlaceholder;
+@protocol UITextInput <UIKeyInput>
+@property(copy) UITextRange *selectedTextRange;
+@property(readonly, nonatomic) UITextRange *markedTextRange;
+@property(copy, nonatomic) NSDictionary *markedTextStyle;
+@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
+@property(readonly, nonatomic) UITextPosition *endOfDocument;
+@property(nonatomic) NSObject<UITextInputDelegate> *inputDelegate;
+@property(readonly, nonatomic) NSObject<UITextInputTokenizer> *tokenizer;
+@property(readonly, nonatomic) UIView *textInputView;
+@property(nonatomic) long long selectionAffinity;
+@property(readonly, nonatomic) id insertDictationResultPlaceholder;
 - (id)textInRange:(id)v1;
 - (void)replaceRange:(id)v1 withText:(id)v2;
 - (void)setMarkedText:(id)v1 selectedRange:(struct _NSRange)v2;
@@ -5908,20 +6365,18 @@ struct anonymous_type_104 {
 - (id)insertDictationResultPlaceholder;
 @end
 
-
 /*****************************************************************/
 
-@protocol UITextInputTokenizer<NSObject>
+@protocol UITextInputTokenizer <NSObject>
 - (id)rangeEnclosingPosition:(id)v1 withGranularity:(long long)v2 inDirection:(long long)v3;
 - (int)isPosition:(id)v1 atBoundary:(long long)v2 inDirection:(long long)v3;
 - (id)positionFromPosition:(id)v1 toBoundary:(long long)v2 inDirection:(long long)v3;
 - (int)isPosition:(id)v1 withinTextUnit:(long long)v2 inDirection:(long long)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol UITextViewDelegate<NSObject,UIScrollViewDelegate>
+@protocol UITextViewDelegate <NSObject, UIScrollViewDelegate>
 
 @optional
 - (int)textViewShouldBeginEditing:(id)v1;
@@ -5944,58 +6399,54 @@ struct anonymous_type_104 {
 - (int)textView:(id)v1 shouldInteractWithTextAttachment:(id)v2 inRange:(struct _NSRange)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol NSURLSessionDelegate<NSObject>
+@protocol NSURLSessionDelegate <NSObject>
 
 @optional
 - (void)URLSession:(id)v1 didBecomeInvalidWithError:(id)v2;
-- (void)URLSession:(id)v1 didReceiveChallenge:(id)v2 completionHandler:(void (^ /* unknown block signature */)(void))v3;
+- (void)URLSession:(id)v1 didReceiveChallenge:(id)v2 completionHandler:(void (^/* unknown block signature */)(void))v3;
 - (void)URLSessionDidFinishEventsForBackgroundURLSession:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol NSURLSessionTaskDelegate<NSURLSessionDelegate>
+@protocol NSURLSessionTaskDelegate <NSURLSessionDelegate>
 
 @optional
 - (void)URLSession:(id)v1 didCreateTask:(id)v2;
-- (void)URLSession:(id)v1 task:(id)v2 willBeginDelayedRequest:(id)v3 completionHandler:(void (^ /* unknown block signature */)(void))v4;
+- (void)URLSession:(id)v1 task:(id)v2 willBeginDelayedRequest:(id)v3 completionHandler:(void (^/* unknown block signature */)(void))v4;
 - (void)URLSession:(id)v1 taskIsWaitingForConnectivity:(id)v2;
-- (void)URLSession:(id)v1 task:(id)v2 willPerformHTTPRedirection:(id)v3 newRequest:(id)v4 completionHandler:(void (^ /* unknown block signature */)(void))v5;
-- (void)URLSession:(id)v1 task:(id)v2 didReceiveChallenge:(id)v3 completionHandler:(void (^ /* unknown block signature */)(void))v4;
-- (void)URLSession:(id)v1 task:(id)v2 needNewBodyStream:(void (^ /* unknown block signature */)(void))v3;
-- (void)URLSession:(id)v1 task:(id)v2 needNewBodyStreamFromOffset:(long long)v3 completionHandler:(void (^ /* unknown block signature */)(void))v4;
+- (void)URLSession:(id)v1 task:(id)v2 willPerformHTTPRedirection:(id)v3 newRequest:(id)v4 completionHandler:(void (^/* unknown block signature */)(void))v5;
+- (void)URLSession:(id)v1 task:(id)v2 didReceiveChallenge:(id)v3 completionHandler:(void (^/* unknown block signature */)(void))v4;
+- (void)URLSession:(id)v1 task:(id)v2 needNewBodyStream:(void (^/* unknown block signature */)(void))v3;
+- (void)URLSession:(id)v1 task:(id)v2 needNewBodyStreamFromOffset:(long long)v3 completionHandler:(void (^/* unknown block signature */)(void))v4;
 - (void)URLSession:(id)v1 task:(id)v2 didSendBodyData:(long long)v3 totalBytesSent:(long long)v4 totalBytesExpectedToSend:(long long)v5;
 - (void)URLSession:(id)v1 task:(id)v2 didReceiveInformationalResponse:(id)v3;
 - (void)URLSession:(id)v1 task:(id)v2 didFinishCollectingMetrics:(id)v3;
 - (void)URLSession:(id)v1 task:(id)v2 didCompleteWithError:(id)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol NSURLSessionDataDelegate<NSURLSessionTaskDelegate>
+@protocol NSURLSessionDataDelegate <NSURLSessionTaskDelegate>
 
 @optional
-- (void)URLSession:(id)v1 dataTask:(id)v2 didReceiveResponse:(id)v3 completionHandler:(void (^ /* unknown block signature */)(void))v4;
+- (void)URLSession:(id)v1 dataTask:(id)v2 didReceiveResponse:(id)v3 completionHandler:(void (^/* unknown block signature */)(void))v4;
 - (void)URLSession:(id)v1 dataTask:(id)v2 didBecomeDownloadTask:(id)v3;
 - (void)URLSession:(id)v1 dataTask:(id)v2 didBecomeStreamTask:(id)v3;
 - (void)URLSession:(id)v1 dataTask:(id)v2 didReceiveData:(id)v3;
-- (void)URLSession:(id)v1 dataTask:(id)v2 willCacheResponse:(id)v3 completionHandler:(void (^ /* unknown block signature */)(void))v4;
+- (void)URLSession:(id)v1 dataTask:(id)v2 willCacheResponse:(id)v3 completionHandler:(void (^/* unknown block signature */)(void))v4;
 @end
-
 
 /*****************************************************************/
 
-@protocol TINInspectorControlProtocol<NSObject>
-@property (nonatomic) NSObject<TINInspectorControllerDelegate> * delegate;
-@property (retain,nonatomic) NSString * title;
-@property (nonatomic) char * automationTestId;
-@property (retain,nonatomic) UITableViewCell * cellView;
-@property (retain,nonatomic) UILabel * titleLabel;
+@protocol TINInspectorControlProtocol <NSObject>
+@property(nonatomic) NSObject<TINInspectorControllerDelegate> *delegate;
+@property(retain, nonatomic) NSString *title;
+@property(nonatomic) char *automationTestId;
+@property(retain, nonatomic) UITableViewCell *cellView;
+@property(retain, nonatomic) UILabel *titleLabel;
 @property int isEnabled;
 - (id)initWithTitle:(id)v1 automationTestId:(char *)v2;
 - (id)view;
@@ -6016,13 +6467,11 @@ struct anonymous_type_104 {
 - (void)setIsEnabled:(int)v1;
 @end
 
-
 /*****************************************************************/
 
 @protocol TINInspectorControllerDelegate
 - (void)updateInspectorView;
 @end
-
 
 /*****************************************************************/
 
@@ -6030,10 +6479,9 @@ struct anonymous_type_104 {
 - (void)updateInspectorControl:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol UIDocumentInteractionControllerDelegate<NSObject>
+@protocol UIDocumentInteractionControllerDelegate <NSObject>
 
 @optional
 - (id)documentInteractionControllerViewControllerForPreview:(id)v1;
@@ -6051,10 +6499,9 @@ struct anonymous_type_104 {
 - (int)documentInteractionController:(id)v1 performAction:(SEL)v2;
 @end
 
-
 /*****************************************************************/
 
-@protocol NSFileManagerDelegate<NSObject>
+@protocol NSFileManagerDelegate <NSObject>
 
 @optional
 - (int)fileManager:(id)v1 shouldCopyItemAtPath:(id)v2 toPath:(id)v3;
@@ -6075,18 +6522,17 @@ struct anonymous_type_104 {
 - (int)fileManager:(id)v1 shouldProceedAfterError:(id)v2 removingItemAtURL:(id)v3;
 @end
 
-
 /*****************************************************************/
 
-@protocol TINDialogControlDelegate<NSObject>
-@property (nonatomic) TINDialogPanel * container;
-@property (retain,nonatomic) NSString * text;
-@property (retain,nonatomic) NSString * placeHolderText;
-@property (retain,nonatomic) RootViewController * rootViewController;
-@property (nonatomic) void * * callback;
+@protocol TINDialogControlDelegate <NSObject>
+@property(nonatomic) TINDialogPanel *container;
+@property(retain, nonatomic) NSString *text;
+@property(retain, nonatomic) NSString *placeHolderText;
+@property(retain, nonatomic) RootViewController *rootViewController;
+@property(nonatomic) void **callback;
 @property long long callbackData;
-@property (nonatomic) int isTopBarItem;
-@property (nonatomic) int isGroupItem;
+@property(nonatomic) int isTopBarItem;
+@property(nonatomic) int isGroupItem;
 - (id)view;
 - (id)container;
 - (void)setContainer:(id)v1;
@@ -6096,8 +6542,8 @@ struct anonymous_type_104 {
 - (void)setPlaceHolderText:(id)v1;
 - (id)rootViewController;
 - (void)setRootViewController:(id)v1;
-- (void * *)callback;
-- (void)setCallback:(void * *)v1;
+- (void **)callback;
+- (void)setCallback:(void **)v1;
 - (long long)callbackData;
 - (void)setCallbackData:(long long)v1;
 - (int)isTopBarItem;
@@ -6106,13 +6552,12 @@ struct anonymous_type_104 {
 - (void)setIsGroupItem:(int)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol TINDialogContainerProtocol<NSObject>
-@property (retain,nonatomic) NSString * title;
-@property (retain,nonatomic) NSMutableArray * elements;
-@property (nonatomic) long long controlsCount;
+@protocol TINDialogContainerProtocol <NSObject>
+@property(retain, nonatomic) NSString *title;
+@property(retain, nonatomic) NSMutableArray *elements;
+@property(nonatomic) long long controlsCount;
 - (id)initWithTitle:(int *)v1;
 - (id)title;
 - (void)setTitle:(id)v1;
@@ -6122,18 +6567,16 @@ struct anonymous_type_104 {
 - (void)setControlsCount:(long long)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol TINDialogControlViewDelegate<NSObject>
+@protocol TINDialogControlViewDelegate <NSObject>
 - (void)dvcTextFieldDidBeginEditing:(id)v1;
 - (void)dvcTextFieldDidEndEditing:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol TINAssessmentManagerDelegate<NSObject>
+@protocol TINAssessmentManagerDelegate <NSObject>
 - (void)enterExamMode;
 - (void)enterExamModeFailed;
 - (void)exitExamMode;
@@ -6141,29 +6584,25 @@ struct anonymous_type_104 {
 - (void)assessmentModeDidEnd;
 @end
 
-
 /*****************************************************************/
 
-@protocol TINToolsWithWizardViewControllerDelgate<NSObject>
+@protocol TINToolsWithWizardViewControllerDelgate <NSObject>
 - (void)updateWizardSwitch:(int)v1;
 @end
 
-
 /*****************************************************************/
 
-@protocol AVCaptureMetadataOutputObjectsDelegate<NSObject>
+@protocol AVCaptureMetadataOutputObjectsDelegate <NSObject>
 
 @optional
 - (void)captureOutput:(id)v1 didOutputMetadataObjects:(id)v2 fromConnection:(id)v3;
 @end
-
 
 /*****************************************************************/
 
 @interface UINavigationController (KeyboardDismiss)
 - (int)disablesAutomaticKeyboardDismissal;
 @end
-
 
 /*****************************************************************/
 
@@ -6174,7 +6613,6 @@ struct anonymous_type_104 {
 - (void)buildMenuWithBuilder:(id)v1;
 @end
 
-
 /*****************************************************************/
 
 @interface PHPhotoLibrary (TINPhotos)
@@ -6182,13 +6620,12 @@ struct anonymous_type_104 {
 - (void)saveTINspirePhoto:(id)v1 toAlbum:(id)v2;
 @end
 
-
 /*****************************************************************/
 
 @interface UIButton (TINAppCardBarButton)
-@property (nonatomic) long long positionPriority;
-@property (nonatomic) long long groupNumber;
-@property (nonatomic) int leftButton;
+@property(nonatomic) long long positionPriority;
+@property(nonatomic) long long groupNumber;
+@property(nonatomic) int leftButton;
 - (void)setPositionPriority:(long long)v1;
 - (void)setGroupNumber:(long long)v1;
 - (void)setLeftButton:(int)v1;
@@ -6199,86 +6636,85 @@ struct anonymous_type_104 {
 - (id)description;
 @end
 
-
 /*****************************************************************/
 
 @interface UIApplication (KeyboardView)
 - (id)keyboardView;
 @end
 
-
 /*****************************************************************/
 
-@interface ExamModeStatus : NSObject {
+@interface ExamModeStatus : NSObject
+{
     int examModeLostFocus;
     int _timeInExamMode;
-    NSString * startTime;
-    NSString * examModeSessionId;
-    NSString * startDate;
-    NSMutableArray * activities;
+    NSString *startTime;
+    NSString *examModeSessionId;
+    NSString *startDate;
+    NSMutableArray *activities;
 }
-@property (nonatomic) NSString * startTime;
-@property (nonatomic) NSString * examModeSessionId;
-@property (nonatomic) NSString * startDate;
-@property (nonatomic) int timeInExamMode;
-@property (retain,nonatomic) NSMutableArray * activities;
-@property (nonatomic) int examModeLostFocus;
+@property(nonatomic) NSString *startTime;
+@property(nonatomic) NSString *examModeSessionId;
+@property(nonatomic) NSString *startDate;
+@property(nonatomic) int timeInExamMode;
+@property(retain, nonatomic) NSMutableArray *activities;
+@property(nonatomic) int examModeLostFocus;
 - (id)dictionary;
 - (id)initWithDictionary:(id)v1;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINSummaryDialogViewController : TINViewController<UITableViewDataSource,UITableViewDelegate,UINavigationControllerDelegate> {
+@interface TINSummaryDialogViewController : TINViewController <UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate>
+{
     int isExamModeLostFocus;
-    UILabel * textDescr;
-    UILabel * testCode;
-    UILabel * testCodeNumber;
-    UILabel * casMode;
-    UILabel * date;
-    UILabel * dateText;
-    UILabel * timeTM;
-    UILabel * timeTMText;
-    UILabel * startTime;
-    UILabel * startTimetext;
-    UILabel * endTime;
-    UILabel * endTimeText;
-    UILabel * sessionId;
-    UILabel * sessionIdText;
-    UILabel * version;
-    UILabel * versionText;
-    UITableView * tableView;
-    UIStackView * lostFocusWarning;
-    UILabel * testModeWarningLbl;
-    NSArray * activities;
+    UILabel *textDescr;
+    UILabel *testCode;
+    UILabel *testCodeNumber;
+    UILabel *casMode;
+    UILabel *date;
+    UILabel *dateText;
+    UILabel *timeTM;
+    UILabel *timeTMText;
+    UILabel *startTime;
+    UILabel *startTimetext;
+    UILabel *endTime;
+    UILabel *endTimeText;
+    UILabel *sessionId;
+    UILabel *sessionIdText;
+    UILabel *version;
+    UILabel *versionText;
+    UITableView *tableView;
+    UIStackView *lostFocusWarning;
+    UILabel *testModeWarningLbl;
+    NSArray *activities;
 }
-@property (nonatomic) UILabel * textDescr;
-@property (nonatomic) UILabel * testCode;
-@property (nonatomic) UILabel * testCodeNumber;
-@property (nonatomic) UILabel * casMode;
-@property (nonatomic) UILabel * date;
-@property (nonatomic) UILabel * dateText;
-@property (nonatomic) UILabel * timeTM;
-@property (nonatomic) UILabel * timeTMText;
-@property (nonatomic) UILabel * startTime;
-@property (nonatomic) UILabel * startTimetext;
-@property (nonatomic) UILabel * endTime;
-@property (nonatomic) UILabel * endTimeText;
-@property (nonatomic) UILabel * sessionId;
-@property (nonatomic) UILabel * sessionIdText;
-@property (nonatomic) UILabel * version;
-@property (nonatomic) UILabel * versionText;
-@property (nonatomic) UITableView * tableView;
-@property (nonatomic) UIStackView * lostFocusWarning;
-@property (nonatomic) UILabel * testModeWarningLbl;
-@property (retain,nonatomic) NSArray * activities;
-@property (nonatomic) int isExamModeLostFocus;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) UILabel *textDescr;
+@property(nonatomic) UILabel *testCode;
+@property(nonatomic) UILabel *testCodeNumber;
+@property(nonatomic) UILabel *casMode;
+@property(nonatomic) UILabel *date;
+@property(nonatomic) UILabel *dateText;
+@property(nonatomic) UILabel *timeTM;
+@property(nonatomic) UILabel *timeTMText;
+@property(nonatomic) UILabel *startTime;
+@property(nonatomic) UILabel *startTimetext;
+@property(nonatomic) UILabel *endTime;
+@property(nonatomic) UILabel *endTimeText;
+@property(nonatomic) UILabel *sessionId;
+@property(nonatomic) UILabel *sessionIdText;
+@property(nonatomic) UILabel *version;
+@property(nonatomic) UILabel *versionText;
+@property(nonatomic) UITableView *tableView;
+@property(nonatomic) UIStackView *lostFocusWarning;
+@property(nonatomic) UILabel *testModeWarningLbl;
+@property(retain, nonatomic) NSArray *activities;
+@property(nonatomic) int isExamModeLostFocus;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(int)v1;
@@ -6295,18 +6731,18 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TIBLEManager : NSObject<CBCentralManagerDelegate,CBPeripheralDelegate> {
-    CBCentralManager * centralManager;
-    void * centralWidget;
+@interface TIBLEManager : NSObject <CBCentralManagerDelegate, CBPeripheralDelegate>
+{
+    CBCentralManager *centralManager;
+    void *centralWidget;
     int pendingInit;
 }
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 + (id)BLEManagerInstance;
 + (id)BLEManagerNew;
 - (id)initBLEManager;
@@ -6333,11 +6769,11 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface Reachability : NSObject {
-    struct __SCNetworkReachability * _reachabilityRef;
+@interface Reachability : NSObject
+{
+    struct __SCNetworkReachability *_reachabilityRef;
 }
 + (id)reachabilityWithHostName:(id)v1;
 + (id)reachabilityWithAddress:(struct sockaddr *)v1;
@@ -6350,18 +6786,18 @@ struct anonymous_type_104 {
 - (long long)currentReachabilityStatus;
 @end
 
-
 /*****************************************************************/
 
-@interface TINAppCardBarViewController : TINViewController<ApplicationCardBarDelegate> {
-    NSMutableDictionary * buttons_;
-    NSMutableArray * rightButtonsPriorityQueue;
-    NSMutableArray * leftButtonsPriorityQueue;
+@interface TINAppCardBarViewController : TINViewController <ApplicationCardBarDelegate>
+{
+    NSMutableDictionary *buttons_;
+    NSMutableArray *rightButtonsPriorityQueue;
+    NSMutableArray *leftButtonsPriorityQueue;
 }
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewWillAppear:(int)v1;
 - (void)viewDidAppear:(int)v1;
@@ -6385,22 +6821,22 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TI_NspireAppDelegate : UIResponder<UIApplicationDelegate> {
-    RootViewController * rootViewController;
-    NSMutableArray * preloadedContent;
+@interface TI_NspireAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    RootViewController *rootViewController;
+    NSMutableArray *preloadedContent;
     int invokeOpenURL;
-    UIWindow * window;
+    UIWindow *window;
 }
-@property (nonatomic) int invokeOpenURL;
-@property (retain,nonatomic) RootViewController * rootViewController;
-@property (retain,nonatomic) UIWindow * window;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) int invokeOpenURL;
+@property(retain, nonatomic) RootViewController *rootViewController;
+@property(retain, nonatomic) UIWindow *window;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 + (void)initialize;
 - (int)application:(id)v1 didFinishLaunchingWithOptions:(id)v2;
 - (void)openAppWithURL:(id)v1;
@@ -6432,13 +6868,13 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface RootViewController : UIDocumentBrowserViewController<UIDocumentBrowserViewControllerDelegate,UIViewControllerTransitioningDelegate,MFMailComposeViewControllerDelegate,DirectoryWatcherDelegate,UIPopoverPresentationControllerDelegate> {
-    TINDocumentViewController * documentSorter_;
-    UIView * splashBackgroundView;
-    UIView * backgroundView;
+@interface RootViewController : UIDocumentBrowserViewController <UIDocumentBrowserViewControllerDelegate, UIViewControllerTransitioningDelegate, MFMailComposeViewControllerDelegate, DirectoryWatcherDelegate, UIPopoverPresentationControllerDelegate>
+{
+    TINDocumentViewController *documentSorter_;
+    UIView *splashBackgroundView;
+    UIView *backgroundView;
     int toolbarShows;
     int appViewType;
     int isHomeScreenShowing;
@@ -6447,40 +6883,40 @@ struct anonymous_type_104 {
     int _isScanQRCodeFromPageSupported;
     int _isItunesSyncInProgress;
     int _isFullScreenActive;
-    UINavigationController * _navController;
-    NSString * systemClipboardString;
+    UINavigationController *_navController;
+    NSString *systemClipboardString;
     double cardWidth;
     double cardHeight;
-    UIActivityIndicatorView * _activityIndicator;
-    UIDocumentBrowserTransitionController * _transitionController;
-    UIView * _cardViewerContainer;
-    TINDocumentPageViewController * _documentViewer;
-    DirectoryWatcher * _fileSharingWatcher;
-    DirectoryWatcher * _myLibFolderWatcher;
+    UIActivityIndicatorView *_activityIndicator;
+    UIDocumentBrowserTransitionController *_transitionController;
+    UIView *_cardViewerContainer;
+    TINDocumentPageViewController *_documentViewer;
+    DirectoryWatcher *_fileSharingWatcher;
+    DirectoryWatcher *_myLibFolderWatcher;
 }
-@property (retain,nonatomic) UIActivityIndicatorView * activityIndicator;
-@property (retain,nonatomic) UIDocumentBrowserTransitionController * transitionController;
-@property (retain,nonatomic) UIView * backgroundView;
-@property (retain,nonatomic) UIView * cardViewerContainer;
-@property (nonatomic) int toolbarShows;
-@property (nonatomic) int isHomeScreenShowing;
-@property (retain,nonatomic) UINavigationController * navController;
-@property (nonatomic) int appViewType;
-@property (nonatomic) int pasteboardCountChange;
-@property (nonatomic) double cardHeight;
-@property (nonatomic) double cardWidth;
-@property (retain,nonatomic) NSString * systemClipboardString;
-@property (nonatomic) int isScanQRCodeFromPageSupported;
-@property (nonatomic) int isItunesSyncInProgress;
-@property (retain,nonatomic) TINDocumentPageViewController * documentViewer;
-@property (retain,nonatomic) DirectoryWatcher * fileSharingWatcher;
-@property (retain,nonatomic) DirectoryWatcher * myLibFolderWatcher;
-@property (nonatomic) int openDocumentRetryCount;
-@property (nonatomic) int isFullScreenActive;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) UIActivityIndicatorView *activityIndicator;
+@property(retain, nonatomic) UIDocumentBrowserTransitionController *transitionController;
+@property(retain, nonatomic) UIView *backgroundView;
+@property(retain, nonatomic) UIView *cardViewerContainer;
+@property(nonatomic) int toolbarShows;
+@property(nonatomic) int isHomeScreenShowing;
+@property(retain, nonatomic) UINavigationController *navController;
+@property(nonatomic) int appViewType;
+@property(nonatomic) int pasteboardCountChange;
+@property(nonatomic) double cardHeight;
+@property(nonatomic) double cardWidth;
+@property(retain, nonatomic) NSString *systemClipboardString;
+@property(nonatomic) int isScanQRCodeFromPageSupported;
+@property(nonatomic) int isItunesSyncInProgress;
+@property(retain, nonatomic) TINDocumentPageViewController *documentViewer;
+@property(retain, nonatomic) DirectoryWatcher *fileSharingWatcher;
+@property(retain, nonatomic) DirectoryWatcher *myLibFolderWatcher;
+@property(nonatomic) int openDocumentRetryCount;
+@property(nonatomic) int isFullScreenActive;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 + (id)sharedInstance;
 - (void)viewDidLoad;
 - (long long)preferredStatusBarStyle;
@@ -6535,7 +6971,7 @@ struct anonymous_type_104 {
 - (void)documentDidOpen:(id)v1;
 - (void)mailComposeController:(id)v1 didFinishWithResult:(long long)v2 error:(id)v3;
 - (void)setProcessingDocumentStatus:(int)v1;
-- (void)documentBrowser:(id)v1 didRequestDocumentCreationWithHandler:(void (^ /* unknown block signature */)(void))v2;
+- (void)documentBrowser:(id)v1 didRequestDocumentCreationWithHandler:(void (^/* unknown block signature */)(void))v2;
 - (void)documentBrowser:(id)v1 didPickDocumentsAtURLs:(id)v2;
 - (void)documentBrowser:(id)v1 didImportDocumentAtURL:(id)v2 toDestinationURL:(id)v3;
 - (void)showUserOpeningError:(int)v1;
@@ -6544,24 +6980,24 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface IconsIds : NSObject {
-    NSDictionary * MODULE_ICON_MAP;
-    NSArray * HWLD_ICON_IDS;
-    NSArray * DCOL_ICON_IDS;
-    NSArray * QUES_ICON_IDS;
-    NSArray * PGED_ICON_IDS;
-    NSArray * SCPD_ICON_IDS;
-    NSArray * DTST_ICON_IDS;
-    NSArray * SYST_ICON_IDS;
-    NSArray * PYED_ICON_IDS;
-    NSArray * GEOG_ICON_IDS;
-    NSArray * TBLT_ICON_IDS;
-    NSArray * NTPD_ICON_IDS;
-    NSArray * INSP_ICON_IDS;
-    NSArray * ACBR_ICON_IDS;
+@interface IconsIds : NSObject
+{
+    NSDictionary *MODULE_ICON_MAP;
+    NSArray *HWLD_ICON_IDS;
+    NSArray *DCOL_ICON_IDS;
+    NSArray *QUES_ICON_IDS;
+    NSArray *PGED_ICON_IDS;
+    NSArray *SCPD_ICON_IDS;
+    NSArray *DTST_ICON_IDS;
+    NSArray *SYST_ICON_IDS;
+    NSArray *PYED_ICON_IDS;
+    NSArray *GEOG_ICON_IDS;
+    NSArray *TBLT_ICON_IDS;
+    NSArray *NTPD_ICON_IDS;
+    NSArray *INSP_ICON_IDS;
+    NSArray *ACBR_ICON_IDS;
 }
 + (id)sharedInstance;
 - (id)init;
@@ -6570,142 +7006,141 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface TINExamCodeTextField : UITextField
 - (int)canPerformAction:(SEL)v1 withSender:(id)v2;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentModelFile : NSObject {
-    NSNumber * _documentID;
-    NSString * _documentName;
-    NSDate * _documentCreationDate;
-    NSNumber * _documentType;
-    NSString * _documentPath;
-    NSDate * _documentModifiedDate;
-    NSString * _currentAppTypeIcon;
-    NSString * _BKPAppTypeIcon;
-    TINDocumentModelFile * _parentDocumentModelFile;
-    NSString * _revisionNumber;
-    NSString * _serverPath;
-    NSString * _hashValue;
-    NSMutableArray * _childDocuments;
-    NSNumber * _selectedCardNumber;
-    NSNumber * _selectedProblemNumber;
+@interface TINDocumentModelFile : NSObject
+{
+    NSNumber *_documentID;
+    NSString *_documentName;
+    NSDate *_documentCreationDate;
+    NSNumber *_documentType;
+    NSString *_documentPath;
+    NSDate *_documentModifiedDate;
+    NSString *_currentAppTypeIcon;
+    NSString *_BKPAppTypeIcon;
+    TINDocumentModelFile *_parentDocumentModelFile;
+    NSString *_revisionNumber;
+    NSString *_serverPath;
+    NSString *_hashValue;
+    NSMutableArray *_childDocuments;
+    NSNumber *_selectedCardNumber;
+    NSNumber *_selectedProblemNumber;
     unsigned long long _documentLoadStatus;
-    NSNumber * _currentPageNumber;
+    NSNumber *_currentPageNumber;
 }
-@property (retain,nonatomic) NSNumber * documentID;
-@property (retain,nonatomic) NSString * documentName;
-@property (retain,nonatomic) NSDate * documentCreationDate;
-@property (retain,nonatomic) NSDate * documentModifiedDate;
-@property (retain,nonatomic) NSNumber * documentType;
-@property (retain,nonatomic) NSString * documentPath;
-@property (retain,nonatomic) NSMutableArray * childDocuments;
-@property (retain,nonatomic) TINDocumentModelFile * parentDocumentModelFile;
-@property (nonatomic) unsigned long long documentLoadStatus;
-@property (retain,nonatomic) NSString * currentAppTypeIcon;
-@property (retain,nonatomic) NSString * BKPAppTypeIcon;
-@property (retain,nonatomic) NSString * revisionNumber;
-@property (retain,nonatomic) NSString * serverPath;
-@property (retain,nonatomic) NSString * hashValue;
-@property (retain,nonatomic) NSNumber * selectedProblemNumber;
-@property (retain,nonatomic) NSNumber * selectedCardNumber;
-@property (retain,nonatomic) NSNumber * currentPageNumber;
+@property(retain, nonatomic) NSNumber *documentID;
+@property(retain, nonatomic) NSString *documentName;
+@property(retain, nonatomic) NSDate *documentCreationDate;
+@property(retain, nonatomic) NSDate *documentModifiedDate;
+@property(retain, nonatomic) NSNumber *documentType;
+@property(retain, nonatomic) NSString *documentPath;
+@property(retain, nonatomic) NSMutableArray *childDocuments;
+@property(retain, nonatomic) TINDocumentModelFile *parentDocumentModelFile;
+@property(nonatomic) unsigned long long documentLoadStatus;
+@property(retain, nonatomic) NSString *currentAppTypeIcon;
+@property(retain, nonatomic) NSString *BKPAppTypeIcon;
+@property(retain, nonatomic) NSString *revisionNumber;
+@property(retain, nonatomic) NSString *serverPath;
+@property(retain, nonatomic) NSString *hashValue;
+@property(retain, nonatomic) NSNumber *selectedProblemNumber;
+@property(retain, nonatomic) NSNumber *selectedCardNumber;
+@property(retain, nonatomic) NSNumber *currentPageNumber;
 - (id)initWithModelInfo:(id)v1;
 - (id)dictionaryWithModelInfo;
 - (id)sampledict;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINSwitchCell : UITableViewCell {
-    UISwitch * _toggle;
-    UILabel * _lblSwitch;
+@interface TINSwitchCell : UITableViewCell
+{
+    UISwitch *_toggle;
+    UILabel *_lblSwitch;
 }
-@property (nonatomic) UISwitch * toggle;
-@property (nonatomic) UILabel * lblSwitch;
+@property(nonatomic) UISwitch *toggle;
+@property(nonatomic) UILabel *lblSwitch;
 - (void)awakeFromNib;
 - (void)setSelected:(int)v1 animated:(int)v2;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentModelFileCard : TINDocumentModelFile {
-    NSNumber * _cardType;
+@interface TINDocumentModelFileCard : TINDocumentModelFile
+{
+    NSNumber *_cardType;
 }
-@property (retain,nonatomic) NSNumber * cardType;
+@property(retain, nonatomic) NSNumber *cardType;
 - (id)initWithModelInfo:(id)v1;
 - (id)description;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentModelFileDocument : TINDocumentModelFile {
-    NSMutableArray * _childDocuments;
+@interface TINDocumentModelFileDocument : TINDocumentModelFile
+{
+    NSMutableArray *_childDocuments;
 }
-@property (retain,nonatomic) NSMutableArray * childDocuments;
+@property(retain, nonatomic) NSMutableArray *childDocuments;
 - (id)initWithModelInfo:(id)v1;
 - (id)description;
 - (void)printDescription;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINTestModeRestrictionsViewCellSwitch : UITableViewCell {
-    UILabel * restrictionName;
-    UISwitch * restrictionSwitch;
+@interface TINTestModeRestrictionsViewCellSwitch : UITableViewCell
+{
+    UILabel *restrictionName;
+    UISwitch *restrictionSwitch;
 }
-@property (nonatomic) UILabel * restrictionName;
-@property (nonatomic) UISwitch * restrictionSwitch;
+@property(nonatomic) UILabel *restrictionName;
+@property(nonatomic) UISwitch *restrictionSwitch;
 - (void)awakeFromNib;
 - (void)setSelected:(int)v1 animated:(int)v2;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentModelFileFolder : TINDocumentModelFile {
-    NSMutableArray * _childDocuments;
+@interface TINDocumentModelFileFolder : TINDocumentModelFile
+{
+    NSMutableArray *_childDocuments;
 }
-@property (retain,nonatomic) NSMutableArray * childDocuments;
+@property(retain, nonatomic) NSMutableArray *childDocuments;
 - (id)initWithModelInfo:(id)v1;
 - (id)description;
 - (void)printDescription;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentAddViewController : TINTableViewController {
-    NSMutableArray * listArray;
+@interface TINDocumentAddViewController : TINTableViewController
+{
+    NSMutableArray *listArray;
     int addDocumentType;
     int _isDocumentAdded;
     int _hasSelected;
-    NSString * tableHeader;
+    NSString *tableHeader;
     id actionDelegate;
-    NSString * tableSubHeader;
+    NSString *tableSubHeader;
 }
-@property (retain,nonatomic) NSString * tableHeader;
-@property (retain,nonatomic) NSString * tableSubHeader;
-@property (nonatomic) id actionDelegate;
-@property (nonatomic) int addDocumentType;
-@property (nonatomic) int isDocumentAdded;
-@property (nonatomic) int hasSelected;
+@property(retain, nonatomic) NSString *tableHeader;
+@property(retain, nonatomic) NSString *tableSubHeader;
+@property(nonatomic) id actionDelegate;
+@property(nonatomic) int addDocumentType;
+@property(nonatomic) int isDocumentAdded;
+@property(nonatomic) int hasSelected;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewDidDisappear:(int)v1;
 - (void)viewDidLoad;
@@ -6723,10 +7158,10 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentTopBarController : NSObject {
+@interface TINDocumentTopBarController : NSObject
+{
     int isInitialState;
     int topBarControlsType;
     int currentTopBarControlsType;
@@ -6734,39 +7169,39 @@ struct anonymous_type_104 {
     int searchModeEnabled;
     int exposeViewModeEnabled;
     int newContentModeEnabled;
-    UIBarButtonItem * _settingTopBarItem;
-    UIBarButtonItem * _helpTopBarItem;
-    UIBarButtonItem * _addDocumentTopBarItem;
-    UIBarButtonItem * _scratchpadTopBarItem;
-    UIBarButtonItem * _doneTopBarItem;
-    TINDocumentViewerSettingsViewController * _tinDocumentSettingsViewController;
-    UIBarButtonItem * appBackTopBarItem;
-    UIBarButtonItem * _importDocumentTopBarItem;
-    TINQRCodeReaderViewController * _codeReaderViewContorller;
-    NSMutableArray * _topbarLeftButtons;
-    NSMutableArray * _topbarRightButtons;
-    UIBarButtonItem * _QRCodeTopBarItem;
-    UIBarButtonItem * _updateContentTopBarItem;
+    UIBarButtonItem *_settingTopBarItem;
+    UIBarButtonItem *_helpTopBarItem;
+    UIBarButtonItem *_addDocumentTopBarItem;
+    UIBarButtonItem *_scratchpadTopBarItem;
+    UIBarButtonItem *_doneTopBarItem;
+    TINDocumentViewerSettingsViewController *_tinDocumentSettingsViewController;
+    UIBarButtonItem *appBackTopBarItem;
+    UIBarButtonItem *_importDocumentTopBarItem;
+    TINQRCodeReaderViewController *_codeReaderViewContorller;
+    NSMutableArray *_topbarLeftButtons;
+    NSMutableArray *_topbarRightButtons;
+    UIBarButtonItem *_QRCodeTopBarItem;
+    UIBarButtonItem *_updateContentTopBarItem;
 }
-@property (nonatomic) int topBarControlsType;
-@property (nonatomic) int currentTopBarControlsType;
-@property (retain,nonatomic) TINDocumentViewerSettingsViewController * tinDocumentSettingsViewController;
-@property (retain,nonatomic) TINQRCodeReaderViewController * codeReaderViewContorller;
-@property (retain,nonatomic) NSMutableArray * topbarLeftButtons;
-@property (retain,nonatomic) NSMutableArray * topbarRightButtons;
-@property (retain,nonatomic) UIBarButtonItem * settingTopBarItem;
-@property (retain,nonatomic) UIBarButtonItem * addDocumentTopBarItem;
-@property (retain,nonatomic) UIBarButtonItem * scratchpadTopBarItem;
-@property (retain,nonatomic) UIBarButtonItem * importDocumentTopBarItem;
-@property (retain,nonatomic) UIBarButtonItem * doneTopBarItem;
-@property (retain,nonatomic) UIBarButtonItem * appBackTopBarItem;
-@property (retain,nonatomic) UIBarButtonItem * helpTopBarItem;
-@property (retain,nonatomic) UIBarButtonItem * QRCodeTopBarItem;
-@property (retain,nonatomic) UIBarButtonItem * updateContentTopBarItem;
-@property (nonatomic) int editModeEnabled;
-@property (nonatomic) int searchModeEnabled;
-@property (nonatomic) int exposeViewModeEnabled;
-@property (nonatomic) int newContentModeEnabled;
+@property(nonatomic) int topBarControlsType;
+@property(nonatomic) int currentTopBarControlsType;
+@property(retain, nonatomic) TINDocumentViewerSettingsViewController *tinDocumentSettingsViewController;
+@property(retain, nonatomic) TINQRCodeReaderViewController *codeReaderViewContorller;
+@property(retain, nonatomic) NSMutableArray *topbarLeftButtons;
+@property(retain, nonatomic) NSMutableArray *topbarRightButtons;
+@property(retain, nonatomic) UIBarButtonItem *settingTopBarItem;
+@property(retain, nonatomic) UIBarButtonItem *addDocumentTopBarItem;
+@property(retain, nonatomic) UIBarButtonItem *scratchpadTopBarItem;
+@property(retain, nonatomic) UIBarButtonItem *importDocumentTopBarItem;
+@property(retain, nonatomic) UIBarButtonItem *doneTopBarItem;
+@property(retain, nonatomic) UIBarButtonItem *appBackTopBarItem;
+@property(retain, nonatomic) UIBarButtonItem *helpTopBarItem;
+@property(retain, nonatomic) UIBarButtonItem *QRCodeTopBarItem;
+@property(retain, nonatomic) UIBarButtonItem *updateContentTopBarItem;
+@property(nonatomic) int editModeEnabled;
+@property(nonatomic) int searchModeEnabled;
+@property(nonatomic) int exposeViewModeEnabled;
+@property(nonatomic) int newContentModeEnabled;
 + (id)sharedDocumentTopBarController;
 - (id)init;
 - (void)createTopBarButtons;
@@ -6787,19 +7222,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINGuideMenuViewController : TINTableViewController<UINavigationControllerDelegate> {
-    NSArray * _items;
-    RootViewController * _rootController;
+@interface TINGuideMenuViewController : TINTableViewController <UINavigationControllerDelegate>
+{
+    NSArray *_items;
+    RootViewController *_rootController;
 }
-@property (retain,nonatomic) NSArray * items;
-@property RootViewController * rootController;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) NSArray *items;
+@property RootViewController *rootController;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(int)v1;
 - (void)didReceiveMemoryWarning;
@@ -6813,33 +7248,33 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentViewerSettingsViewController : TINViewController<UITableViewDataSource,UITableViewDelegate,UINavigationControllerDelegate> {
-    UITableView * _settingsTableView;
-    TINAboutViewController * _tinAboutViewController;
-    UIImageView * _bannerImage;
-    UILabel * _versionLabel;
-    TINDocumentPDFSettingsControllerViewController * _pdfSettingsController;
-    UIImageView * _bannerImageCas;
-    UIImageView * _bannerImageNCas;
-    TINRetinaDevOptimizationsViewController * retinaDevViewController;
-    UISwitch * _myWidgetsAndLibSwitch;
+@interface TINDocumentViewerSettingsViewController : TINViewController <UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate>
+{
+    UITableView *_settingsTableView;
+    TINAboutViewController *_tinAboutViewController;
+    UIImageView *_bannerImage;
+    UILabel *_versionLabel;
+    TINDocumentPDFSettingsControllerViewController *_pdfSettingsController;
+    UIImageView *_bannerImageCas;
+    UIImageView *_bannerImageNCas;
+    TINRetinaDevOptimizationsViewController *retinaDevViewController;
+    UISwitch *_myWidgetsAndLibSwitch;
 }
-@property (retain,nonatomic) TINAboutViewController * tinAboutViewController;
-@property (retain,nonatomic) TINRetinaDevOptimizationsViewController * retinaDevViewController;
-@property (retain,nonatomic) TINDocumentPDFSettingsControllerViewController * pdfSettingsController;
-@property (retain,nonatomic) UITableView * settingsTableView;
-@property (retain,nonatomic) UIImageView * bannerImage;
-@property (retain,nonatomic) UILabel * versionLabel;
-@property (retain,nonatomic) UIImageView * bannerImageCas;
-@property (retain,nonatomic) UIImageView * bannerImageNCas;
-@property (retain,nonatomic) UISwitch * myWidgetsAndLibSwitch;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) TINAboutViewController *tinAboutViewController;
+@property(retain, nonatomic) TINRetinaDevOptimizationsViewController *retinaDevViewController;
+@property(retain, nonatomic) TINDocumentPDFSettingsControllerViewController *pdfSettingsController;
+@property(retain, nonatomic) UITableView *settingsTableView;
+@property(retain, nonatomic) UIImageView *bannerImage;
+@property(retain, nonatomic) UILabel *versionLabel;
+@property(retain, nonatomic) UIImageView *bannerImageCas;
+@property(retain, nonatomic) UIImageView *bannerImageNCas;
+@property(retain, nonatomic) UISwitch *myWidgetsAndLibSwitch;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewDidLoad;
 - (void)registerCells;
@@ -6860,44 +7295,44 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINPageSorterViewController : TINViewController<UIScrollViewDelegate,ThumbImageViewDelegate,UIGestureRecognizerDelegate> {
-    UIScrollView * thumbScrollView;
+@interface TINPageSorterViewController : TINViewController <UIScrollViewDelegate, ThumbImageViewDelegate, UIGestureRecognizerDelegate>
+{
+    UIScrollView *thumbScrollView;
     int thumbViewShowing;
-    NSTimer * autoscrollTimer;
+    NSTimer *autoscrollTimer;
     double autoscrollDistance;
-    NSTimer * repaintTimer;
-    NSTimer * thumbLoadTimer;
-    Document * document;
-    ThumbImageView * selectedThumb;
-    ThumbImageView * editingThumb;
-    NSObject<TINDocumentPageDelegate> * delegate;
-    TINHighlightLayer * selectedThumbHighLight_;
+    NSTimer *repaintTimer;
+    NSTimer *thumbLoadTimer;
+    Document *document;
+    ThumbImageView *selectedThumb;
+    ThumbImageView *editingThumb;
+    NSObject<TINDocumentPageDelegate> *delegate;
+    TINHighlightLayer *selectedThumbHighLight_;
     int menuItems_;
-    TINProblemThumbView * newProblem;
+    TINProblemThumbView *newProblem;
     int repaintThumbs_;
-    NSMutableArray * problemDepot_;
+    NSMutableArray *problemDepot_;
     int keyboardVisible_;
     int tapInBottomSpace;
     struct UIEdgeInsets oldContentInsets;
     struct CGPoint oldContentOffset;
     int shouldAutoRepaintThumbViews;
-    TINTouchInUIView * touchInView;
-    TINDocumentTextfield * currentEditingTextField;
+    TINTouchInUIView *touchInView;
+    TINDocumentTextfield *currentEditingTextField;
 }
-@property (nonatomic) Document * document;
-@property (retain,nonatomic) TINTouchInUIView * touchInView;
-@property (retain,nonatomic) NSObject<TINDocumentPageDelegate> * delegate;
-@property (nonatomic) int shouldAutoRepaintThumbViews;
-@property (retain,nonatomic) ThumbImageView * selectedThumb;
-@property (retain,nonatomic) ThumbImageView * editingThumb;
-@property (retain,nonatomic) TINDocumentTextfield * currentEditingTextField;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) Document *document;
+@property(retain, nonatomic) TINTouchInUIView *touchInView;
+@property(retain, nonatomic) NSObject<TINDocumentPageDelegate> *delegate;
+@property(nonatomic) int shouldAutoRepaintThumbViews;
+@property(retain, nonatomic) ThumbImageView *selectedThumb;
+@property(retain, nonatomic) ThumbImageView *editingThumb;
+@property(retain, nonatomic) TINDocumentTextfield *currentEditingTextField;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)findCardThumbView:(int)v1 cardIndex:(int)v2;
 - (id)findProblemThumbView:(long long)v1;
 - (id)allThumbs;
@@ -6913,7 +7348,7 @@ struct anonymous_type_104 {
 - (void)moveProblemAt:(int)v1 toProblem:(int)v2;
 - (void)addThumb:(id)v1;
 - (void)addThumbs;
-- (void)insertThumb:(id)v1 intoProblem:(int)v2 atIndex:(int)v3 animated:(int)v4 completion:(void (^ /* unknown block signature */)(void))v5;
+- (void)insertThumb:(id)v1 intoProblem:(int)v2 atIndex:(int)v3 animated:(int)v4 completion:(void (^/* unknown block signature */)(void))v5;
 - (void)insertThumb:(id)v1 intoProblem:(int)v2 atIndex:(int)v3 animated:(int)v4;
 - (void)insertProblem:(id)v1 atProblemIndex:(int)v2 numOfCards:(int)v3 animated:(int)v4;
 - (struct CGRect)shiftThumbViewsForThumb:(id)v1 direction:(int)v2;
@@ -7016,25 +7451,25 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface ThumbImageView : UIView<ThumbViewEdit,UIGestureRecognizerDelegate> {
-    NSObject<ThumbImageViewDelegate> * delegate;
-    struct CGContext * context;
-    struct CGLayer * layerRef;
+@interface ThumbImageView : UIView <ThumbViewEdit, UIGestureRecognizerDelegate>
+{
+    NSObject<ThumbImageViewDelegate> *delegate;
+    struct CGContext *context;
+    struct CGLayer *layerRef;
     struct CGRect home;
-    struct _GC * graphicsContextID;
-    Document * doc;
+    struct _GC *graphicsContextID;
+    Document *doc;
     int dragging_;
     struct CGPoint touchLocation;
-    UIImage * pageImage;
+    UIImage *pageImage;
     int configured_;
     int active_;
     struct CGSize aspectRatio_;
     struct CGSize thumbSize_;
-    CALayer * borderLayer_;
-    CATextLayer * problemAndPageText_;
+    CALayer *borderLayer_;
+    CATextLayer *problemAndPageText_;
     int problemIndex;
     int cardIndex;
     int dirty;
@@ -7043,29 +7478,29 @@ struct anonymous_type_104 {
     int isLastMoved;
     int appType;
     float shadowAnimationDuration;
-    UIButton * cardDeleteButton;
+    UIButton *cardDeleteButton;
     struct CGRect thumbviewSize;
 }
-@property (nonatomic) NSObject<ThumbImageViewDelegate> * delegate;
-@property (nonatomic) struct CGRect home;
-@property (nonatomic) struct CGPoint touchLocation;
-@property (nonatomic) int problemIndex;
-@property (nonatomic) int cardIndex;
-@property (nonatomic) int dirty;
-@property (nonatomic) Document * doc;
-@property (nonatomic) struct _GC * graphicsContextID;
-@property (retain,nonatomic) UIButton * cardDeleteButton;
-@property (nonatomic) int isProblem;
-@property (nonatomic) int shouldDrawShadow;
-@property (nonatomic) int isLastMoved;
-@property (nonatomic) float shadowAnimationDuration;
-@property (nonatomic) int dragging /* backed by dragging_ */;
-@property (readonly,nonatomic) struct CGRect thumbviewSize;
-@property (nonatomic) int appType;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) NSObject<ThumbImageViewDelegate> *delegate;
+@property(nonatomic) struct CGRect home;
+@property(nonatomic) struct CGPoint touchLocation;
+@property(nonatomic) int problemIndex;
+@property(nonatomic) int cardIndex;
+@property(nonatomic) int dirty;
+@property(nonatomic) Document *doc;
+@property(nonatomic) struct _GC *graphicsContextID;
+@property(retain, nonatomic) UIButton *cardDeleteButton;
+@property(nonatomic) int isProblem;
+@property(nonatomic) int shouldDrawShadow;
+@property(nonatomic) int isLastMoved;
+@property(nonatomic) float shadowAnimationDuration;
+@property(nonatomic) int dragging /* backed by dragging_ */;
+@property(readonly, nonatomic) struct CGRect thumbviewSize;
+@property(nonatomic) int appType;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (void)awakeFromNib;
 - (id)initWithFrame:(struct CGRect)v1;
 - (void)configure;
@@ -7087,7 +7522,7 @@ struct anonymous_type_104 {
 - (int)gestureRecognizerShouldBegin:(id)v1;
 - (int)gestureRecognizer:(id)v1 shouldRecognizeSimultaneouslyWithGestureRecognizer:(id)v2;
 - (void)goHomeAnimated:(int)v1;
-- (void)goHomeAnimated:(int)v1 completion:(void (^ /* unknown block signature */)(void))v2;
+- (void)goHomeAnimated:(int)v1 completion:(void (^/* unknown block signature */)(void))v2;
 - (void)moveByOffset:(struct CGPoint)v1;
 - (void)dealloc;
 - (void)viewModeActive:(int)v1;
@@ -7102,29 +7537,29 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINProblemThumbView : ThumbImageView<UITextFieldDelegate,ThumbViewEdit> {
+@interface TINProblemThumbView : ThumbImageView <UITextFieldDelegate, ThumbViewEdit>
+{
     int collapsed;
     int isEditing;
-    NSString * name;
+    NSString *name;
     int cornerRadius_;
-    struct CGPath * roundedRectPath_;
+    struct CGPath *roundedRectPath_;
     int active;
-    TINDocumentTextfield * textField;
-    NSString * problemName;
+    TINDocumentTextfield *textField;
+    NSString *problemName;
 }
-@property (nonatomic) int isEditing;
-@property (nonatomic) int collapsed;
-@property (retain,nonatomic) NSString * name;
-@property (nonatomic) int active;
-@property (retain,nonatomic) TINDocumentTextfield * textField;
-@property (retain,nonatomic) NSString * problemName;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) int isEditing;
+@property(nonatomic) int collapsed;
+@property(retain, nonatomic) NSString *name;
+@property(nonatomic) int active;
+@property(retain, nonatomic) TINDocumentTextfield *textField;
+@property(retain, nonatomic) NSString *problemName;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)init;
 - (void)configure;
 - (void)callToPaint;
@@ -7147,22 +7582,22 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface ToolPaletteViewController : TINViewController<UITableViewDelegate,UINavigationControllerDelegate,UISearchResultsUpdating> {
-    UITableView * myTableView;
-    UIView * emptyToolsView;
-    NSObject<ToolPaletteDataSource><UITableViewDataSource> * dataSource;
-    UISearchController * _searchController;
+@interface ToolPaletteViewController : TINViewController <UITableViewDelegate, UINavigationControllerDelegate, UISearchResultsUpdating>
+{
+    UITableView *myTableView;
+    UIView *emptyToolsView;
+    NSObject<ToolPaletteDataSource><UITableViewDataSource> *dataSource;
+    UISearchController *_searchController;
 }
-@property (retain,nonatomic) UITableView * myTableView;
-@property (retain,nonatomic) NSObject<UITableViewDataSource> * dataSource;
-@property (retain,nonatomic) UISearchController * searchController;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) UITableView *myTableView;
+@property(retain, nonatomic) NSObject<UITableViewDataSource> *dataSource;
+@property(retain, nonatomic) UISearchController *searchController;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithDataSource:(id)v1;
 - (void)backToTopMenu:(id)v1;
 - (void)dealloc;
@@ -7182,27 +7617,27 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface ToolPaletteDataSource : NSObject<ToolPaletteDataSource,UITableViewDataSource> {
+@interface ToolPaletteDataSource : NSObject <ToolPaletteDataSource, UITableViewDataSource>
+{
     int emptyTools;
-    NSString * name;
-    NSString * navigationBarName;
-    NSMutableArray * items;
-    NSMutableArray * originalItems;
-    NSString * filteringText;
+    NSString *name;
+    NSString *navigationBarName;
+    NSMutableArray *items;
+    NSMutableArray *originalItems;
+    NSString *filteringText;
 }
-@property (retain,nonatomic) NSMutableArray * items;
-@property (retain,nonatomic) NSMutableArray * originalItems;
-@property (retain,nonatomic) NSString * name;
-@property (retain,nonatomic) NSString * navigationBarName;
-@property (retain,nonatomic) NSString * filteringText;
-@property (nonatomic) int emptyTools;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) NSMutableArray *items;
+@property(retain, nonatomic) NSMutableArray *originalItems;
+@property(retain, nonatomic) NSString *name;
+@property(retain, nonatomic) NSString *navigationBarName;
+@property(retain, nonatomic) NSString *filteringText;
+@property(nonatomic) int emptyTools;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 + (int)isRowSelectionAvailable:(id)v1;
 + (int)isSubmenuAvailable:(id)v1;
 - (id)initWithName:(id)v1 navigationBarName:(id)v2;
@@ -7219,17 +7654,17 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface Toolbox : NSObject {
-    Toolbox * parentToolbox;
-    NSMutableArray * toolList;
-    ToolItem * toolItem;
+@interface Toolbox : NSObject
+{
+    Toolbox *parentToolbox;
+    NSMutableArray *toolList;
+    ToolItem *toolItem;
 }
-@property (retain,nonatomic) Toolbox * parentToolbox;
-@property (retain,nonatomic) NSMutableArray * toolList;
-@property (retain,nonatomic) ToolItem * toolItem;
+@property(retain, nonatomic) Toolbox *parentToolbox;
+@property(retain, nonatomic) NSMutableArray *toolList;
+@property(retain, nonatomic) ToolItem *toolItem;
 - (id)initWithToolItem:(id)v1;
 - (void)addTool:(id)v1;
 - (void)setSelfToCurrent:(int)v1;
@@ -7241,10 +7676,10 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface ToolItem : NSObject {
+@interface ToolItem : NSObject
+{
     long long handle;
     long long toolboxId;
     long long itemId;
@@ -7253,11 +7688,11 @@ struct anonymous_type_104 {
     unsigned long long stringId;
     long long iconId;
     long long commandId;
-    int * string;
-    NSString * text;
-    NSString * image;
-    NSString * icon;
-    char * menuItemName;
+    int *string;
+    NSString *text;
+    NSString *image;
+    NSString *icon;
+    char *menuItemName;
 }
 @property long long handle;
 @property long long toolboxId;
@@ -7267,11 +7702,11 @@ struct anonymous_type_104 {
 @property unsigned long long stringId;
 @property long long iconId;
 @property long long commandId;
-@property int * string;
-@property (retain,nonatomic) NSString * text;
-@property (retain,nonatomic) NSString * icon;
-@property (retain,nonatomic) NSString * image;
-@property char * menuItemName;
+@property int *string;
+@property(retain, nonatomic) NSString *text;
+@property(retain, nonatomic) NSString *icon;
+@property(retain, nonatomic) NSString *image;
+@property char *menuItemName;
 - (id)initWithHandle:(long long)v1 toolboxId:(long long)v2 itemId:(long long)v3 itemMode:(long long)v4 moduleId:(long long)v5 stringId:(long long)v6 iconId:(long long)v7 commandId:(long long)v8 menuItemName:(char *)v9;
 - (id)initWithHandle:(long long)v1 toolboxId:(long long)v2 itemId:(long long)v3 itemMode:(long long)v4 moduleId:(long long)v5 string:(int *)v6 iconId:(long long)v7 commandId:(long long)v8 menuItemName:(char *)v9;
 - (id)initWithHandle:(long long)v1 toolboxId:(long long)v2 itemId:(long long)v3 itemMode:(long long)v4 moduleId:(long long)v5 string:(int *)v6 iconId:(long long)v7 commandId:(long long)v8 imageId:(long long)v9 menuItemName:(char *)v10;
@@ -7281,13 +7716,11 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface TINViewController : UIViewController
 - (void)viewWillAppear:(int)v1;
 @end
-
 
 /*****************************************************************/
 
@@ -7306,7 +7739,6 @@ struct anonymous_type_104 {
 - (int)getExamCodeTest;
 @end
 
-
 /*****************************************************************/
 
 @interface CustomKeyboardView : UIView
@@ -7314,26 +7746,26 @@ struct anonymous_type_104 {
 - (void)layoutSubviews;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentManager : NSObject {
-    NSMutableArray * tnsDocuments;
-    Document * currentDocument;
+@interface TINDocumentManager : NSObject
+{
+    NSMutableArray *tnsDocuments;
+    Document *currentDocument;
     int untitledDocumentCount;
     int untitledFolderCount;
-    NSURL * sourceAppURL;
-    NSMutableArray * _tnsDocuments;
+    NSURL *sourceAppURL;
+    NSMutableArray *_tnsDocuments;
     long long _untitledDocumentCount;
-    NSString * _revisedDocumentPath;
+    NSString *_revisedDocumentPath;
     long long _untitledFolderCount;
 }
-@property (retain,nonatomic) NSURL * sourceAppURL;
-@property (retain,nonatomic) NSMutableArray * tnsDocuments;
-@property (retain,nonatomic) Document * currentDocument;
-@property (nonatomic) long long untitledDocumentCount;
-@property (nonatomic) long long untitledFolderCount;
-@property (retain,nonatomic) NSString * revisedDocumentPath;
+@property(retain, nonatomic) NSURL *sourceAppURL;
+@property(retain, nonatomic) NSMutableArray *tnsDocuments;
+@property(retain, nonatomic) Document *currentDocument;
+@property(nonatomic) long long untitledDocumentCount;
+@property(nonatomic) long long untitledFolderCount;
+@property(retain, nonatomic) NSString *revisedDocumentPath;
 + (id)sharedDocumentManager;
 - (id)init;
 - (void)removeDocumentFromStack:(id)v1 withPath:(id)v2;
@@ -7341,7 +7773,7 @@ struct anonymous_type_104 {
 - (void)removeDocumentFromStack:(id)v1;
 - (long long)isDocInTheStack:(id)v1;
 - (void)addTNSDocument:(id)v1;
-- (void)closeLastDocumentWithCompletionHandler:(void (^ /* unknown block signature */)(void))v1;
+- (void)closeLastDocumentWithCompletionHandler:(void (^/* unknown block signature */)(void))v1;
 - (void)closeLastDocument;
 - (int)isDocumentURLEqual:(id)v1 withURL:(id)v2;
 - (void)verifyDocumentStackWithPath:(id)v1;
@@ -7357,7 +7789,6 @@ struct anonymous_type_104 {
 - (void)removeLastDocumentFromStack;
 - (void).cxx_destruct;
 @end
-
 
 /*****************************************************************/
 
@@ -7377,12 +7808,12 @@ struct anonymous_type_104 {
 - (int)isRedoing;
 @end
 
-
 /*****************************************************************/
 
-@interface Document : UIDocument {
-    struct anonymous_type_17 * executionContextID;
-    void * docHandle;
+@interface Document : UIDocument
+{
+    struct anonymous_type_17 *executionContextID;
+    void *docHandle;
     short _angleModeCode;
     int _isClosed;
     int _isDirty;
@@ -7396,47 +7827,47 @@ struct anonymous_type_104 {
     int _isNewDocument;
     int _isThumbReady;
     int _isDocumentMinorVersion;
-    QuartzNspireView * _view;
-    TINPageSorterViewController * _pageSorterView;
-    NSString * _documentName;
-    NSURL * _documentURL;
-    TINDocumentModelFile * _documentModelObject;
-    NSProgress * _loadProgress;
-    NSString * _angleMode;
+    QuartzNspireView *_view;
+    TINPageSorterViewController *_pageSorterView;
+    NSString *_documentName;
+    NSURL *_documentURL;
+    TINDocumentModelFile *_documentModelObject;
+    NSProgress *_loadProgress;
+    NSString *_angleMode;
 }
-@property (retain,nonatomic) NSString * documentName;
-@property (nonatomic) struct anonymous_type_35 * executionContextID;
-@property (nonatomic) void * docHandle;
-@property (retain,nonatomic) QuartzNspireView * view;
-@property (nonatomic) TINPageSorterViewController * pageSorterView;
-@property (retain,nonatomic) NSURL * documentURL;
+@property(retain, nonatomic) NSString *documentName;
+@property(nonatomic) struct anonymous_type_35 *executionContextID;
+@property(nonatomic) void *docHandle;
+@property(retain, nonatomic) QuartzNspireView *view;
+@property(nonatomic) TINPageSorterViewController *pageSorterView;
+@property(retain, nonatomic) NSURL *documentURL;
 @property int isClosed;
 @property int isClosing;
 @property int isSaving;
-@property (nonatomic) int isThumbReady;
-@property (nonatomic) int readOnlyMode;
-@property (nonatomic) int isDirty;
-@property (nonatomic) int isAlreadyOpen;
-@property (nonatomic) int isDocumentMinorVersion;
-@property (nonatomic) int isContentModified;
-@property (nonatomic) int isSaveRestricted;
-@property (nonatomic) int isNewDocument;
-@property (nonatomic) int isFromDocManagerOpen;
-@property (retain,nonatomic) TINDocumentModelFile * documentModelObject;
-@property (retain,nonatomic) NSString * angleMode;
-@property (nonatomic) short angleModeCode;
-@property (retain,nonatomic) NSProgress * loadProgress;
+@property(nonatomic) int isThumbReady;
+@property(nonatomic) int readOnlyMode;
+@property(nonatomic) int isDirty;
+@property(nonatomic) int isAlreadyOpen;
+@property(nonatomic) int isDocumentMinorVersion;
+@property(nonatomic) int isContentModified;
+@property(nonatomic) int isSaveRestricted;
+@property(nonatomic) int isNewDocument;
+@property(nonatomic) int isFromDocManagerOpen;
+@property(retain, nonatomic) TINDocumentModelFile *documentModelObject;
+@property(retain, nonatomic) NSString *angleMode;
+@property(nonatomic) short angleModeCode;
+@property(retain, nonatomic) NSProgress *loadProgress;
 - (id)initTNSDocumentWithFileURL:(id)v1;
-- (void)initEmptyTNSDocumentWithCompletionHandler:(void (^ /* unknown block signature */)(void))v1 forSaveOperation:(long long)v2;
-- (void)initEmptyTNSDocumentWithCompletionHandler:(void (^ /* unknown block signature */)(void))v1;
+- (void)initEmptyTNSDocumentWithCompletionHandler:(void (^/* unknown block signature */)(void))v1 forSaveOperation:(long long)v2;
+- (void)initEmptyTNSDocumentWithCompletionHandler:(void (^/* unknown block signature */)(void))v1;
 - (void)changeState:(id)v1;
 - (void)launchTNSDocument;
 - (void)openDocument;
-- (void)revertToContentsOfURL:(id)v1 completionHandler:(void (^ /* unknown block signature */)(void))v2;
+- (void)revertToContentsOfURL:(id)v1 completionHandler:(void (^/* unknown block signature */)(void))v2;
 - (void)showUserMinorVersionError;
-- (void)closeWithCompletionHandler:(void (^ /* unknown block signature */)(void))v1;
+- (void)closeWithCompletionHandler:(void (^/* unknown block signature */)(void))v1;
 - (void)saveTNSDocument;
-- (void)saveWithCompletionHandler:(void (^ /* unknown block signature */)(void))v1;
+- (void)saveWithCompletionHandler:(void (^/* unknown block signature */)(void))v1;
 - (void)handleError:(id)v1 userInteractionPermitted:(int)v2;
 - (void)userInteractionNoLongerPermittedForError:(id)v1;
 - (id)initTNSDocumentWithDocumentURL:(id)v1;
@@ -7451,7 +7882,7 @@ struct anonymous_type_104 {
 - (int)readFromURL:(id)v1 error:(id *)v2;
 - (int)hasUnsavedChanges;
 - (id)colorForActiveApplication;
-- (void)autosaveWithCompletionHandler:(void (^ /* unknown block signature */)(void))v1;
+- (void)autosaveWithCompletionHandler:(void (^/* unknown block signature */)(void))v1;
 - (void)cutCard:(int)v1 inProblem:(int)v2;
 - (void)pasteCardInClipboardToProblem:(int)v1 atPosition:(int)v2;
 - (void)deleteCard:(int)v1 inProblem:(int)v2;
@@ -7474,104 +7905,104 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface QuartzNspireView : UIView<UIKeyInput,UITextInput,UIGestureRecognizerDelegate,UIInputViewAudioFeedback,UITextInputTraits> {
-    Document * doc;
-    struct CGContext * context;
-    struct CGLayer * layerRef;
+@interface QuartzNspireView : UIView <UIKeyInput, UITextInput, UIGestureRecognizerDelegate, UIInputViewAudioFeedback, UITextInputTraits>
+{
+    Document *doc;
+    struct CGContext *context;
+    struct CGLayer *layerRef;
     struct CGRect viewFrame;
     struct CGSize cardSize;
     double yOffset;
-    NSTimer * keysTimer;
-    NSArray * keysCommands;
+    NSTimer *keysTimer;
+    NSArray *keysCommands;
     int keycode;
     int ctrlPressed;
     int altPressed;
     int shiftPressed;
-    struct _GC * myGC;
-    UILabel * tooltip;
+    struct _GC *myGC;
+    UILabel *tooltip;
     int isVisible;
     int isKeyboardUp;
     int isGoingAway;
-    IndexedPosition * position;
+    IndexedPosition *position;
     double cardViewerWidth;
     double cardViewerHeight;
     double cardViewerXOrigin;
     double cardViewerYOrigin;
-    NSArray * _selectionArray;
-    IndexedRange * _range;
+    NSArray *_selectionArray;
+    IndexedRange *_range;
     long long _keyboardType;
     long long _autocorrectionType;
 }
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
-@property (readonly,nonatomic) int hasText;
-@property (nonatomic) long long autocapitalizationType;
-@property (nonatomic) long long autocorrectionType;
-@property (nonatomic) long long spellCheckingType;
-@property (nonatomic) long long smartQuotesType;
-@property (nonatomic) long long smartDashesType;
-@property (nonatomic) long long smartInsertDeleteType;
-@property (nonatomic) long long inlinePredictionType;
-@property (nonatomic) long long keyboardType;
-@property (nonatomic) long long keyboardAppearance;
-@property (nonatomic) long long returnKeyType;
-@property (nonatomic) int enablesReturnKeyAutomatically;
-@property (nonatomic,getter=isSecureTextEntry) int secureTextEntry;
-@property (copy,nonatomic) NSString * textContentType;
-@property (copy,nonatomic) UITextInputPasswordRules * passwordRules;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
-@property (copy) UITextRange * selectedTextRange;
-@property (readonly,nonatomic) UITextRange * markedTextRange;
-@property (copy,nonatomic) NSDictionary * markedTextStyle;
-@property (readonly,nonatomic) UITextPosition * beginningOfDocument;
-@property (readonly,nonatomic) UITextPosition * endOfDocument;
-@property (nonatomic) NSObject<UITextInputDelegate> * inputDelegate;
-@property (readonly,nonatomic) NSObject<UITextInputTokenizer> * tokenizer;
-@property (readonly,nonatomic) UIView * textInputView;
-@property (nonatomic) long long selectionAffinity;
-@property (readonly,nonatomic) id insertDictationResultPlaceholder;
-@property (nonatomic) NSArray * selectionArray;
-@property (nonatomic) IndexedRange * range;
-@property (nonatomic) IndexedPosition * position;
-@property (nonatomic) long long keyboardType;
-@property (nonatomic) long long autocorrectionType;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
+@property(readonly, nonatomic) int hasText;
+@property(nonatomic) long long autocapitalizationType;
+@property(nonatomic) long long autocorrectionType;
+@property(nonatomic) long long spellCheckingType;
+@property(nonatomic) long long smartQuotesType;
+@property(nonatomic) long long smartDashesType;
+@property(nonatomic) long long smartInsertDeleteType;
+@property(nonatomic) long long inlinePredictionType;
+@property(nonatomic) long long keyboardType;
+@property(nonatomic) long long keyboardAppearance;
+@property(nonatomic) long long returnKeyType;
+@property(nonatomic) int enablesReturnKeyAutomatically;
+@property(nonatomic, getter=isSecureTextEntry) int secureTextEntry;
+@property(copy, nonatomic) NSString *textContentType;
+@property(copy, nonatomic) UITextInputPasswordRules *passwordRules;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
+@property(copy) UITextRange *selectedTextRange;
+@property(readonly, nonatomic) UITextRange *markedTextRange;
+@property(copy, nonatomic) NSDictionary *markedTextStyle;
+@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
+@property(readonly, nonatomic) UITextPosition *endOfDocument;
+@property(nonatomic) NSObject<UITextInputDelegate> *inputDelegate;
+@property(readonly, nonatomic) NSObject<UITextInputTokenizer> *tokenizer;
+@property(readonly, nonatomic) UIView *textInputView;
+@property(nonatomic) long long selectionAffinity;
+@property(readonly, nonatomic) id insertDictationResultPlaceholder;
+@property(nonatomic) NSArray *selectionArray;
+@property(nonatomic) IndexedRange *range;
+@property(nonatomic) IndexedPosition *position;
+@property(nonatomic) long long keyboardType;
+@property(nonatomic) long long autocorrectionType;
 @property int isVisible;
-@property (nonatomic) Document * doc;
-@property (nonatomic) struct _GC * myGC;
-@property (nonatomic) struct CGRect viewFrame;
-@property (nonatomic) struct CGSize cardSize;
-@property (nonatomic) int isKeyboardUp;
-@property (nonatomic) int isGoingAway;
-@property (nonatomic) double yOffset;
-@property (nonatomic) double cardViewerWidth;
-@property (nonatomic) double cardViewerHeight;
-@property (nonatomic) double cardViewerXOrigin;
-@property (nonatomic) double cardViewerYOrigin;
-@property (readonly,nonatomic) int enableInputClicksWhenVisible;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
-@property (nonatomic) long long autocapitalizationType;
-@property (nonatomic) long long spellCheckingType;
-@property (nonatomic) long long smartQuotesType;
-@property (nonatomic) long long smartDashesType;
-@property (nonatomic) long long smartInsertDeleteType;
-@property (nonatomic) long long inlinePredictionType;
-@property (nonatomic) long long keyboardAppearance;
-@property (nonatomic) long long returnKeyType;
-@property (nonatomic) int enablesReturnKeyAutomatically;
-@property (nonatomic,getter=isSecureTextEntry) int secureTextEntry;
-@property (copy,nonatomic) NSString * textContentType;
-@property (copy,nonatomic) UITextInputPasswordRules * passwordRules;
+@property(nonatomic) Document *doc;
+@property(nonatomic) struct _GC *myGC;
+@property(nonatomic) struct CGRect viewFrame;
+@property(nonatomic) struct CGSize cardSize;
+@property(nonatomic) int isKeyboardUp;
+@property(nonatomic) int isGoingAway;
+@property(nonatomic) double yOffset;
+@property(nonatomic) double cardViewerWidth;
+@property(nonatomic) double cardViewerHeight;
+@property(nonatomic) double cardViewerXOrigin;
+@property(nonatomic) double cardViewerYOrigin;
+@property(readonly, nonatomic) int enableInputClicksWhenVisible;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
+@property(nonatomic) long long autocapitalizationType;
+@property(nonatomic) long long spellCheckingType;
+@property(nonatomic) long long smartQuotesType;
+@property(nonatomic) long long smartDashesType;
+@property(nonatomic) long long smartInsertDeleteType;
+@property(nonatomic) long long inlinePredictionType;
+@property(nonatomic) long long keyboardAppearance;
+@property(nonatomic) long long returnKeyType;
+@property(nonatomic) int enablesReturnKeyAutomatically;
+@property(nonatomic, getter=isSecureTextEntry) int secureTextEntry;
+@property(copy, nonatomic) NSString *textContentType;
+@property(copy, nonatomic) UITextInputPasswordRules *passwordRules;
 + (int)resolveInstanceMethod:(SEL)v1;
 - (int)canPerformAction:(SEL)v1 withSender:(id)v2;
 - (void)cut:(id)v1;
@@ -7694,42 +8125,39 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface KeyBoardUtilities : NSObject
 + (struct CGSize)keyboardSizeFromNotification:(id)v1 view:(id)v2;
 @end
 
-
 /*****************************************************************/
 
 @interface StringUtilities : NSObject
 + (id)convertToString:(int *)v1;
 + (int *)convertToWchart_t:(id)v1;
-+ (id)convertToStringArray:(int * *)v1;
++ (id)convertToStringArray:(int **)v1;
 + (id)convertToSupportedString:(id)v1;
 + (id)localizeStringWithFormat:(id)v1 array:(id)v2;
 @end
 
-
 /*****************************************************************/
 
-@interface TimerController : NSObject {
-    NSTimer * m_Timer;
-    void * m_Data;
+@interface TimerController : NSObject
+{
+    NSTimer *m_Timer;
+    void *m_Data;
     int m_Ms;
-    void * * m_ExpirationRoutine;
+    void **m_ExpirationRoutine;
 }
-- (id)initWithTimeInterval:(int)v1 callback:(void * *)v2 data:(long long)v3;
+- (id)initWithTimeInterval:(int)v1 callback:(void **)v2 data:(long long)v3;
 - (void)timerFireMethod;
 - (int)startUnregisteredTimer;
 - (int)stopUnregisteredTimer;
-- (int)resetUnregisteredTimer:(int)v1 callback:(void * *)v2;
+- (int)resetUnregisteredTimer:(int)v1 callback:(void **)v2;
 - (void)dealloc;
 - (void).cxx_destruct;
 @end
-
 
 /*****************************************************************/
 
@@ -7743,16 +8171,16 @@ struct anonymous_type_104 {
 + (id)applicationiTunesSandboxDocumentsFolder;
 + (id)applicationBundleDocsFolder;
 + (id)applicationBundleImagesFolder;
-+ (const  char *)logFolder;
-+ (const  char *)resourcesFolder;
++ (const char *)logFolder;
++ (const char *)resourcesFolder;
 + (id)gettingStartedFolder;
-+ (const  char *)appsPreferencesFolder;
-+ (const  char *)myLibFolder;
-+ (const  char *)myWidgetsFolder;
++ (const char *)appsPreferencesFolder;
++ (const char *)myLibFolder;
++ (const char *)myWidgetsFolder;
 + (id)applicationBackupThumbnails:(int)v1;
 + (id)applicationBundleThumbnailIcons:(id)v1;
 + (id)applicationBackupThumbnailsImages:(id)v1 creationDate:(id)v2;
-+ (void)createBitmapContextWithSize:(struct CGSize *)v1 layerPtr:(struct CGLayer * *)v2 contextPtr:(struct CGContext * *)v3;
++ (void)createBitmapContextWithSize:(struct CGSize *)v1 layerPtr:(struct CGLayer **)v2 contextPtr:(struct CGContext **)v3;
 + (id)documentNameWithTNSExtension:(id)v1;
 + (int)isFloat:(float)v1 equalTo:(float)v2;
 + (int)isCasEnabled;
@@ -7766,21 +8194,21 @@ struct anonymous_type_104 {
 + (int)isPortraitMode;
 @end
 
-
 /*****************************************************************/
 
-@interface TINAboutViewController : TINViewController {
-    UILabel * versionAndReleaseLabel;
-    UILabel * tiCopyRightContent;
-    UILabel * aboutContent;
-    UIImageView * bannerImageCas;
-    UIImageView * bannerImageNCas;
+@interface TINAboutViewController : TINViewController
+{
+    UILabel *versionAndReleaseLabel;
+    UILabel *tiCopyRightContent;
+    UILabel *aboutContent;
+    UIImageView *bannerImageCas;
+    UIImageView *bannerImageNCas;
 }
-@property (retain,nonatomic) UILabel * versionAndReleaseLabel;
-@property (retain,nonatomic) UILabel * aboutContent;
-@property (retain,nonatomic) UILabel * tiCopyRightContent;
-@property (retain,nonatomic) UIImageView * bannerImageCas;
-@property (retain,nonatomic) UIImageView * bannerImageNCas;
+@property(retain, nonatomic) UILabel *versionAndReleaseLabel;
+@property(retain, nonatomic) UILabel *aboutContent;
+@property(retain, nonatomic) UILabel *tiCopyRightContent;
+@property(retain, nonatomic) UIImageView *bannerImageCas;
+@property(retain, nonatomic) UIImageView *bannerImageNCas;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)didReceiveMemoryWarning;
 - (void)openLink:(id)v1;
@@ -7790,32 +8218,32 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentSettingsViewController : TINViewController<UINavigationControllerDelegate,SettingsDelegate,UITableViewDelegate,UITableViewDataSource> {
-    UITableView * table;
-    UIButton * makeDefaultButton;
-    UIButton * restoreButton;
+@interface TINDocumentSettingsViewController : TINViewController <UINavigationControllerDelegate, SettingsDelegate, UITableViewDelegate, UITableViewDataSource>
+{
+    UITableView *table;
+    UIButton *makeDefaultButton;
+    UIButton *restoreButton;
     int _isDialogVisible;
-    NSMutableArray * items;
-    NSMutableArray * detailedItems;
-    NSMutableArray * selectedSettings;
-    NSMutableArray * selectedSettingsBackup;
-    NSLayoutConstraint * heightConstraint;
+    NSMutableArray *items;
+    NSMutableArray *detailedItems;
+    NSMutableArray *selectedSettings;
+    NSMutableArray *selectedSettingsBackup;
+    NSLayoutConstraint *heightConstraint;
 }
-@property (retain,nonatomic) NSMutableArray * items;
-@property (retain,nonatomic) NSMutableArray * detailedItems;
-@property (retain,nonatomic) NSMutableArray * selectedSettings;
-@property (retain,nonatomic) NSMutableArray * selectedSettingsBackup;
-@property (retain,nonatomic) UIButton * makeDefaultButton;
-@property (retain,nonatomic) UIButton * restoreButton;
-@property (nonatomic) int isDialogVisible;
-@property (nonatomic) NSLayoutConstraint * heightConstraint;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) NSMutableArray *items;
+@property(retain, nonatomic) NSMutableArray *detailedItems;
+@property(retain, nonatomic) NSMutableArray *selectedSettings;
+@property(retain, nonatomic) NSMutableArray *selectedSettingsBackup;
+@property(retain, nonatomic) UIButton *makeDefaultButton;
+@property(retain, nonatomic) UIButton *restoreButton;
+@property(nonatomic) int isDialogVisible;
+@property(nonatomic) NSLayoutConstraint *heightConstraint;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)didReceiveMemoryWarning;
 - (void)loadView;
@@ -7841,19 +8269,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINSettingsDetailedViewController : TINTableViewController {
-    NSArray * items;
+@interface TINSettingsDetailedViewController : TINTableViewController
+{
+    NSArray *items;
     long long displayedSetting;
     long long selectedSetting;
-    NSObject<SettingsDelegate> * delegate;
+    NSObject<SettingsDelegate> *delegate;
 }
-@property (retain,nonatomic) NSArray * items;
+@property(retain, nonatomic) NSArray *items;
 @property long long displayedSetting;
 @property long long selectedSetting;
-@property (retain,nonatomic) NSObject<SettingsDelegate> * delegate;
+@property(retain, nonatomic) NSObject<SettingsDelegate> *delegate;
 - (id)initWithStyle:(long long)v1 items:(id)v2 navigationBarTitle:(id)v3 backButtonTitle:(id)v4 displayedSetting:(long long)v5 selectedSetting:(long long)v6;
 - (void)didReceiveMemoryWarning;
 - (void)viewDidLoad;
@@ -7866,10 +8294,10 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface PressToTestSettingsHHiOS : NSObject {
+@interface PressToTestSettingsHHiOS : NSObject
+{
     int limitGeometry;
     int disableFunctionConicGrabMove;
     int disableVector;
@@ -7887,26 +8315,26 @@ struct anonymous_type_104 {
     int disableNsolver;
     int disableSliders;
     int examCode;
-    NSString * name;
+    NSString *name;
 }
-@property (nonatomic) int limitGeometry;
-@property (nonatomic) int disableFunctionConicGrabMove;
-@property (nonatomic) int disableVector;
-@property (nonatomic) int disableIsPrime;
-@property (nonatomic) int disableDifferential;
-@property (nonatomic) int disableInequal;
-@property (nonatomic) int disable3D;
-@property (nonatomic) int disableImplicitGraphing;
-@property (nonatomic) int limitTrigonometric;
-@property (nonatomic) int disableLogbx;
-@property (nonatomic) int disablePolynomial;
-@property (nonatomic) int disableCAS;
-@property (nonatomic) int disableExact;
-@property (nonatomic) int angle;
-@property (nonatomic) int disableNsolver;
-@property (nonatomic) int disableSliders;
-@property (retain,nonatomic) NSString * name;
-@property (nonatomic) int examCode;
+@property(nonatomic) int limitGeometry;
+@property(nonatomic) int disableFunctionConicGrabMove;
+@property(nonatomic) int disableVector;
+@property(nonatomic) int disableIsPrime;
+@property(nonatomic) int disableDifferential;
+@property(nonatomic) int disableInequal;
+@property(nonatomic) int disable3D;
+@property(nonatomic) int disableImplicitGraphing;
+@property(nonatomic) int limitTrigonometric;
+@property(nonatomic) int disableLogbx;
+@property(nonatomic) int disablePolynomial;
+@property(nonatomic) int disableCAS;
+@property(nonatomic) int disableExact;
+@property(nonatomic) int angle;
+@property(nonatomic) int disableNsolver;
+@property(nonatomic) int disableSliders;
+@property(retain, nonatomic) NSString *name;
+@property(nonatomic) int examCode;
 + (id)instancePTTS;
 - (id)createRestrictions:(id)v1;
 - (id)examCodeFormat:(int)v1;
@@ -7914,38 +8342,38 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINCatalogViewController : TINViewController<UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate> {
-    NSMutableArray * tableData;
-    NSMutableArray * listOfItems;
-    NSMutableArray * tableDataStructure;
-    UISwitch * wizardSwitch;
-    UITextView * tooltipView;
-    UIBarButtonItem * doneButton;
-    NSIndexPath * selectedIndexPath;
-    UISearchBar * sBar;
-    UITableView * myTableView;
-    UIView * wizardContainer;
-    UILabel * wizardLabel;
-    NSLayoutConstraint * tableViewHeight;
+@interface TINCatalogViewController : TINViewController <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
+{
+    NSMutableArray *tableData;
+    NSMutableArray *listOfItems;
+    NSMutableArray *tableDataStructure;
+    UISwitch *wizardSwitch;
+    UITextView *tooltipView;
+    UIBarButtonItem *doneButton;
+    NSIndexPath *selectedIndexPath;
+    UISearchBar *sBar;
+    UITableView *myTableView;
+    UIView *wizardContainer;
+    UILabel *wizardLabel;
+    NSLayoutConstraint *tableViewHeight;
 }
-@property (nonatomic) UISearchBar * sBar;
-@property (nonatomic) UIView * wizardContainer;
-@property (nonatomic) UITableView * myTableView;
-@property (nonatomic) UITextView * tooltipView;
-@property (nonatomic) UILabel * wizardLabel;
-@property (nonatomic) UISwitch * wizardSwitch;
-@property (retain,nonatomic) NSMutableArray * listOfItems;
-@property (retain,nonatomic) NSMutableArray * tableDataStructure;
-@property (nonatomic) NSLayoutConstraint * tableViewHeight;
-@property (retain,nonatomic) UIBarButtonItem * doneButton;
-@property (retain,nonatomic) NSIndexPath * selectedIndexPath;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) UISearchBar *sBar;
+@property(nonatomic) UIView *wizardContainer;
+@property(nonatomic) UITableView *myTableView;
+@property(nonatomic) UITextView *tooltipView;
+@property(nonatomic) UILabel *wizardLabel;
+@property(nonatomic) UISwitch *wizardSwitch;
+@property(retain, nonatomic) NSMutableArray *listOfItems;
+@property(retain, nonatomic) NSMutableArray *tableDataStructure;
+@property(nonatomic) NSLayoutConstraint *tableViewHeight;
+@property(retain, nonatomic) UIBarButtonItem *doneButton;
+@property(retain, nonatomic) NSIndexPath *selectedIndexPath;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithToolTitle:(id)v1 backTitle:(id)v2;
 - (void)loadCatalogViews;
 - (void)viewDidLoad;
@@ -7969,14 +8397,12 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface TINConversionUnitsViewController : TINToolsWithWizardViewController
 - (void)populateTools;
 - (void)doneAction;
 @end
-
 
 /*****************************************************************/
 
@@ -7988,32 +8414,31 @@ struct anonymous_type_104 {
 - (void)populateTools;
 @end
 
-
 /*****************************************************************/
 
 @interface TINMathOperatorsViewController : TINToolsWithWizardViewController
 - (void)populateTools;
 @end
 
-
 /*****************************************************************/
 
-@interface TINSymbolsViewController : TINViewController<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout> {
-    UILabel * wizardLabel;
-    UISwitch * wizardSwitch;
-    UITextView * tooltipView;
-    TINToolButton * selectedButton;
+@interface TINSymbolsViewController : TINViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+{
+    UILabel *wizardLabel;
+    UISwitch *wizardSwitch;
+    UITextView *tooltipView;
+    TINToolButton *selectedButton;
     int wizardEnabled;
-    NSMutableArray * listOfTools;
-    NSMutableArray * listOfButtons;
+    NSMutableArray *listOfTools;
+    NSMutableArray *listOfButtons;
 }
-@property (retain,nonatomic) NSMutableArray * listOfTools;
+@property(retain, nonatomic) NSMutableArray *listOfTools;
 @property int wizardEnabled;
-@property (retain) NSMutableArray * listOfButtons;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain) NSMutableArray *listOfButtons;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithToolTitle:(id)v1 backTitle:(id)v2;
 - (void)didReceiveMemoryWarning;
 - (void)createView;
@@ -8035,29 +8460,29 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINToolsPickerViewController : TINTableViewController<UINavigationControllerDelegate> {
-    NSMutableArray * listOfTools;
-    NSMutableArray * toolsAccesibilityLabels;
-    TINMathTemplatesViewController * mathTemplatesViewController;
-    TINSymbolsViewController * symbolsViewController;
-    TINCatalogViewController * catalogViewController;
-    TINMathOperatorsViewController * mathOperatorsViewController;
-    TINConversionUnitsViewController * conversionUnitsViewController;
-    TINLibrariesViewController * librariesViewController;
+@interface TINToolsPickerViewController : TINTableViewController <UINavigationControllerDelegate>
+{
+    NSMutableArray *listOfTools;
+    NSMutableArray *toolsAccesibilityLabels;
+    TINMathTemplatesViewController *mathTemplatesViewController;
+    TINSymbolsViewController *symbolsViewController;
+    TINCatalogViewController *catalogViewController;
+    TINMathOperatorsViewController *mathOperatorsViewController;
+    TINConversionUnitsViewController *conversionUnitsViewController;
+    TINLibrariesViewController *librariesViewController;
 }
-@property (retain,nonatomic) TINMathTemplatesViewController * mathTemplatesViewController;
-@property (retain,nonatomic) TINSymbolsViewController * symbolsViewController;
-@property (retain,nonatomic) TINCatalogViewController * catalogViewController;
-@property (retain,nonatomic) TINMathOperatorsViewController * mathOperatorsViewController;
-@property (retain,nonatomic) TINConversionUnitsViewController * conversionUnitsViewController;
-@property (retain,nonatomic) TINLibrariesViewController * librariesViewController;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) TINMathTemplatesViewController *mathTemplatesViewController;
+@property(retain, nonatomic) TINSymbolsViewController *symbolsViewController;
+@property(retain, nonatomic) TINCatalogViewController *catalogViewController;
+@property(retain, nonatomic) TINMathOperatorsViewController *mathOperatorsViewController;
+@property(retain, nonatomic) TINConversionUnitsViewController *conversionUnitsViewController;
+@property(retain, nonatomic) TINLibrariesViewController *librariesViewController;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 + (id)sharedUtilitiesPicker;
 - (void)initializeUtilities;
 - (void)resetViews;
@@ -8075,49 +8500,49 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINPageViewTopBarController : TINViewController<UIScrollViewDelegate> {
-    UIImage * appImage;
-    UILabel * problemHeader_;
-    UIView * problemHeaderView_;
-    UIButton * varButton_;
-    UIButton * catalogButton;
-    UIFont * headerFont;
+@interface TINPageViewTopBarController : TINViewController <UIScrollViewDelegate>
+{
+    UIImage *appImage;
+    UILabel *problemHeader_;
+    UIView *problemHeaderView_;
+    UIButton *varButton_;
+    UIButton *catalogButton;
+    UIFont *headerFont;
     int currentAppID;
     int toolsChanged;
     int containsEmptyApp;
-    UIColor * activeDocumentColor;
-    NSObject<TINDocumentDelegate> * delegate;
-    NSString * headerText;
-    UIImage * backgroundImage;
-    UIButton * inspectorButton;
-    TINAppCardBarViewController * appCardBarController_;
-    UIView * _problemHeaderContainer;
-    UIView * _leftIndicator;
-    UIView * _rigthIndicator;
-    UIView * _appCardBarContainer;
-    UIScrollView * _scrollableToolBar;
+    UIColor *activeDocumentColor;
+    NSObject<TINDocumentDelegate> *delegate;
+    NSString *headerText;
+    UIImage *backgroundImage;
+    UIButton *inspectorButton;
+    TINAppCardBarViewController *appCardBarController_;
+    UIView *_problemHeaderContainer;
+    UIView *_leftIndicator;
+    UIView *_rigthIndicator;
+    UIView *_appCardBarContainer;
+    UIScrollView *_scrollableToolBar;
 }
-@property (retain,nonatomic) UIColor * activeDocumentColor;
-@property (retain,nonatomic) NSString * headerText;
-@property (retain,nonatomic) NSObject<TINDocumentDelegate> * delegate;
-@property (retain,nonatomic) UIFont * headerFont;
-@property (retain,nonatomic) UIImage * backgroundImage;
-@property (retain,nonatomic) UIButton * inspectorButton;
-@property (retain,nonatomic) TINAppCardBarViewController * appCardBarController_;
+@property(retain, nonatomic) UIColor *activeDocumentColor;
+@property(retain, nonatomic) NSString *headerText;
+@property(retain, nonatomic) NSObject<TINDocumentDelegate> *delegate;
+@property(retain, nonatomic) UIFont *headerFont;
+@property(retain, nonatomic) UIImage *backgroundImage;
+@property(retain, nonatomic) UIButton *inspectorButton;
+@property(retain, nonatomic) TINAppCardBarViewController *appCardBarController_;
 @property int toolsChanged;
 @property int containsEmptyApp;
-@property (retain,nonatomic) UIView * problemHeaderContainer;
-@property (retain,nonatomic) UIView * leftIndicator;
-@property (retain,nonatomic) UIView * rigthIndicator;
-@property (retain,nonatomic) UIView * appCardBarContainer;
-@property (retain,nonatomic) UIScrollView * scrollableToolBar;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) UIView *problemHeaderContainer;
+@property(retain, nonatomic) UIView *leftIndicator;
+@property(retain, nonatomic) UIView *rigthIndicator;
+@property(retain, nonatomic) UIView *appCardBarContainer;
+@property(retain, nonatomic) UIScrollView *scrollableToolBar;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (void)dealloc;
 - (void)didReceiveMemoryWarning;
 - (void)addIcons;
@@ -8151,29 +8576,29 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINTestModeRestrictionsDetailedView : TINViewController<UITableViewDataSource,UITableViewDelegate,UINavigationControllerDelegate> {
+@interface TINTestModeRestrictionsDetailedView : TINViewController <UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate>
+{
     int _numberCells;
     int _option;
-    NSObject<RestrictionsDelegates> * delegate;
-    UITableView * _detailsTable;
-    NSArray * _detailedItems;
+    NSObject<RestrictionsDelegates> *delegate;
+    UITableView *_detailsTable;
+    NSArray *_detailedItems;
     long long _selectedSetting;
     long long _displayedSetting;
 }
-@property (nonatomic) UITableView * detailsTable;
-@property (nonatomic) int numberCells;
-@property (nonatomic) int option;
-@property (retain,nonatomic) NSArray * detailedItems;
-@property (retain,nonatomic) NSObject<RestrictionsDelegates> * delegate;
+@property(nonatomic) UITableView *detailsTable;
+@property(nonatomic) int numberCells;
+@property(nonatomic) int option;
+@property(retain, nonatomic) NSArray *detailedItems;
+@property(retain, nonatomic) NSObject<RestrictionsDelegates> *delegate;
 @property long long displayedSetting;
 @property long long selectedSetting;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewDidLoad;
 - (void)showDocumentView:(id)v1;
@@ -8186,7 +8611,6 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface CatalogSymbolsResIds : NSObject
@@ -8194,48 +8618,48 @@ struct anonymous_type_104 {
 + (int)getMathOpSubcategory;
 @end
 
-
 /*****************************************************************/
 
-@interface TINKeyboardViewController : UIViewController {
+@interface TINKeyboardViewController : UIViewController
+{
     id firstResponder;
-    UIView * keyBoardRefView;
-    UIView * inputAccessoryView;
-    UIView * splitInputAccessoryView;
-    UIButton * abcKey;
-    UIButton * fxTemkey;
-    UIButton * upkey;
-    UIButton * downkey;
+    UIView *keyBoardRefView;
+    UIView *inputAccessoryView;
+    UIView *splitInputAccessoryView;
+    UIButton *abcKey;
+    UIButton *fxTemkey;
+    UIButton *upkey;
+    UIButton *downkey;
     int keyBoardType;
-    UIView * selectedKeyBoardView;
+    UIView *selectedKeyBoardView;
     int isABCKeyBoardModeOn;
-    TINCustomOverlayView * overlayView;
-    UIButton * refButton;
-    NSDictionary * keyDict;
+    TINCustomOverlayView *overlayView;
+    UIButton *refButton;
+    NSDictionary *keyDict;
     double yPosition;
     int isSplitMode;
     int isSplitKeyboardDownFromEnd;
     int isNormalMode;
-    NSTimer * timer;
-    UIImageView * texasImageInNormal;
-    UIImageView * texasImageInSplit;
-    UIImageView * accessorBG;
-    UIPanGestureRecognizer * panGesture;
-    UITextField * textField;
-    UIView * normalInputAccessoryView;
+    NSTimer *timer;
+    UIImageView *texasImageInNormal;
+    UIImageView *texasImageInSplit;
+    UIImageView *accessorBG;
+    UIPanGestureRecognizer *panGesture;
+    UITextField *textField;
+    UIView *normalInputAccessoryView;
     int isOverLayAppear;
     int isCustomKeyboardMove;
-    TINKeyBoardABCViewController * _abcKeyBoardViewController;
-    TINKeyBoardFunctionalViewController * _functionalKeyBoardViewController;
+    TINKeyBoardABCViewController *_abcKeyBoardViewController;
+    TINKeyBoardFunctionalViewController *_functionalKeyBoardViewController;
 }
-@property (retain,nonatomic) id firstResponder;
-@property (retain,nonatomic) UIView * inputAccessoryView;
-@property (nonatomic) double yPosition;
+@property(retain, nonatomic) id firstResponder;
+@property(retain, nonatomic) UIView *inputAccessoryView;
+@property(nonatomic) double yPosition;
 @property int isNormalMode;
 @property int isOverLayAppear;
 @property int isCustomKeyboardMove;
-@property (retain,nonatomic) TINKeyBoardABCViewController * abcKeyBoardViewController;
-@property (retain,nonatomic) TINKeyBoardFunctionalViewController * functionalKeyBoardViewController;
+@property(retain, nonatomic) TINKeyBoardABCViewController *abcKeyBoardViewController;
+@property(retain, nonatomic) TINKeyBoardFunctionalViewController *functionalKeyBoardViewController;
 + (id)sharedKeyBoardViewController;
 + (id)overlayButtonKeyMap;
 + (id)overlayKeyImgs;
@@ -8281,19 +8705,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINAssessmentManager : NSObject<AEAssessmentSessionDelegate> {
-    AEAssessmentSession * assessmentSession;
-    NSObject<TINAssessmentManagerDelegate> * delegate;
+@interface TINAssessmentManager : NSObject <AEAssessmentSessionDelegate>
+{
+    AEAssessmentSession *assessmentSession;
+    NSObject<TINAssessmentManagerDelegate> *delegate;
 }
-@property (retain,nonatomic) AEAssessmentSession * assessmentSession;
-@property (nonatomic) NSObject<TINAssessmentManagerDelegate> * delegate;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) AEAssessmentSession *assessmentSession;
+@property(nonatomic) NSObject<TINAssessmentManagerDelegate> *delegate;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initAssessmentManager;
 - (void)beginAssesmentSession;
 - (void)endAssesmentSession;
@@ -8304,10 +8728,10 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINCustomOverlayView : UIView {
+@interface TINCustomOverlayView : UIView
+{
     double arrowOffset;
     int isSplitKeyboard;
 }
@@ -8317,18 +8741,16 @@ struct anonymous_type_104 {
 - (void)drawBubble:(struct CGContext *)v1 bounds:(struct CGRect)v2 position:(double)v3 isBorder:(int)v4;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInputViewSubClass : UIView<UIInputViewAudioFeedback>
-@property (readonly,nonatomic) int enableInputClicksWhenVisible;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@interface TINInputViewSubClass : UIView <UIInputViewAudioFeedback>
+@property(readonly, nonatomic) int enableInputClicksWhenVisible;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithCoder:(id)v1;
 @end
-
 
 /*****************************************************************/
 
@@ -8339,21 +8761,21 @@ struct anonymous_type_104 {
 - (int)shouldAutorotateToInterfaceOrientation:(long long)v1;
 @end
 
-
 /*****************************************************************/
 
-@interface TINKeyBoardFunctionalViewController : UIViewController<UIGestureRecognizerDelegate> {
-    UILabel * enterKeyLabel;
-    UIView * chemBoxKey;
-    UIView * mathBoxKey;
-    UIView * varKey;
-    TINKeyBoardKeyOverlay * overLayButtonRef;
+@interface TINKeyBoardFunctionalViewController : UIViewController <UIGestureRecognizerDelegate>
+{
+    UILabel *enterKeyLabel;
+    UIView *chemBoxKey;
+    UIView *mathBoxKey;
+    UIView *varKey;
+    TINKeyBoardKeyOverlay *overLayButtonRef;
 }
-@property (retain,nonatomic) TINKeyBoardKeyOverlay * overLayButtonRef;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) TINKeyBoardKeyOverlay *overLayButtonRef;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)didReceiveMemoryWarning;
 - (void)viewDidLoad;
@@ -8368,7 +8790,6 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface TINKeyBoardKey : UIButton
@@ -8378,10 +8799,10 @@ struct anonymous_type_104 {
 - (void)setButttonState;
 @end
 
-
 /*****************************************************************/
 
-@interface TINKeyBoardKeyOverlay : TINKeyBoardKey {
+@interface TINKeyBoardKeyOverlay : TINKeyBoardKey
+{
     int isDragOutside;
 }
 @property int isDragOutside;
@@ -8389,13 +8810,11 @@ struct anonymous_type_104 {
 - (void)longPressButtonCick:(id)v1;
 @end
 
-
 /*****************************************************************/
 
 @interface TINKeyBoardKeyRegular : TINKeyBoardKey
 - (id)initWithFrame:(struct CGRect)v1;
 @end
-
 
 /*****************************************************************/
 
@@ -8403,16 +8822,16 @@ struct anonymous_type_104 {
 - (id)initWithFrame:(struct CGRect)v1;
 @end
 
-
 /*****************************************************************/
 
-@interface TINKeyBoardTemplateViewController : UIViewController<UIGestureRecognizerDelegate> {
-    UILabel * enter;
+@interface TINKeyBoardTemplateViewController : UIViewController <UIGestureRecognizerDelegate>
+{
+    UILabel *enter;
 }
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)didReceiveMemoryWarning;
 - (void)viewDidLoad;
@@ -8424,26 +8843,26 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentTextfield : UITextField {
+@interface TINDocumentTextfield : UITextField
+{
     float verticalPadding;
     float horizontalPadding;
 }
-@property (nonatomic) float verticalPadding;
-@property (nonatomic) float horizontalPadding;
+@property(nonatomic) float verticalPadding;
+@property(nonatomic) float horizontalPadding;
 - (struct CGRect)editingRectForBounds:(struct CGRect)v1;
 - (int)canPerformAction:(SEL)v1 withSender:(id)v2;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentLoad : NSObject {
-    NSMutableArray * _documentFileViewControllers;
+@interface TINDocumentLoad : NSObject
+{
+    NSMutableArray *_documentFileViewControllers;
 }
-@property (retain,nonatomic) NSMutableArray * documentFileViewControllers;
+@property(retain, nonatomic) NSMutableArray *documentFileViewControllers;
 - (void)createDocumentModelWithURL:(id)v1;
 - (void)addNewDocumentWithPath:(id)v1 forceToLaunch:(int)v2;
 - (void)addNewDocumentFromOutSideWithPath:(id)v1;
@@ -8453,23 +8872,23 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINTouchInUIView : UIView<UIGestureRecognizerDelegate> {
+@interface TINTouchInUIView : UIView <UIGestureRecognizerDelegate>
+{
     struct CGRect touchTestFrame;
     int consumeOutsideTouchs;
     id delegate;
-    UIColor * overlayColor;
+    UIColor *overlayColor;
 }
-@property (nonatomic) id delegate;
-@property (nonatomic) struct CGRect touchTestFrame;
-@property (nonatomic) int consumeOutsideTouchs;
-@property (retain,nonatomic) UIColor * overlayColor;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) id delegate;
+@property(nonatomic) struct CGRect touchTestFrame;
+@property(nonatomic) int consumeOutsideTouchs;
+@property(retain, nonatomic) UIColor *overlayColor;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithFrame:(struct CGRect)v1;
 - (int)pointInside:(struct CGPoint)v1 withEvent:(id)v2;
 - (int)canBecomeFirstResponder;
@@ -8479,19 +8898,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINPageViewController : TINViewController<TINDocumentDelegate> {
+@interface TINPageViewController : TINViewController <TINDocumentDelegate>
+{
     struct CGSize aspectRatio_;
-    Document * document_;
+    Document *document_;
     struct UIEdgeInsets documentViewInsets_;
 }
-@property (retain,nonatomic,setter=updateWithDocument:) Document * document /* backed by document_ */;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic, setter=updateWithDocument:) Document *document /* backed by document_ */;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (void)initialize;
 - (void)didReceiveMemoryWarning;
 - (void)deregisterForNotifications;
@@ -8503,7 +8922,6 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface QuartzUtilities : NSObject
@@ -8512,7 +8930,7 @@ struct anonymous_type_104 {
 + (id)imageFromImageCacheWithName:(id)v1;
 + (id)inverseColor:(id)v1;
 + (id)checkerboardPatternWithColor:(id)v1 width:(float)v2 size:(struct CGSize)v3;
-+ (struct CGColor *)newColorPatternWithPattern:(void * *)v1;
++ (struct CGColor *)newColorPatternWithPattern:(void **)v1;
 + (id)imageFromColor:(id)v1;
 + (struct CGPath *)createPathForRect:(struct CGRect)v1;
 + (struct CGRect)statusBarFrameViewRect;
@@ -8524,14 +8942,14 @@ struct anonymous_type_104 {
 - (id)imageFromImageCacheWithName:(id)v1 andSize:(struct CGSize)v2;
 @end
 
-
 /*****************************************************************/
 
-@interface TINHighlightLayer : CALayer {
-    NSMutableArray * regions_;
-    UIColor * highlightColor;
+@interface TINHighlightLayer : CALayer
+{
+    NSMutableArray *regions_;
+    UIColor *highlightColor;
 }
-@property (retain,nonatomic) UIColor * highlightColor;
+@property(retain, nonatomic) UIColor *highlightColor;
 - (id)init;
 - (void)drawInContext:(struct CGContext *)v1;
 - (void)addRegion:(struct CGRect)v1;
@@ -8540,18 +8958,18 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface DirectoryWatcher : NSObject {
-    NSObject<DirectoryWatcherDelegate> * delegate;
+@interface DirectoryWatcher : NSObject
+{
+    NSObject<DirectoryWatcherDelegate> *delegate;
     int dirFD;
     int kq;
-    struct __CFFileDescriptor * dirKQRef;
-    NSString * directoryPath;
+    struct __CFFileDescriptor *dirKQRef;
+    NSString *directoryPath;
 }
-@property (nonatomic) NSObject<DirectoryWatcherDelegate> * delegate;
-@property (retain,nonatomic) NSString * directoryPath;
+@property(nonatomic) NSObject<DirectoryWatcherDelegate> *delegate;
+@property(retain, nonatomic) NSString *directoryPath;
 + (id)watchFolderWithPath:(id)v1 delegate:(id)v2;
 - (void)kqueueFired;
 - (int)startMonitoringDirectory:(id)v1;
@@ -8561,15 +8979,15 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface ExamModeActivity : NSObject {
+@interface ExamModeActivity : NSObject
+{
     int activity;
-    NSString * time;
+    NSString *time;
 }
-@property (nonatomic) int activity;
-@property (retain,nonatomic) NSString * time;
+@property(nonatomic) int activity;
+@property(retain, nonatomic) NSString *time;
 - (id)dictionary;
 - (id)initWithDictionary:(id)v1;
 - (id)descriptionString;
@@ -8577,19 +8995,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINToolsViewController : TINViewController<UITableViewDataSource,UITableViewDelegate> {
-    UITableView * myTableView;
-    NSMutableArray * listOfItems;
+@interface TINToolsViewController : TINViewController <UITableViewDataSource, UITableViewDelegate>
+{
+    UITableView *myTableView;
+    NSMutableArray *listOfItems;
 }
-@property (retain,nonatomic) UITableView * myTableView;
-@property (retain,nonatomic) NSMutableArray * listOfItems;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) UITableView *myTableView;
+@property(retain, nonatomic) NSMutableArray *listOfItems;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithToolTitle:(id)v1 backTitle:(id)v2;
 - (void)didReceiveMemoryWarning;
 - (void)loadView;
@@ -8604,27 +9022,27 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINToolItem : NSObject {
-    NSString * itemName;
-    NSMutableArray * listOfItems;
+@interface TINToolItem : NSObject
+{
+    NSString *itemName;
+    NSMutableArray *listOfItems;
     long long categoryIndicator;
     long long stringID;
     long long wizardIndicator;
     long long libraryID;
     long long isFunction;
-    NSString * tooltipText;
+    NSString *tooltipText;
 }
-@property (retain,nonatomic) NSString * itemName;
-@property (retain,nonatomic) NSMutableArray * listOfItems;
+@property(retain, nonatomic) NSString *itemName;
+@property(retain, nonatomic) NSMutableArray *listOfItems;
 @property long long categoryIndicator;
 @property long long stringID;
 @property long long wizardIndicator;
 @property long long libraryID;
 @property long long isFunction;
-@property (retain,nonatomic) NSString * tooltipText;
+@property(retain, nonatomic) NSString *tooltipText;
 - (id)initWithName:(id)v1;
 - (id)initWithName:(id)v1 categoryIndicator:(long long)v2 stringID:(long long)v3 wizardIndicator:(long long)v4;
 - (id)initWithName:(id)v1 categoryIndicator:(long long)v2 stringID:(long long)v3 wizardIndicator:(long long)v4 isFunction:(long long)v5;
@@ -8632,27 +9050,27 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINCatalogItem : TINToolItem {
-    NSString * name;
-    NSString * itemToolTip;
+@interface TINCatalogItem : TINToolItem
+{
+    NSString *name;
+    NSString *itemToolTip;
 }
-@property (retain,nonatomic) NSString * name;
-@property (retain,nonatomic) NSString * itemToolTip;
+@property(retain, nonatomic) NSString *name;
+@property(retain, nonatomic) NSString *itemToolTip;
 - (id)initWithName:(id)v1;
 - (id)initWithName:(id)v1 categoryIndicator:(long long)v2 stringID:(long long)v3 wizardIndicator:(long long)v4 tooltipText:(id)v5;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINMathTemplatesViewController : TINViewController {
-    NSMutableArray * listOfTools;
+@interface TINMathTemplatesViewController : TINViewController
+{
+    NSMutableArray *listOfTools;
 }
-@property (retain,nonatomic) NSMutableArray * listOfTools;
+@property(retain, nonatomic) NSMutableArray *listOfTools;
 - (id)initWithToolTitle:(id)v1 backTitle:(id)v2;
 - (void)didReceiveMemoryWarning;
 - (void)loadView;
@@ -8663,19 +9081,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINSummaryDialogActivityCell : UITableViewCell {
-    UIImageView * warningIcon;
-    UILabel * timeLbl;
-    UILabel * descriptionLbl;
-    UILabel * restrictionSymbolLbl;
+@interface TINSummaryDialogActivityCell : UITableViewCell
+{
+    UIImageView *warningIcon;
+    UILabel *timeLbl;
+    UILabel *descriptionLbl;
+    UILabel *restrictionSymbolLbl;
 }
-@property (nonatomic) UIImageView * warningIcon;
-@property (nonatomic) UILabel * timeLbl;
-@property (nonatomic) UILabel * restrictionSymbolLbl;
-@property (nonatomic) UILabel * descriptionLbl;
+@property(nonatomic) UIImageView *warningIcon;
+@property(nonatomic) UILabel *timeLbl;
+@property(nonatomic) UILabel *restrictionSymbolLbl;
+@property(nonatomic) UILabel *descriptionLbl;
 - (void)awakeFromNib;
 - (void)prepareForReuse;
 - (void)reset;
@@ -8684,33 +9102,32 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface TINTableViewController : UITableViewController
 - (void)viewWillAppear:(int)v1;
 @end
 
-
 /*****************************************************************/
 
-@interface TINToolButton : UIButton {
-    TINToolItem * toolItem;
+@interface TINToolButton : UIButton
+{
+    TINToolItem *toolItem;
 }
-@property (retain,nonatomic) TINToolItem * toolItem;
+@property(retain, nonatomic) TINToolItem *toolItem;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINSplitKeyBoardViewController : UIViewController<UIGestureRecognizerDelegate> {
-    UILabel * enter;
+@interface TINSplitKeyBoardViewController : UIViewController <UIGestureRecognizerDelegate>
+{
+    UILabel *enter;
 }
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)didReceiveMemoryWarning;
 - (void)viewDidLoad;
@@ -8723,17 +9140,17 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentModelController : NSObject {
-    NSMutableArray * _tiNspireDocuments;
-    NSMutableArray * _listOfAllNames;
-    NSMutableArray * _preloadedContent;
+@interface TINDocumentModelController : NSObject
+{
+    NSMutableArray *_tiNspireDocuments;
+    NSMutableArray *_listOfAllNames;
+    NSMutableArray *_preloadedContent;
 }
-@property (retain,nonatomic) NSMutableArray * tiNspireDocuments;
-@property (retain,nonatomic) NSMutableArray * listOfAllNames;
-@property (retain,nonatomic) NSMutableArray * preloadedContent;
+@property(retain, nonatomic) NSMutableArray *tiNspireDocuments;
+@property(retain, nonatomic) NSMutableArray *listOfAllNames;
+@property(retain, nonatomic) NSMutableArray *preloadedContent;
 + (id)sharedModelController;
 + (void)createDocumentInfoWithExistingModelFile:(id)v1;
 + (void)syncDocumentCountDictionary:(id)v1;
@@ -8755,7 +9172,7 @@ struct anonymous_type_104 {
 - (id)createModelForRegularDocument;
 - (id)createModelForRegularFolder;
 - (id)folderModelWithName:(id)v1;
-- (id)regularFolderModelWithDocuments:(id)v1 :(id)v2;
+- (id)regularFolderModelWithDocuments:(id)v1:(id)v2;
 - (void)addDocumentModel:(id)v1 intoFolderModel:(id)v2;
 - (void)writeDocumentModel:(id)v1 intoPath:(id)v2;
 - (int)deleteModelDocumentAtIndex:(long long)v1;
@@ -8770,15 +9187,15 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINTimerManager : NSObject {
+@interface TINTimerManager : NSObject
+{
     int isPumping;
-    NSTimer * heartBeatTimer;
+    NSTimer *heartBeatTimer;
 }
-@property (retain,nonatomic) NSTimer * heartBeatTimer;
-@property (nonatomic) int isPumping;
+@property(retain, nonatomic) NSTimer *heartBeatTimer;
+@property(nonatomic) int isPumping;
 + (id)sharedTimerManager;
 - (id)init;
 - (id)createHeartBeatTimer;
@@ -8788,17 +9205,17 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TIN2DEditorView : UIView {
-    TIN2DEditorWidget * editorWidget;
-    struct CGContext * context;
-    struct CGLayer * layerRef;
-    struct _GC * gcPtr;
-    NSTimer * heartBeatTimer;
+@interface TIN2DEditorView : UIView
+{
+    TIN2DEditorWidget *editorWidget;
+    struct CGContext *context;
+    struct CGLayer *layerRef;
+    struct _GC *gcPtr;
+    NSTimer *heartBeatTimer;
 }
-@property (retain,nonatomic) TIN2DEditorWidget * editorWidget;
+@property(retain, nonatomic) TIN2DEditorWidget *editorWidget;
 - (id)createHeartBeatTimer;
 - (void)heartBump;
 - (id)initWithFrame:(struct CGRect)v1;
@@ -8816,21 +9233,21 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TIN2DEditorWidget : TINNativeWidget {
-    struct _D2Editor * editor;
+@interface TIN2DEditorWidget : TINNativeWidget
+{
+    struct _D2Editor *editor;
 }
-@property (nonatomic) struct _D2Editor * editor;
+@property(nonatomic) struct _D2Editor *editor;
 - (id)initWithParentWidget:(struct _Widget *)v1 isRTFMath:(int)v2 isReadOnly:(int)v3 gc:(struct _GC *)v4;
 - (void)setSettings:(struct D2EditorSettings *)v1;
 - (struct D2EditorSettings *)settings;
 - (int)setExpression:(int *)v1 cursorPosition:(int)v2 start:(int)v3 fullExpression:(int *)v4;
 - (int *)expression;
 - (void)refreshExpression;
-- (int)setFormattedExpression:(const  char *)v1 fullExpression:(int *)v2;
-- (int)appendFormattedExpressionSeparatedByComma:(const  char *)v1 fullExpression:(int *)v2;
+- (int)setFormattedExpression:(const char *)v1 fullExpression:(int *)v2;
+- (int)appendFormattedExpressionSeparatedByComma:(const char *)v1 fullExpression:(int *)v2;
 - (char *)formattedExpression;
 - (void)expressionSizeWidthPtr:(int *)v1 heightPtr:(int *)v2 heightPtr2:(int *)v3;
 - (void)optimalWidgetSizeWidthPtr:(int *)v1 heightPtr:(int *)v2 heightPtr2:(int *)v3;
@@ -8843,14 +9260,14 @@ struct anonymous_type_104 {
 - (void)setTextColor:(int)v1;
 @end
 
-
 /*****************************************************************/
 
-@interface TINNativeEvent : NSObject {
-    union anonymous_type_55 * nativeEvent;
+@interface TINNativeEvent : NSObject
+{
+    union anonymous_type_55 *nativeEvent;
     int eventType;
 }
-@property (nonatomic) union anonymous_type_98 * nativeEvent;
+@property(nonatomic) union anonymous_type_98 *nativeEvent;
 - (id)initWithEvent:(union anonymous_type_140 *)v1;
 - (int)setEventType:(int)v1;
 - (int)eventType;
@@ -8861,11 +9278,11 @@ struct anonymous_type_104 {
 - (int)deleteEvent;
 @end
 
-
 /*****************************************************************/
 
-@interface TINNativeWidget : NSObject {
-    struct _Widget * nativeWidget;
+@interface TINNativeWidget : NSObject
+{
+    struct _Widget *nativeWidget;
 }
 - (id)initWithWidget:(struct _Widget *)v1;
 - (void)processEventWithEvent:(id)v1;
@@ -8875,21 +9292,21 @@ struct anonymous_type_104 {
 - (int)locationX;
 - (int)locationY;
 - (void)moveToX:(int)v1 Y:(int)v2;
-- (void * *)docHandle;
+- (void **)docHandle;
 - (void)resizeToWidth:(int)v1 height:(int)v2;
 @end
 
-
 /*****************************************************************/
 
-@interface TINCameraViewController : UIImagePickerController<UIImagePickerControllerDelegate,UINavigationControllerDelegate> {
-    UITableViewController * parentTableController;
+@interface TINCameraViewController : UIImagePickerController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+{
+    UITableViewController *parentTableController;
 }
-@property (retain,nonatomic) UITableViewController * parentTableController;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) UITableViewController *parentTableController;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)init;
 - (void)viewDidLoad;
 - (void)viewDidDisappear:(int)v1;
@@ -8901,17 +9318,17 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINPhotoPickerViewController : TINViewController<UINavigationControllerDelegate,PHPickerViewControllerDelegate> {
-    UITableViewController * parentTableController;
+@interface TINPhotoPickerViewController : TINViewController <UINavigationControllerDelegate, PHPickerViewControllerDelegate>
+{
+    UITableViewController *parentTableController;
 }
-@property (retain,nonatomic) UITableViewController * parentTableController;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) UITableViewController *parentTableController;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)init;
 - (void)viewWillAppear:(int)v1;
 - (void)picker:(id)v1 didFinishPicking:(id)v2;
@@ -8919,41 +9336,41 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINTestModeRestrictionsViewController : TINViewController<UITableViewDataSource,UITableViewDelegate,UINavigationControllerDelegate,RestrictionsDelegates> {
+@interface TINTestModeRestrictionsViewController : TINViewController <UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate, RestrictionsDelegates>
+{
     int _indexCAS;
-    UITableView * _restrictionsTable;
-    TINTestModeRestrictionsDetailedView * _restrictionsDetailedView;
-    PressToTestSettingsHHiOS * _pttSettings;
-    UIView * viewNotes;
-    UILabel * testCodeTextLabel;
-    UILabel * testCodeLabel;
-    UILabel * noteTitleLabel;
-    UITextView * noteTextView;
-    NSMutableArray * items;
-    NSMutableArray * anglesItems;
-    NSMutableArray * modeItems;
-    NSMutableArray * _detailedItems;
+    UITableView *_restrictionsTable;
+    TINTestModeRestrictionsDetailedView *_restrictionsDetailedView;
+    PressToTestSettingsHHiOS *_pttSettings;
+    UIView *viewNotes;
+    UILabel *testCodeTextLabel;
+    UILabel *testCodeLabel;
+    UILabel *noteTitleLabel;
+    UITextView *noteTextView;
+    NSMutableArray *items;
+    NSMutableArray *anglesItems;
+    NSMutableArray *modeItems;
+    NSMutableArray *_detailedItems;
 }
-@property (nonatomic) UITableView * restrictionsTable;
-@property (nonatomic) UIView * viewNotes;
-@property (nonatomic) UILabel * testCodeTextLabel;
-@property (nonatomic) UILabel * testCodeLabel;
-@property (nonatomic) UILabel * noteTitleLabel;
-@property (nonatomic) UITextView * noteTextView;
-@property (retain,nonatomic) NSMutableArray * items;
-@property (retain,nonatomic) NSMutableArray * anglesItems;
-@property (retain,nonatomic) NSMutableArray * modeItems;
-@property (retain,nonatomic) NSMutableArray * detailedItems;
-@property (retain,nonatomic) TINTestModeRestrictionsDetailedView * restrictionsDetailedView;
-@property (retain,nonatomic) PressToTestSettingsHHiOS * pttSettings;
-@property (nonatomic) int indexCAS;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) UITableView *restrictionsTable;
+@property(nonatomic) UIView *viewNotes;
+@property(nonatomic) UILabel *testCodeTextLabel;
+@property(nonatomic) UILabel *testCodeLabel;
+@property(nonatomic) UILabel *noteTitleLabel;
+@property(nonatomic) UITextView *noteTextView;
+@property(retain, nonatomic) NSMutableArray *items;
+@property(retain, nonatomic) NSMutableArray *anglesItems;
+@property(retain, nonatomic) NSMutableArray *modeItems;
+@property(retain, nonatomic) NSMutableArray *detailedItems;
+@property(retain, nonatomic) TINTestModeRestrictionsDetailedView *restrictionsDetailedView;
+@property(retain, nonatomic) PressToTestSettingsHHiOS *pttSettings;
+@property(nonatomic) int indexCAS;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewDidLoad;
 - (void)viewWillLayoutSubviews;
@@ -8972,18 +9389,18 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINImageConverter : NSObject {
+@interface TINImageConverter : NSObject
+{
     int width;
     int height;
     int rowBytes;
     int destBitsPerPixel;
-    UIImage * image;
+    UIImage *image;
     long long byteCount;
 }
-@property (retain,nonatomic) UIImage * image;
+@property(retain, nonatomic) UIImage *image;
 @property int width;
 @property int height;
 @property long long byteCount;
@@ -9003,13 +9420,13 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINImagesManager : NSObject {
-    TINImageConverter * imageConverter;
+@interface TINImagesManager : NSObject
+{
+    TINImageConverter *imageConverter;
 }
-@property (retain,nonatomic) TINImageConverter * imageConverter;
+@property(retain, nonatomic) TINImageConverter *imageConverter;
 + (id)sharedImagesManager;
 - (id)init;
 - (id)supportedFiles;
@@ -9021,19 +9438,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInsertImageMenuViewController : TINTableViewController {
-    NSMutableArray * menuOptions;
-    TINCameraViewController * cameraViewController;
-    TINPhotoPickerViewController * photoPickerViewController;
-    UINavigationController * _navController;
+@interface TINInsertImageMenuViewController : TINTableViewController
+{
+    NSMutableArray *menuOptions;
+    TINCameraViewController *cameraViewController;
+    TINPhotoPickerViewController *photoPickerViewController;
+    UINavigationController *_navController;
 }
-@property (retain,nonatomic) NSMutableArray * menuOptions;
-@property (retain,nonatomic) TINCameraViewController * cameraViewController;
-@property (retain,nonatomic) TINPhotoPickerViewController * photoPickerViewController;
-@property (retain,nonatomic) UINavigationController * navController;
+@property(retain, nonatomic) NSMutableArray *menuOptions;
+@property(retain, nonatomic) TINCameraViewController *cameraViewController;
+@property(retain, nonatomic) TINPhotoPickerViewController *photoPickerViewController;
+@property(retain, nonatomic) UINavigationController *navController;
 - (void)initialize;
 - (void)didReceiveMemoryWarning;
 - (void)viewDidLoad;
@@ -9049,21 +9466,21 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINMoreMenuViewController : TINTableViewController<UINavigationControllerDelegate,QLPreviewControllerDataSource,QLPreviewControllerDelegate> {
-    UIBarButtonItem * moreButton;
-    NSArray * _items;
-    TINDocumentPageViewController * _pageController;
+@interface TINMoreMenuViewController : TINTableViewController <UINavigationControllerDelegate, QLPreviewControllerDataSource, QLPreviewControllerDelegate>
+{
+    UIBarButtonItem *moreButton;
+    NSArray *_items;
+    TINDocumentPageViewController *_pageController;
 }
-@property (retain,nonatomic) NSArray * items;
-@property (nonatomic) UIBarButtonItem * moreButton;
-@property (nonatomic) TINDocumentPageViewController * pageController;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) NSArray *items;
+@property(nonatomic) UIBarButtonItem *moreButton;
+@property(nonatomic) TINDocumentPageViewController *pageController;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)init:(id)v1;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(int)v1;
@@ -9079,18 +9496,18 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface IndexedPosition : UITextPosition<UITextInputTokenizer> {
+@interface IndexedPosition : UITextPosition <UITextInputTokenizer>
+{
     unsigned long long _index;
-    NSObject<UITextInputDelegate> * _inputDelegate;
+    NSObject<UITextInputDelegate> *_inputDelegate;
 }
-@property (nonatomic) unsigned long long index;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) unsigned long long index;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 + (id)positionWithIndex:(unsigned long long)v1;
 - (id)rangeEnclosingPosition:(id)v1 withGranularity:(long long)v2 inDirection:(long long)v3;
 - (int)isPosition:(id)v1 atBoundary:(long long)v2 inDirection:(long long)v3;
@@ -9099,23 +9516,23 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface IndexedRange : UITextRange {
+@interface IndexedRange : UITextRange
+{
     struct _NSRange _range;
 }
-@property (nonatomic) struct _NSRange range;
+@property(nonatomic) struct _NSRange range;
 + (id)rangeWithNSRange:(struct _NSRange)v1;
 - (id)start;
 - (id)end;
 - (int)isEmpty;
 @end
 
-
 /*****************************************************************/
 
-@interface MenuItem : NSObject {
+@interface MenuItem : NSObject
+{
     int iconId;
     int moduleId;
     int imageID;
@@ -9123,39 +9540,39 @@ struct anonymous_type_104 {
     int dismiss;
     int enable;
     int isAvailable;
-    NSString * itemText;
-    void * * callback;
+    NSString *itemText;
+    void **callback;
     long long callbackData;
-    NSString * parentName;
+    NSString *parentName;
     SEL actionSelector;
-    NSString * icon;
-    NSString * image;
-    NSString * revImage;
-    NSString * itemName;
-    UIColor * itemTextColor;
-    NSObject<MenuItemDelegate> * _delegate;
-    void * * _dataCleanCallback;
+    NSString *icon;
+    NSString *image;
+    NSString *revImage;
+    NSString *itemName;
+    UIColor *itemTextColor;
+    NSObject<MenuItemDelegate> *_delegate;
+    void **_dataCleanCallback;
 }
 @property SEL actionSelector;
-@property (nonatomic) NSObject<MenuItemDelegate> * delegate;
-@property void * * callback;
+@property(nonatomic) NSObject<MenuItemDelegate> *delegate;
+@property void **callback;
 @property long long callbackData;
-@property void * * dataCleanCallback;
-@property (nonatomic) int iconId;
-@property (nonatomic) int moduleId;
-@property (nonatomic) int imageID;
-@property (nonatomic) int revImageID;
-@property (nonatomic) int dismiss;
-@property (nonatomic) int enable;
-@property (nonatomic) int isAvailable;
-@property (retain,nonatomic) NSString * itemName;
-@property (retain,nonatomic) NSString * itemText;
-@property (retain,nonatomic) NSString * icon;
-@property (retain,nonatomic) NSString * image;
-@property (retain,nonatomic) NSString * revImage;
-@property (retain,nonatomic) NSString * parentName;
-@property (retain,nonatomic) UIColor * itemTextColor;
-- (id)initWithTitle:(int *)v1 iconId:(int)v2 iconModuleId:(int)v3 data:(long long)v4 callback:(void * *)v5 imageId:(int)v6 revImageId:(int)v7 itemName:(const  char *)v8;
+@property void **dataCleanCallback;
+@property(nonatomic) int iconId;
+@property(nonatomic) int moduleId;
+@property(nonatomic) int imageID;
+@property(nonatomic) int revImageID;
+@property(nonatomic) int dismiss;
+@property(nonatomic) int enable;
+@property(nonatomic) int isAvailable;
+@property(retain, nonatomic) NSString *itemName;
+@property(retain, nonatomic) NSString *itemText;
+@property(retain, nonatomic) NSString *icon;
+@property(retain, nonatomic) NSString *image;
+@property(retain, nonatomic) NSString *revImage;
+@property(retain, nonatomic) NSString *parentName;
+@property(retain, nonatomic) UIColor *itemTextColor;
+- (id)initWithTitle:(int *)v1 iconId:(int)v2 iconModuleId:(int)v3 data:(long long)v4 callback:(void **)v5 imageId:(int)v6 revImageId:(int)v7 itemName:(const char *)v8;
 - (void)destroy;
 - (void)cleanup;
 - (id)description;
@@ -9164,30 +9581,30 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface Menu : NSObject {
+@interface Menu : NSObject
+{
     int iconId;
     int moduleId;
     int enable;
     int isAvailable;
     int dismiss;
-    NSMutableArray * menuItems;
-    NSString * itemText;
-    NSString * itemName;
-    NSString * icon;
+    NSMutableArray *menuItems;
+    NSString *itemText;
+    NSString *itemName;
+    NSString *icon;
 }
-@property (retain,nonatomic) NSMutableArray * menuItems;
-@property (retain,nonatomic) NSString * itemText;
-@property (retain,nonatomic) NSString * itemName;
-@property (retain,nonatomic) NSString * icon;
-@property (nonatomic) int dismiss;
-@property (nonatomic) int enable;
-@property (nonatomic) int isAvailable;
-@property (nonatomic) int iconId;
-@property (nonatomic) int moduleId;
-- (id)initWithItemText:(int *)v1 iconId:(int)v2 moduleId:(int)v3 itemName:(const  char *)v4;
+@property(retain, nonatomic) NSMutableArray *menuItems;
+@property(retain, nonatomic) NSString *itemText;
+@property(retain, nonatomic) NSString *itemName;
+@property(retain, nonatomic) NSString *icon;
+@property(nonatomic) int dismiss;
+@property(nonatomic) int enable;
+@property(nonatomic) int isAvailable;
+@property(nonatomic) int iconId;
+@property(nonatomic) int moduleId;
+- (id)initWithItemText:(int *)v1 iconId:(int)v2 moduleId:(int)v3 itemName:(const char *)v4;
 - (void)addMenuItem:(id)v1;
 - (void)destroyMenuItem:(id)v1;
 - (void)destroy;
@@ -9195,10 +9612,10 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINButtonFactory : NSObject {
+@interface TINButtonFactory : NSObject
+{
     int AppBackButton;
 }
 @property int AppBackButton;
@@ -9213,22 +9630,22 @@ struct anonymous_type_104 {
 - (id)imageFromImageCacheWithName:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@interface TINToolbar : UIView {
-    UIImageView * imageView;
+@interface TINToolbar : UIView
+{
+    UIImageView *imageView;
 }
-@property (retain,nonatomic) UIImageView * imageView;
+@property(retain, nonatomic) UIImageView *imageView;
 - (id)initWithFrame:(struct CGRect)v1;
 - (struct CGRect)getImageBounds;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface PopupMenu : NSObject {
+@interface PopupMenu : NSObject
+{
     unsigned int popupColor;
     int dismissOnSelect;
     int makePopover;
@@ -9237,23 +9654,23 @@ struct anonymous_type_104 {
     int originButtonGroup;
     int isPopopWithDirection;
     int originButtonPriority;
-    NSMutableArray * menuItems;
-    struct _Widget * parent;
-    void * * escapeCallback;
+    NSMutableArray *menuItems;
+    struct _Widget *parent;
+    void **escapeCallback;
     long long escapeCallbackData;
-    void * * cleanCallback;
+    void **cleanCallback;
     long long cleanCallbackData;
-    void * * doneCallback;
-    NSString * title;
-    MenuItem * selectedItem;
+    void **doneCallback;
+    NSString *title;
+    MenuItem *selectedItem;
     long long doneCallbackData;
     long long arrowDirection;
     unsigned long long _popOverArrowDirection;
     struct CGRect targetRect;
 }
-@property (retain,nonatomic) NSMutableArray * menuItems;
-@property (retain,nonatomic) NSString * title;
-@property struct _Widget * parent;
+@property(retain, nonatomic) NSMutableArray *menuItems;
+@property(retain, nonatomic) NSString *title;
+@property struct _Widget *parent;
 @property unsigned int popupColor;
 @property long long escapeCallbackData;
 @property long long cleanCallbackData;
@@ -9262,23 +9679,23 @@ struct anonymous_type_104 {
 @property int originButtonPriority;
 @property int originButtonGroup;
 @property int isPopopWithDirection;
-@property void * * escapeCallback;
-@property void * * cleanCallback;
-@property void * * doneCallback;
-@property (nonatomic) int dismissOnSelect;
-@property (retain,nonatomic) MenuItem * selectedItem;
-@property (nonatomic) int makePopover;
-@property (nonatomic) int isVisible;
-@property (nonatomic) struct CGRect targetRect;
-@property (nonatomic) long long arrowDirection;
-@property (nonatomic) unsigned long long popOverArrowDirection;
+@property void **escapeCallback;
+@property void **cleanCallback;
+@property void **doneCallback;
+@property(nonatomic) int dismissOnSelect;
+@property(retain, nonatomic) MenuItem *selectedItem;
+@property(nonatomic) int makePopover;
+@property(nonatomic) int isVisible;
+@property(nonatomic) struct CGRect targetRect;
+@property(nonatomic) long long arrowDirection;
+@property(nonatomic) unsigned long long popOverArrowDirection;
 - (id)initWithParent:(struct _Widget *)v1;
 - (void)setPopoverTitle:(int *)v1;
 - (void)setPopoverColor:(unsigned int)v1;
 - (void)addMenuItem:(id)v1;
 - (id)menuItemAtIndex:(int)v1;
-- (void)setEscapeCallback:(void * *)v1 withData:(long long)v2;
-- (void)setCleanCallback:(void * *)v1 withData:(long long)v2;
+- (void)setEscapeCallback:(void **)v1 withData:(long long)v2;
+- (void)setCleanCallback:(void **)v1 withData:(long long)v2;
 - (void)doEscapeCallback;
 - (void)doCleanCallback;
 - (void)doDoneCallback;
@@ -9288,42 +9705,42 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINContextMenuItem : UIMenuItem {
-    MenuItem * menuItemModel;
+@interface TINContextMenuItem : UIMenuItem
+{
+    MenuItem *menuItemModel;
 }
-@property (retain,nonatomic) MenuItem * menuItemModel;
+@property(retain, nonatomic) MenuItem *menuItemModel;
 - (id)initWithModel:(id)v1;
 - (void)handleMenuItemHandler;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface ContextMenuController : TINViewController<UIPopoverPresentationControllerDelegate> {
+@interface ContextMenuController : TINViewController <UIPopoverPresentationControllerDelegate>
+{
     struct CGRect rectPopover;
     int popupMenuType;
     int isVisible;
     int isHiding;
     float currentPopoverWidth;
-    PopupMenu * currentPopupMenu;
-    ContextMenuPopoverController * cmPopoverContorller;
+    PopupMenu *currentPopupMenu;
+    ContextMenuPopoverController *cmPopoverContorller;
     struct CGRect menuLayoutframe;
 }
-@property (nonatomic) int isVisible;
-@property (nonatomic) int isHiding;
-@property (retain,nonatomic) PopupMenu * currentPopupMenu;
-@property (nonatomic) int popupMenuType;
-@property (nonatomic) struct CGRect menuLayoutframe;
-@property (nonatomic) float currentPopoverWidth;
-@property (retain,nonatomic) ContextMenuPopoverController * cmPopoverContorller;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) int isVisible;
+@property(nonatomic) int isHiding;
+@property(retain, nonatomic) PopupMenu *currentPopupMenu;
+@property(nonatomic) int popupMenuType;
+@property(nonatomic) struct CGRect menuLayoutframe;
+@property(nonatomic) float currentPopoverWidth;
+@property(retain, nonatomic) ContextMenuPopoverController *cmPopoverContorller;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 + (id)sharedContextMenuController;
 + (int)resolveInstanceMethod:(SEL)v1;
 - (void)viewDidLoad;
@@ -9346,7 +9763,7 @@ struct anonymous_type_104 {
 - (int)canBecomeFirstResponder;
 - (int)canResignFirstResponder;
 - (int)canPerformAction:(SEL)v1 withSender:(id)v2;
-- (void)contextMenuActionHandler:(id)v1 :(SEL)v2;
+- (void)contextMenuActionHandler:(id)v1:(SEL)v2;
 - (int)canResolveInstanceMethod:(SEL)v1;
 - (int)isPasteSelected:(id)v1;
 - (void)handlePanGesture:(id)v1;
@@ -9355,23 +9772,23 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface ContextMenuPopoverController : TINViewController<UITableViewDataSource,UITableViewDelegate> {
-    UITableView * itemsListTableView;
+@interface ContextMenuPopoverController : TINViewController <UITableViewDataSource, UITableViewDelegate>
+{
+    UITableView *itemsListTableView;
     int maxNoOfRows;
     int currentSelectedIndex;
-    NSMutableArray * menuItems;
-    MenuItem * selectedMenuItem;
+    NSMutableArray *menuItems;
+    MenuItem *selectedMenuItem;
 }
-@property (retain,nonatomic) MenuItem * selectedMenuItem;
-@property (retain,nonatomic) NSMutableArray * menuItems;
-@property (nonatomic) int maxNoOfRows;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) MenuItem *selectedMenuItem;
+@property(retain, nonatomic) NSMutableArray *menuItems;
+@property(nonatomic) int maxNoOfRows;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)didReceiveMemoryWarning;
 - (void)viewDidLoad;
@@ -9392,31 +9809,31 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINConfExamCodeDialogViewController : TINViewController<UINavigationControllerDelegate,UITextViewDelegate> {
-    UILabel * testCode;
-    UILabel * examCode;
-    UILabel * defaultAngle;
-    UILabel * casMode;
-    UILabel * resLabel;
-    UILabel * preventFiles;
-    UITableView * informationTbl;
-    NSMutableArray * restrictions;
+@interface TINConfExamCodeDialogViewController : TINViewController <UINavigationControllerDelegate, UITextViewDelegate>
+{
+    UILabel *testCode;
+    UILabel *examCode;
+    UILabel *defaultAngle;
+    UILabel *casMode;
+    UILabel *resLabel;
+    UILabel *preventFiles;
+    UITableView *informationTbl;
+    NSMutableArray *restrictions;
 }
-@property (nonatomic) UILabel * testCode;
-@property (nonatomic) UILabel * examCode;
-@property (nonatomic) UILabel * defaultAngle;
-@property (nonatomic) UILabel * casMode;
-@property (nonatomic) UILabel * resLabel;
-@property (nonatomic) UITableView * informationTbl;
-@property (nonatomic) UILabel * preventFiles;
-@property (retain,nonatomic) NSMutableArray * restrictions;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) UILabel *testCode;
+@property(nonatomic) UILabel *examCode;
+@property(nonatomic) UILabel *defaultAngle;
+@property(nonatomic) UILabel *casMode;
+@property(nonatomic) UILabel *resLabel;
+@property(nonatomic) UITableView *informationTbl;
+@property(nonatomic) UILabel *preventFiles;
+@property(retain, nonatomic) NSMutableArray *restrictions;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewDidLoad;
 - (void)showDocumentView:(id)v1;
@@ -9428,40 +9845,40 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINButtonData : NSObject {
+@interface TINButtonData : NSObject
+{
     int type;
     struct CGPoint center;
-    NSString * resource;
-    NSString * accessibilityIdentifier;
+    NSString *resource;
+    NSString *accessibilityIdentifier;
     struct CGSize size;
-    NSString * textKey;
-    NSArray * animationImages;
+    NSString *textKey;
+    NSArray *animationImages;
 }
 @property int type;
 @property struct CGPoint center;
-@property (copy) NSString * resource;
-@property (copy) NSString * accessibilityIdentifier;
+@property(copy) NSString *resource;
+@property(copy) NSString *accessibilityIdentifier;
 @property struct CGSize size;
-@property (copy) NSString * textKey;
-@property (copy) NSArray * animationImages;
+@property(copy) NSString *textKey;
+@property(copy) NSArray *animationImages;
 + (id)TINButtonMakeWithType:(int)v1 center:(struct CGPoint)v2 resourceName:(id)v3 accessibilityName:(id)v4 size:(struct CGSize)v5 textKey:(id)v6 animationImages:(id)v7;
 - (id)init;
 - (id)description;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface ApplicationCardBar : NSObject {
-    NSMutableOrderedSet * cardBarButtons_;
-    NSObject<ApplicationCardBarDelegate> * delegate_;
+@interface ApplicationCardBar : NSObject
+{
+    NSMutableOrderedSet *cardBarButtons_;
+    NSObject<ApplicationCardBarDelegate> *delegate_;
 }
-@property (readonly) NSArray * buttons;
-@property NSObject<ApplicationCardBarDelegate> * delegate /* backed by delegate_ */;
+@property(readonly) NSArray *buttons;
+@property NSObject<ApplicationCardBarDelegate> *delegate /* backed by delegate_ */;
 + (id)sharedInstance;
 - (id)init;
 - (void)destroy;
@@ -9474,46 +9891,46 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface ApplicationCardBarButton : NSObject {
+@interface ApplicationCardBarButton : NSObject
+{
     int buttonType;
     int activeState;
     int leftButton;
     struct anonymous_type_184 buttonData_;
 }
-@property (nonatomic) int buttonType;
-@property (readonly,nonatomic) struct anonymous_type_185 buttonData /* backed by buttonData_ */;
+@property(nonatomic) int buttonType;
+@property(readonly, nonatomic) struct anonymous_type_185 buttonData /* backed by buttonData_ */;
 @property int leftButton;
-@property (nonatomic,setter=toggleState:) int activeState;
+@property(nonatomic, setter=toggleState:) int activeState;
 - (id)initWithButtonData:(struct anonymous_type_186 *)v1;
 - (id)imageForButtonState:(int)v1;
 - (struct anonymous_type_187)ACBData_tCopy:(struct anonymous_type_188)v1;
 - (id)description;
 @end
 
-
 /*****************************************************************/
 
-@interface TINTestModeRestrictionsViewCellSubMenu : UITableViewCell {
-    UILabel * restrictionName;
-    UILabel * detail;
+@interface TINTestModeRestrictionsViewCellSubMenu : UITableViewCell
+{
+    UILabel *restrictionName;
+    UILabel *detail;
 }
-@property (nonatomic) UILabel * restrictionName;
-@property (nonatomic) UILabel * detail;
+@property(nonatomic) UILabel *restrictionName;
+@property(nonatomic) UILabel *detail;
 - (void)awakeFromNib;
 - (void)setSelected:(int)v1 animated:(int)v2;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINContextMenuItemCellView : UITableViewCell {
-    MenuItem * menuItemModelObj;
+@interface TINContextMenuItemCellView : UITableViewCell
+{
+    MenuItem *menuItemModelObj;
 }
-@property (retain,nonatomic) MenuItem * menuItemModelObj;
+@property(retain, nonatomic) MenuItem *menuItemModelObj;
 - (id)initWithStyle:(long long)v1 reuseIdentifier:(id)v2;
 - (void)updateCellContentWithModel:(id)v1;
 - (void)setSelected:(int)v1 animated:(int)v2;
@@ -9521,17 +9938,17 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINShareMenuViewController : TINTableViewController<MFMailComposeViewControllerDelegate,QLPreviewControllerDataSource,QLPreviewControllerDelegate> {
-    MFMailComposeViewController * picker;
+@interface TINShareMenuViewController : TINTableViewController <MFMailComposeViewControllerDelegate, QLPreviewControllerDataSource, QLPreviewControllerDelegate>
+{
+    MFMailComposeViewController *picker;
 }
-@property (retain,nonatomic) MFMailComposeViewController * picker;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) MFMailComposeViewController *picker;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(int)v1;
 - (int)isMailComposerVisible;
@@ -9550,7 +9967,6 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface TINMyWidgetsViewController : TINTableViewController
@@ -9562,13 +9978,13 @@ struct anonymous_type_104 {
 - (void)tableView:(id)v1 didSelectRowAtIndexPath:(id)v2;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentPageModelController : NSObject {
-    NSMutableDictionary * pageModelDictionary;
+@interface TINDocumentPageModelController : NSObject
+{
+    NSMutableDictionary *pageModelDictionary;
 }
-@property (retain,nonatomic) NSMutableDictionary * pageModelDictionary;
+@property(retain, nonatomic) NSMutableDictionary *pageModelDictionary;
 + (id)sharedPageModelController;
 - (id)init;
 - (void)setDocsCount:(long long)v1 forPage:(long long)v2;
@@ -9580,36 +9996,36 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINQRCodeReaderDownloadManager : NSObject<NSURLSessionDataDelegate> {
-    NSString * _QRCodeString;
+@interface TINQRCodeReaderDownloadManager : NSObject <NSURLSessionDataDelegate>
+{
+    NSString *_QRCodeString;
 }
-@property (retain) NSString * QRCodeString;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain) NSString *QRCodeString;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)init;
 - (void)downloadAndManageFromURL:(id)v1;
 - (void)showAlert:(id)v1;
 - (int)writeDataToFileAndOpen:(id)v1;
 - (void)showActivityIndicator;
 - (void)hideActivityIndiactor;
-- (void)URLSession:(id)v1 task:(id)v2 willPerformHTTPRedirection:(id)v3 newRequest:(id)v4 completionHandler:(void (^ /* unknown block signature */)(void))v5;
+- (void)URLSession:(id)v1 task:(id)v2 willPerformHTTPRedirection:(id)v3 newRequest:(id)v4 completionHandler:(void (^/* unknown block signature */)(void))v5;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINPhoenixDelegate : NSObject {
-    NSThread * mPhoenixThread;
-    struct anonymous_type_189 * mOperationQueue;
+@interface TINPhoenixDelegate : NSObject
+{
+    NSThread *mPhoenixThread;
+    struct anonymous_type_189 *mOperationQueue;
     int errorCode;
 }
-@property (nonatomic) int errorCode;
+@property(nonatomic) int errorCode;
 + (int)isInsidePCL;
 + (id)sharedInstance;
 - (id)getString:(int)v1 stringId:(int)v2;
@@ -9640,11 +10056,16 @@ struct anonymous_type_104 {
 - (void)processTouchEnd:(id)v1 forDocument:(id)v2;
 - (void)processTapGesture:(id)v1 forDocument:(id)v2;
 - (void)processDoubleTapGesture:(id)v1 forDocument:(id)v2;
-- (void)processPanGesture:(id)v1 forDocument:(id)v2 :(long long)v3;
-- (void)processPinchGesture:(id)v1 forDocument:(id)v2 :(long long)v3;
-- (void)processLongPressGesture:(id)v1 forDocument:(id)v2 :(long long)v3;
-- (void)processSwipeGesture:(id)v1 forDocument:(id)v2 :(int)v3;
-- (void)processRotationGesture:(id)v1 forDocument:(id)v2 :(long long)v3;
+- (void)processPanGesture:(id)v1 forDocument:(id)v2
+                         :(long long)v3;
+- (void)processPinchGesture:(id)v1 forDocument:(id)v2
+                           :(long long)v3;
+- (void)processLongPressGesture:(id)v1 forDocument:(id)v2
+                               :(long long)v3;
+- (void)processSwipeGesture:(id)v1 forDocument:(id)v2
+                           :(int)v3;
+- (void)processRotationGesture:(id)v1 forDocument:(id)v2
+                              :(long long)v3;
 - (int)canHandleGesture:(struct CGPoint *)v1 forDocument:(id)v2;
 - (int)isCommandAvailable:(int)v1 forDocument:(id)v2 withParam:(int)v3;
 - (int)doCommand:(int)v1 forDocument:(id)v2 withParam:(int)v3;
@@ -9653,11 +10074,11 @@ struct anonymous_type_104 {
 - (int)processEventCallback:(union anonymous_type_247 *)v1 targetWidget:(struct _Widget *)v2 central:(id)v3 forDocument:(id)v4;
 - (void)processTap:(id)v1 atPoint:(struct CGPoint)v2;
 - (int)processPaint:(int)v1 y0:(int)v2 w:(int)v3 h:(int)v4 doc:(id)v5;
-- (void)checkPCLAccess:(const  char *)v1;
-- (void)enqueueOnUIThread:(void (^ /* unknown block signature */)(void))v1 forExecutionContext:(struct anonymous_type_289 *)v2;
-- (void)enqueueOnUIThread:(void (^ /* unknown block signature */)(void))v1 forDocument:(id)v2;
-- (void)enqueueOnPCLThread:(void (^ /* unknown block signature */)(void))v1 forDocument:(id)v2;
-- (void)enqueueOnPCLThread:(void (^ /* unknown block signature */)(void))v1 forExecutionContext:(struct anonymous_type_299 *)v2;
+- (void)checkPCLAccess:(const char *)v1;
+- (void)enqueueOnUIThread:(void (^/* unknown block signature */)(void))v1 forExecutionContext:(struct anonymous_type_289 *)v2;
+- (void)enqueueOnUIThread:(void (^/* unknown block signature */)(void))v1 forDocument:(id)v2;
+- (void)enqueueOnPCLThread:(void (^/* unknown block signature */)(void))v1 forDocument:(id)v2;
+- (void)enqueueOnPCLThread:(void (^/* unknown block signature */)(void))v1 forExecutionContext:(struct anonymous_type_299 *)v2;
 - (void)longCalculationCallback;
 - (int)preProcessOperation:(struct TI_Operation *)v1;
 - (void)postProcessOperation:(struct TI_Operation *)v1;
@@ -9688,7 +10109,7 @@ struct anonymous_type_104 {
 - (id)getProblemName:(int)v1 inDocument:(id)v2;
 - (int)IsCommandAvailable:(id)v1 command:(int)v2;
 - (int)moveProblem:(int)v1 toIndex:(int)v2 inDocument:(id)v3;
-- (void)closeDocument:(id)v1 withCompletionHandler:(void (^ /* unknown block signature */)(void))v2;
+- (void)closeDocument:(id)v1 withCompletionHandler:(void (^/* unknown block signature */)(void))v2;
 - (int)startingCardIndexForDocument:(id)v1 problemIndex:(int)v2;
 - (int)overallCardIndexForDocument:(id)v1 problemIndex:(int)v2 cardIndex:(int)v3;
 - (id)colorForDocument:(id)v1 problemIndex:(int)v2 cardIndex:(int)v3;
@@ -9704,7 +10125,6 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface TINAppCardBar : UIView
@@ -9716,23 +10136,22 @@ struct anonymous_type_104 {
 - (id)buttonWithRank:(int)v1 group:(int)v2;
 @end
 
-
 /*****************************************************************/
 
-@interface ACBTest : NSObject {
-    NSTimer * test_timer;
-    void * cardBar;
-    NSMutableArray * buttonList;
+@interface ACBTest : NSObject
+{
+    NSTimer *test_timer;
+    void *cardBar;
+    NSMutableArray *buttonList;
 }
 - (void)testButtons;
 - (void)startTests;
 - (void)startTimerWithInterval:(float)v1;
 - (struct anonymous_type_534 *)buttonData:(int *)v1 module:(int)v2 onIcon:(int)v3 offIcon:(int)v4 position:(int)v5;
-- (void)performBlock:(void (^ /* unknown block signature */)(void))v1 afterDelay:(double)v2;
-- (void)fireBlock:(void (^ /* unknown block signature */)(void))v1;
+- (void)performBlock:(void (^/* unknown block signature */)(void))v1 afterDelay:(double)v2;
+- (void)fireBlock:(void (^/* unknown block signature */)(void))v1;
 - (void).cxx_destruct;
 @end
-
 
 /*****************************************************************/
 
@@ -9745,33 +10164,33 @@ struct anonymous_type_104 {
 + (struct anonymous_type_539)generateSettingsWith:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorControl : NSObject<TINInspectorControlProtocol> {
+@interface TINInspectorControl : NSObject <TINInspectorControlProtocol>
+{
     int isEnabled;
     int controlHeight;
     int isInitialized;
-    NSString * title;
-    char * automationTestId;
-    UITableViewCell * cellView;
-    NSObject<TINInspectorControllerDelegate> * delegate;
-    UILabel * titleLabel;
-    UIView * disabledControlLayer;
+    NSString *title;
+    char *automationTestId;
+    UITableViewCell *cellView;
+    NSObject<TINInspectorControllerDelegate> *delegate;
+    UILabel *titleLabel;
+    UIView *disabledControlLayer;
 }
 @property int controlHeight;
-@property (retain,nonatomic) UIView * disabledControlLayer;
-@property (nonatomic) int isInitialized;
-@property (nonatomic) NSObject<TINInspectorControllerDelegate> * delegate;
-@property (retain,nonatomic) NSString * title;
-@property (nonatomic) char * automationTestId;
-@property (retain,nonatomic) UITableViewCell * cellView;
-@property (retain,nonatomic) UILabel * titleLabel;
+@property(retain, nonatomic) UIView *disabledControlLayer;
+@property(nonatomic) int isInitialized;
+@property(nonatomic) NSObject<TINInspectorControllerDelegate> *delegate;
+@property(retain, nonatomic) NSString *title;
+@property(nonatomic) char *automationTestId;
+@property(retain, nonatomic) UITableViewCell *cellView;
+@property(retain, nonatomic) UILabel *titleLabel;
 @property int isEnabled;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithTitle:(id)v1 automationTestId:(char *)v2;
 - (int)viewHeight;
 - (id)view;
@@ -9780,14 +10199,14 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorViewController : TINTableViewController<TINInspectorControllerDelegate> {
-    NSString * title;
-    NSArray * inspectorComponets;
+@interface TINInspectorViewController : TINTableViewController <TINInspectorControllerDelegate>
+{
+    NSString *title;
+    NSArray *inspectorComponets;
 }
-@property (retain,nonatomic) NSArray * inspectorComponets;
+@property(retain, nonatomic) NSArray *inspectorComponets;
 - (id)initWithTitle:(id)v1 inspectorComponents:(id)v2;
 - (void)didReceiveMemoryWarning;
 - (void)viewDidLoad;
@@ -9803,26 +10222,26 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINOtherMenuItem : NSObject {
+@interface TINOtherMenuItem : NSObject
+{
     int _type;
 }
-@property (nonatomic) int type;
+@property(nonatomic) int type;
 - (id)initWithType:(int)v1;
 - (id)getTitle;
 - (id)getImage;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorColorPicker : TINInspectorControl<TINInspectorControlDelegate> {
-    NSString * colorPickerType;
-    UIColor * currentColor;
-    NSString * labelText;
-    TINColorPickerController * colorPickerController;
+@interface TINInspectorColorPicker : TINInspectorControl <TINInspectorControlDelegate>
+{
+    NSString *colorPickerType;
+    UIColor *currentColor;
+    NSString *labelText;
+    TINColorPickerController *colorPickerController;
 }
 - (id)initLineColorPicker;
 - (id)initFillColorPicker;
@@ -9836,14 +10255,14 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorListMenu : TINInspectorControl<TINInspectorControlDelegate> {
-    NSMutableArray * menuItemList;
-    TINInspectorListMenuItem * selectedItem;
-    TINListMenuController * listMenuController;
-    UILabel * selectedItemLabel;
+@interface TINInspectorListMenu : TINInspectorControl <TINInspectorControlDelegate>
+{
+    NSMutableArray *menuItemList;
+    TINInspectorListMenuItem *selectedItem;
+    TINListMenuController *listMenuController;
+    UILabel *selectedItemLabel;
     long long controlData;
 }
 @property long long controlData;
@@ -9859,28 +10278,28 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorListMenuItem : TINInspectorControl {
-    void * * callback;
+@interface TINInspectorListMenuItem : TINInspectorControl
+{
+    void **callback;
     long long itemData;
     long long controlData;
-    NSString * fontName;
+    NSString *fontName;
 }
-@property (retain,nonatomic) NSString * fontName;
-- (id)initWithTitle:(id)v1 fontName:(id)v2 callback:(void * *)v3 itemData:(long long)v4 controlData:(long long)v5 automationTestId:(char *)v6;
+@property(retain, nonatomic) NSString *fontName;
+- (id)initWithTitle:(id)v1 fontName:(id)v2 callback:(void **)v3 itemData:(long long)v4 controlData:(long long)v5 automationTestId:(char *)v6;
 - (void)sendCallBack;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINListMenuController : TINTableViewController {
-    NSArray * listMenuItems;
-    TINInspectorListMenuItem * selectedMenuItem;
-    NSObject<TINInspectorControlDelegate> * delegate;
+@interface TINListMenuController : TINTableViewController
+{
+    NSArray *listMenuItems;
+    TINInspectorListMenuItem *selectedMenuItem;
+    NSObject<TINInspectorControlDelegate> *delegate;
 }
 - (id)initWithTitle:(id)v1 items:(id)v2 selectedItem:(id)v3 delegate:(id)v4;
 - (void)viewDidLoad;
@@ -9891,20 +10310,20 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINIconListMenuViewController : TINViewController<UINavigationControllerDelegate> {
-    NSArray * iconListMenuItems;
-    TINInspectorIconListMenuItem * selectedIconItem;
-    NSObject<TINInspectorControlDelegate> * delegate;
-    NSMutableArray * menuButtons;
+@interface TINIconListMenuViewController : TINViewController <UINavigationControllerDelegate>
+{
+    NSArray *iconListMenuItems;
+    TINInspectorIconListMenuItem *selectedIconItem;
+    NSObject<TINInspectorControlDelegate> *delegate;
+    NSMutableArray *menuButtons;
     int selectionChanged;
 }
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithTitle:(id)v1 items:(id)v2 selectedItem:(id)v3 delegate:(id)v4;
 - (void)loadView;
 - (void)viewDidLoad;
@@ -9915,50 +10334,50 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINCustomDialogView : UIView {
-    UILabel * _lblOption;
-    UIView * _optionContentView;
-    NSLayoutConstraint * _lblWidth;
+@interface TINCustomDialogView : UIView
+{
+    UILabel *_lblOption;
+    UIView *_optionContentView;
+    NSLayoutConstraint *_lblWidth;
 }
-@property (nonatomic) UILabel * lblOption;
-@property (nonatomic) UIView * optionContentView;
-@property (nonatomic) NSLayoutConstraint * lblWidth;
+@property(nonatomic) UILabel *lblOption;
+@property(nonatomic) UIView *optionContentView;
+@property(nonatomic) NSLayoutConstraint *lblWidth;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINIconButton : UIButton {
-    UIImage * selectedIcon;
-    TINInspectorIconListMenuItem * iconListMenuItem;
-    UIImage * icon;
+@interface TINIconButton : UIButton
+{
+    UIImage *selectedIcon;
+    TINInspectorIconListMenuItem *iconListMenuItem;
+    UIImage *icon;
 }
-@property (retain,nonatomic) TINInspectorIconListMenuItem * iconListMenuItem;
-@property (retain,nonatomic) UIImage * icon;
+@property(retain, nonatomic) TINInspectorIconListMenuItem *iconListMenuItem;
+@property(retain, nonatomic) UIImage *icon;
 - (void)updateSelection:(int)v1;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINColorPickerController : TINViewController<UINavigationControllerDelegate,UICollectionViewDelegateFlowLayout,UICollectionViewDataSource> {
-    NSString * colorPickerType;
-    NSMutableArray * colorButtons;
-    UIColor * currentSelectedColor;
-    TINColorButton * currentSelectedButton;
-    TINColorButton * lastSelectedButton;
+@interface TINColorPickerController : TINViewController <UINavigationControllerDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource>
+{
+    NSString *colorPickerType;
+    NSMutableArray *colorButtons;
+    UIColor *currentSelectedColor;
+    TINColorButton *currentSelectedButton;
+    TINColorButton *lastSelectedButton;
     int pickedColorChanged;
-    NSObject<TINInspectorControlDelegate> * delegate;
+    NSObject<TINInspectorControlDelegate> *delegate;
 }
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithType:(id)v1 title:(id)v2 selectedColor:(id)v3 delegate:(id)v4;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(int)v1;
@@ -9977,62 +10396,62 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINColorButton : UIButton {
-    UIColor * color;
-    UIImage * image;
-    UIImage * selectedImage;
+@interface TINColorButton : UIButton
+{
+    UIColor *color;
+    UIImage *image;
+    UIImage *selectedImage;
 }
-@property (retain,nonatomic) UIColor * color;
-@property (retain,nonatomic) UIImage * image;
-@property (retain,nonatomic) UIImage * selectedImage;
+@property(retain, nonatomic) UIColor *color;
+@property(retain, nonatomic) UIImage *image;
+@property(retain, nonatomic) UIImage *selectedImage;
 - (void)updateSelection:(int)v1;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINEntExamCodeDialogController : TINViewController<UINavigationControllerDelegate,UITextFieldDelegate> {
-    UILabel * codeLabel;
-    UITextView * descriptionText;
-    UITextField * position1;
-    UITextField * position2;
-    UITextField * position3;
-    UITextField * position4;
-    UILabel * ValidateExamCode;
-    UITextField * position5;
-    UITextField * position6;
-    UITextField * position7;
-    UITextField * position8;
+@interface TINEntExamCodeDialogController : TINViewController <UINavigationControllerDelegate, UITextFieldDelegate>
+{
+    UILabel *codeLabel;
+    UITextView *descriptionText;
+    UITextField *position1;
+    UITextField *position2;
+    UITextField *position3;
+    UITextField *position4;
+    UILabel *ValidateExamCode;
+    UITextField *position5;
+    UITextField *position6;
+    UITextField *position7;
+    UITextField *position8;
 }
-@property (nonatomic) UILabel * codeLabel;
-@property (nonatomic) UITextField * position1;
-@property (nonatomic) UITextField * position2;
-@property (nonatomic) UITextField * position3;
-@property (nonatomic) UITextField * position4;
-@property (nonatomic) UITextField * position5;
-@property (nonatomic) UITextField * position6;
-@property (nonatomic) UITextField * position7;
-@property (nonatomic) UITextField * position8;
-@property (nonatomic) UITextView * descriptionText;
-@property (nonatomic) UILabel * ValidateExamCode;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) UILabel *codeLabel;
+@property(nonatomic) UITextField *position1;
+@property(nonatomic) UITextField *position2;
+@property(nonatomic) UITextField *position3;
+@property(nonatomic) UITextField *position4;
+@property(nonatomic) UITextField *position5;
+@property(nonatomic) UITextField *position6;
+@property(nonatomic) UITextField *position7;
+@property(nonatomic) UITextField *position8;
+@property(nonatomic) UITextView *descriptionText;
+@property(nonatomic) UILabel *ValidateExamCode;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewDidLoad;
-- (void)updateTextField:(id)v1 :(int)v2;
-- (void)examCodeFromClipboard:(id)v1 :(int)v2;
+- (void)updateTextField:(id)v1:(int)v2;
+- (void)examCodeFromClipboard:(id)v1:(int)v2;
 - (int)currentTextFieldIndex:(id)v1;
 - (int)textField:(id)v1 shouldChangeCharactersInRange:(struct _NSRange)v2 replacementString:(id)v3;
 - (int)isValidNumber:(id)v1;
 - (void)loadLastValidExamCode;
-- (void)fillExamCodeArray:(id)v1 :(int)v2;
-- (void)validateFinalCode:(id)v1 :(int)v2;
+- (void)fillExamCodeArray:(id)v1:(int)v2;
+- (void)validateFinalCode:(id)v1:(int)v2;
 - (void)cleanArrayCode;
 - (id)keyCommands;
 - (void)rightArrowKey:(id)v1;
@@ -10048,13 +10467,13 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorIconListMenu : TINInspectorControl<TINInspectorControlDelegate> {
-    NSMutableArray * iconListMenuItems;
-    TINInspectorIconListMenuItem * selectedIconListMenuItem;
-    TINIconListMenuViewController * controller;
+@interface TINInspectorIconListMenu : TINInspectorControl <TINInspectorControlDelegate>
+{
+    NSMutableArray *iconListMenuItems;
+    TINInspectorIconListMenuItem *selectedIconListMenuItem;
+    TINIconListMenuViewController *controller;
     long long controlData;
 }
 @property long long controlData;
@@ -10068,43 +10487,43 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorIconListMenuItem : TINInspectorControl {
+@interface TINInspectorIconListMenuItem : TINInspectorControl
+{
     long long controlData;
     long long itemData;
-    void * * callback;
+    void **callback;
     unsigned int iconId;
     unsigned int moduleId;
 }
 @property unsigned int moduleId;
 @property unsigned int iconId;
-- (id)initWithIconId:(unsigned int)v1 iconModuleId:(unsigned int)v2 controlData:(long long)v3 itemData:(long long)v4 callback:(void * *)v5 automationTestId:(char *)v6;
+- (id)initWithIconId:(unsigned int)v1 iconModuleId:(unsigned int)v2 controlData:(long long)v3 itemData:(long long)v4 callback:(void **)v5 automationTestId:(char *)v6;
 - (void)sendCallBack;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorManager : NSObject<UIPopoverPresentationControllerDelegate> {
-    NSMutableArray * controlList;
-    UINavigationController * inspectorNavController;
+@interface TINInspectorManager : NSObject <UIPopoverPresentationControllerDelegate>
+{
+    NSMutableArray *controlList;
+    UINavigationController *inspectorNavController;
     int inspectorChanged;
     int inpsectorState;
-    NSString * title;
-    void * * pStartedCallback;
-    void * * pFinishedCallback;
+    NSString *title;
+    void **pStartedCallback;
+    void **pFinishedCallback;
 }
-@property (retain,nonatomic) NSString * title;
-@property void * * pStartedCallback;
-@property void * * pFinishedCallback;
+@property(retain, nonatomic) NSString *title;
+@property void **pStartedCallback;
+@property void **pFinishedCallback;
 @property int inspectorChanged;
 @property int inpsectorState;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 + (id)sharedInspectorManager;
 - (id)init;
 - (void)addControl:(id)v1;
@@ -10118,16 +10537,16 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorSegmentedControlView : UIView {
+@interface TINInspectorSegmentedControlView : UIView
+{
     double segmentWidth;
     double segmentHeight;
     double separationValue;
-    NSMutableArray * segmentList;
+    NSMutableArray *segmentList;
 }
-@property (retain,nonatomic) NSMutableArray * segmentList;
+@property(retain, nonatomic) NSMutableArray *segmentList;
 - (id)initWithButtons:(id)v1;
 - (double)getWidth;
 - (double)getHeigth;
@@ -10139,14 +10558,14 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorSingleSelectionView : UIView {
+@interface TINInspectorSingleSelectionView : UIView
+{
     double segmentWidth;
     double segmentHeight;
     double separationValue;
-    NSMutableArray * segmentList;
+    NSMutableArray *segmentList;
 }
 + (double)getWidthForButtons:(long long)v1;
 - (id)initWithButtons:(id)v1;
@@ -10157,15 +10576,15 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorMultiButtonControl : TINInspectorControl {
+@interface TINInspectorMultiButtonControl : TINInspectorControl
+{
     long long controlData;
-    TINInspectorToggleButton * initialSelectedSegment;
-    NSMutableArray * buttonList;
+    TINInspectorToggleButton *initialSelectedSegment;
+    NSMutableArray *buttonList;
 }
-@property (retain,nonatomic) NSMutableArray * buttonList;
+@property(retain, nonatomic) NSMutableArray *buttonList;
 - (id)initWithInfo:(struct anonymous_type_540 *)v1;
 - (void)addSegment:(id)v1;
 - (void)setSegmentSelected:(id)v1;
@@ -10175,19 +10594,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorSegmentedControl : TINInspectorControl {
-    UILabel * titleLabel;
+@interface TINInspectorSegmentedControl : TINInspectorControl
+{
+    UILabel *titleLabel;
     long long controlData;
-    NSMutableArray * initialSelectedItems;
-    UILabel * titileLabel;
-    NSMutableArray * exclusiveButtonList;
-    NSMutableArray * inclusiveButtonList;
+    NSMutableArray *initialSelectedItems;
+    UILabel *titileLabel;
+    NSMutableArray *exclusiveButtonList;
+    NSMutableArray *inclusiveButtonList;
 }
-@property (retain,nonatomic) NSMutableArray * exclusiveButtonList;
-@property (retain,nonatomic) NSMutableArray * inclusiveButtonList;
+@property(retain, nonatomic) NSMutableArray *exclusiveButtonList;
+@property(retain, nonatomic) NSMutableArray *inclusiveButtonList;
 - (id)initWithInfo:(struct anonymous_type_541 *)v1;
 - (void)addSegment:(id)v1;
 - (void)setAdditiveSegmentSelected:(id)v1;
@@ -10202,19 +10621,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINPopUpMenuManager : TINTableViewController<UINavigationControllerDelegate> {
-    NSArray * _items;
-    NSIndexPath * _selectedIndexPath;
+@interface TINPopUpMenuManager : TINTableViewController <UINavigationControllerDelegate>
+{
+    NSArray *_items;
+    NSIndexPath *_selectedIndexPath;
 }
-@property (retain,nonatomic) NSArray * items;
-@property (retain,nonatomic) NSIndexPath * selectedIndexPath;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) NSArray *items;
+@property(retain, nonatomic) NSIndexPath *selectedIndexPath;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(int)v1;
 - (void)didReceiveMemoryWarning;
@@ -10227,23 +10646,23 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorSlider : TINInspectorControl {
-    UISlider * slider;
-    UILabel * rightLabel;
-    NSString * textSizeValue;
-    NSString * unitsText;
+@interface TINInspectorSlider : TINInspectorControl
+{
+    UISlider *slider;
+    UILabel *rightLabel;
+    NSString *textSizeValue;
+    NSString *unitsText;
     long long controlD;
     int minValue;
     int maxValue;
     int intValue;
-    void * * callback;
+    void **callback;
 }
-@property (nonatomic) int intValue;
-@property void * * callback;
-- (id)initWithSliderInfo:(int *)v1 minValue:(int)v2 maxValue:(int)v3 rightLabel:(int *)v4 sliderCallBack:(void * *)v5 controlData:(long long)v6 automationTestId:(char *)v7;
+@property(nonatomic) int intValue;
+@property void **callback;
+- (id)initWithSliderInfo:(int *)v1 minValue:(int)v2 maxValue:(int)v3 rightLabel:(int *)v4 sliderCallBack:(void **)v5 controlData:(long long)v6 automationTestId:(char *)v7;
 - (int)viewHeight;
 - (id)view;
 - (void)sliderValueChanged;
@@ -10251,18 +10670,18 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorSpinner : TINInspectorControl {
-    UILabel * unitsLabel;
-    UIStepper * stepperControl;
+@interface TINInspectorSpinner : TINInspectorControl
+{
+    UILabel *unitsLabel;
+    UIStepper *stepperControl;
     int intSpinnerValue;
-    NSString * textValue;
+    NSString *textValue;
     long long controlData;
     int rangeMax;
     int rangeMin;
-    void * * pCallback;
+    void **pCallback;
 }
 - (id)initWithInfo:(struct anonymous_type_542 *)v1;
 - (void)setStepperValue:(int)v1;
@@ -10274,21 +10693,21 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorSwitch : TINInspectorControl {
-    NSString * onText;
-    NSString * offText;
-    NSArray * labels;
+@interface TINInspectorSwitch : TINInspectorControl
+{
+    NSString *onText;
+    NSString *offText;
+    NSArray *labels;
     long long pControlData;
-    UISwitch * toggleSwitch;
+    UISwitch *toggleSwitch;
     int state;
-    void * * callback;
+    void **callback;
 }
-@property (nonatomic) int state;
-@property (nonatomic) void * * callback;
-- (id)initWithSwitchInfo:(int *)v1 onLabel:(int *)v2 offLabel:(int *)v3 switchCallBack_t:(void * *)v4 intptr_t:(long long)v5 pathName:(char *)v6;
+@property(nonatomic) int state;
+@property(nonatomic) void **callback;
+- (id)initWithSwitchInfo:(int *)v1 onLabel:(int *)v2 offLabel:(int *)v3 switchCallBack_t:(void **)v4 intptr_t:(long long)v5 pathName:(char *)v6;
 - (id)getUISwitch;
 - (int)getState;
 - (int)viewHeight;
@@ -10298,27 +10717,27 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorToggleButton : TINInspectorControl {
+@interface TINInspectorToggleButton : TINInspectorControl
+{
     unsigned int iconModuleId;
     unsigned int iconId;
     unsigned int iconSelectedId;
     long long itemData;
     int isSegmentedControlItem;
     int exclusive;
-    UIImage * normalStateImage;
-    UIImage * pressedStateImage;
-    UIButton * button;
-    void * * callback;
+    UIImage *normalStateImage;
+    UIImage *pressedStateImage;
+    UIButton *button;
+    void **callback;
     long long controlData;
 }
-@property (nonatomic) int exclusive;
-@property (retain,nonatomic) UIImage * normalStateImage;
-@property (retain,nonatomic) UIImage * pressedStateImage;
-@property (retain,nonatomic) UIButton * button;
-@property void * * callback;
+@property(nonatomic) int exclusive;
+@property(retain, nonatomic) UIImage *normalStateImage;
+@property(retain, nonatomic) UIImage *pressedStateImage;
+@property(retain, nonatomic) UIButton *button;
+@property void **callback;
 @property long long controlData;
 - (id)initWithInfo:(struct anonymous_type_543)v1 isExclusive:(int)v2;
 - (int)isSelected;
@@ -10328,24 +10747,23 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface HelpLauncher : NSObject
 + (void)launchHelpInSafari;
 @end
 
-
 /*****************************************************************/
 
-@interface TINEmtpyInspectorViewController : TINViewController {
-    NSString * title;
-    NSString * text;
-    UILabel * _lblEmptyInspectorTitle;
-    UILabel * _lblEmptyInspectorText;
+@interface TINEmtpyInspectorViewController : TINViewController
+{
+    NSString *title;
+    NSString *text;
+    UILabel *_lblEmptyInspectorTitle;
+    UILabel *_lblEmptyInspectorText;
 }
-@property (nonatomic) UILabel * lblEmptyInspectorTitle;
-@property (nonatomic) UILabel * lblEmptyInspectorText;
+@property(nonatomic) UILabel *lblEmptyInspectorTitle;
+@property(nonatomic) UILabel *lblEmptyInspectorText;
 - (id)initNoAttributesAvailable;
 - (id)initNoCommonAttributes;
 - (id)initNoAttributesChangeable;
@@ -10354,64 +10772,64 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentPageViewController : TINViewController<UIDocumentInteractionControllerDelegate,UIGestureRecognizerDelegate,NSFileManagerDelegate> {
+@interface TINDocumentPageViewController : TINViewController <UIDocumentInteractionControllerDelegate, UIGestureRecognizerDelegate, NSFileManagerDelegate>
+{
     int initialized_;
-    UIBarButtonItem * docSorterButton;
-    UIBarButtonItem * addApplicationButton;
-    UIBarButtonItem * cardSettingsButton;
-    UIBarButtonItem * shareButton;
-    UIBarButtonItem * openInButton;
-    UIBarButtonItem * undoTopButton;
-    UIBarButtonItem * redoTopButton;
-    UIBarButtonItem * clearDocumentButton;
-    UIBarButtonItem * informationButton;
-    UIBarButtonItem * helpButton;
-    UIBarButtonItem * moreButton;
-    NSArray * myActions;
-    TINPageViewController * pageViewController_;
-    UIView * disablingView;
-    UIDocumentInteractionController * docInteractionController;
+    UIBarButtonItem *docSorterButton;
+    UIBarButtonItem *addApplicationButton;
+    UIBarButtonItem *cardSettingsButton;
+    UIBarButtonItem *shareButton;
+    UIBarButtonItem *openInButton;
+    UIBarButtonItem *undoTopButton;
+    UIBarButtonItem *redoTopButton;
+    UIBarButtonItem *clearDocumentButton;
+    UIBarButtonItem *informationButton;
+    UIBarButtonItem *helpButton;
+    UIBarButtonItem *moreButton;
+    NSArray *myActions;
+    TINPageViewController *pageViewController_;
+    UIView *disablingView;
+    UIDocumentInteractionController *docInteractionController;
     int _hideStatusBar;
     int _documentViewLoaded;
-    TINPageSorterViewController * pageSorter;
-    TINPageViewTopBarController * topBar;
-    Document * pageDocument;
-    UIActivityIndicatorView * activityIndicatorView;
-    TINDocumentAddViewController * tinDocumentAddViewController;
-    TINPageViewController * documentView;
-    TINExamModeBarView * topBarView;
-    NSLayoutConstraint * _pageSorterHorizontalSpaceConstraint;
-    UIView * _pageSorterContainer;
-    UIView * _cardViewContainer;
-    UIButton * _pageSorterButton;
-    UIButton * _angleModeLabel;
-    TINDocumentSettingsViewController * _documentSettingsViewController;
+    TINPageSorterViewController *pageSorter;
+    TINPageViewTopBarController *topBar;
+    Document *pageDocument;
+    UIActivityIndicatorView *activityIndicatorView;
+    TINDocumentAddViewController *tinDocumentAddViewController;
+    TINPageViewController *documentView;
+    TINExamModeBarView *topBarView;
+    NSLayoutConstraint *_pageSorterHorizontalSpaceConstraint;
+    UIView *_pageSorterContainer;
+    UIView *_cardViewContainer;
+    UIButton *_pageSorterButton;
+    UIButton *_angleModeLabel;
+    TINDocumentSettingsViewController *_documentSettingsViewController;
 }
-@property (retain,nonatomic) NSLayoutConstraint * pageSorterHorizontalSpaceConstraint;
-@property (retain,nonatomic) UIView * pageSorterContainer;
-@property (retain,nonatomic) UIView * cardViewContainer;
-@property (retain,nonatomic) UIActivityIndicatorView * activityIndicatorView;
-@property (retain,nonatomic) Document * pageDocument;
-@property (retain,nonatomic) UIBarButtonItem * docSorterButton;
-@property (retain,nonatomic) UIBarButtonItem * undoTopButton;
-@property (retain,nonatomic) UIBarButtonItem * redoTopButton;
-@property (retain,nonatomic) UIButton * pageSorterButton;
-@property (retain,nonatomic) UIButton * angleModeLabel;
-@property (retain,nonatomic) TINDocumentAddViewController * tinDocumentAddViewController;
-@property (retain,nonatomic) TINPageSorterViewController * pageSorter;
-@property (retain,nonatomic) TINDocumentSettingsViewController * documentSettingsViewController;
-@property (retain,nonatomic) TINPageViewTopBarController * topBar;
-@property (retain,nonatomic) TINPageViewController * documentView;
-@property (nonatomic) int hideStatusBar;
-@property (nonatomic) int documentViewLoaded;
-@property (retain,nonatomic) TINExamModeBarView * topBarView;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) NSLayoutConstraint *pageSorterHorizontalSpaceConstraint;
+@property(retain, nonatomic) UIView *pageSorterContainer;
+@property(retain, nonatomic) UIView *cardViewContainer;
+@property(retain, nonatomic) UIActivityIndicatorView *activityIndicatorView;
+@property(retain, nonatomic) Document *pageDocument;
+@property(retain, nonatomic) UIBarButtonItem *docSorterButton;
+@property(retain, nonatomic) UIBarButtonItem *undoTopButton;
+@property(retain, nonatomic) UIBarButtonItem *redoTopButton;
+@property(retain, nonatomic) UIButton *pageSorterButton;
+@property(retain, nonatomic) UIButton *angleModeLabel;
+@property(retain, nonatomic) TINDocumentAddViewController *tinDocumentAddViewController;
+@property(retain, nonatomic) TINPageSorterViewController *pageSorter;
+@property(retain, nonatomic) TINDocumentSettingsViewController *documentSettingsViewController;
+@property(retain, nonatomic) TINPageViewTopBarController *topBar;
+@property(retain, nonatomic) TINPageViewController *documentView;
+@property(nonatomic) int hideStatusBar;
+@property(nonatomic) int documentViewLoaded;
+@property(retain, nonatomic) TINExamModeBarView *topBarView;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (void)initialize;
 - (void)prepareForSegue:(id)v1 sender:(id)v2;
 - (void)createThumbnailForBackUpDocument;
@@ -10424,7 +10842,7 @@ struct anonymous_type_104 {
 - (void)showActivityindicator;
 - (void)hideActivityIndiactor;
 - (void)saveDocumentBeforeSwitchToHome;
-- (void)switchToHomeWithSaveWithCompletionHandler:(void (^ /* unknown block signature */)(void))v1;
+- (void)switchToHomeWithSaveWithCompletionHandler:(void (^/* unknown block signature */)(void))v1;
 - (void)switchToHomeWithSave;
 - (void)closeCurrentDoc;
 - (int)fileManager:(id)v1 shouldProceedAfterError:(id)v2 movingItemAtPath:(id)v3 toPath:(id)v4;
@@ -10508,7 +10926,6 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface TINDateUtilities : NSObject
@@ -10518,7 +10935,6 @@ struct anonymous_type_104 {
 + (id)getCreationDate:(id)v1;
 @end
 
-
 /*****************************************************************/
 
 @interface TINInspectorTitleLabel : UILabel
@@ -10527,16 +10943,16 @@ struct anonymous_type_104 {
 - (void)updateHeight:(int)v1;
 @end
 
-
 /*****************************************************************/
 
-@interface TINFontsManager : NSObject {
-    NSMutableDictionary * plistData;
-    NSArray * fontFamilyNames;
-    NSArray * fontsSizes;
+@interface TINFontsManager : NSObject
+{
+    NSMutableDictionary *plistData;
+    NSArray *fontFamilyNames;
+    NSArray *fontsSizes;
 }
-@property (retain,nonatomic) NSArray * fontFamilyNames;
-@property (retain,nonatomic) NSArray * fontsSizes;
+@property(retain, nonatomic) NSArray *fontFamilyNames;
+@property(retain, nonatomic) NSArray *fontsSizes;
 + (id)sharedFontsManager;
 - (id)init;
 - (id)fontNameFromIndex:(int)v1;
@@ -10545,15 +10961,15 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINPhotosAlbumManager : NSObject {
-    NSArray * photos;
+@interface TINPhotosAlbumManager : NSObject
+{
+    NSArray *photos;
     int photoCounter;
-    PHPhotoLibrary * photoLibrary;
+    PHPhotoLibrary *photoLibrary;
 }
-@property (retain,nonatomic) PHPhotoLibrary * photoLibrary;
+@property(retain, nonatomic) PHPhotoLibrary *photoLibrary;
 + (id)photosAlbumManager;
 - (id)init;
 - (void)addTINspirePhotosToAlbum:(id)v1;
@@ -10561,15 +10977,15 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentWatcherPathEntry : NSObject {
-    NSString * _path;
+@interface TINDocumentWatcherPathEntry : NSObject
+{
+    NSString *_path;
     int _watchedFD;
     unsigned int _subscriptionFlags;
 }
-@property (copy) NSString * path;
+@property(copy) NSString *path;
 @property int watchedFD;
 @property unsigned int subscriptionFlags;
 - (id)initWithPath:(id)v1 andSubscriptionFlags:(unsigned int)v2;
@@ -10577,17 +10993,17 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentWatcher : NSObject {
-    NSObject<TINDocumentWatcherDelegate> * _delegate;
+@interface TINDocumentWatcher : NSObject
+{
+    NSObject<TINDocumentWatcherDelegate> *_delegate;
     int _alwaysPostNotifications;
     int _coreQueueFD;
-    NSMutableDictionary * _watchedPathEntries;
+    NSMutableDictionary *_watchedPathEntries;
     int _keepWatcherThreadRunning;
 }
-@property NSObject<TINDocumentWatcherDelegate> * delegate;
+@property NSObject<TINDocumentWatcherDelegate> *delegate;
 @property int alwaysPostNotifications;
 - (id)init;
 - (void)dealloc;
@@ -10600,7 +11016,6 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface TINColorScrollView : UIScrollView
@@ -10608,21 +11023,20 @@ struct anonymous_type_104 {
 - (int)touchesShouldCancelInContentView:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@interface TINNavigationController : UINavigationController<UINavigationControllerDelegate>
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@interface TINNavigationController : UINavigationController <UINavigationControllerDelegate>
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (long long)preferredStatusBarStyle;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogView : UIView {
+@interface TINDialogView : UIView
+{
     int layoutType;
     int currentLayout;
     int horizLayout;
@@ -10630,9 +11044,9 @@ struct anonymous_type_104 {
     double maxHeight;
     int horizontalLayout;
     int verticalLayout;
-    TINDialogViewController * dialogViewController;
+    TINDialogViewController *dialogViewController;
 }
-@property (retain,nonatomic) TINDialogViewController * dialogViewController;
+@property(retain, nonatomic) TINDialogViewController *dialogViewController;
 @property int layoutType;
 @property int currentLayout;
 @property int horizontalLayout;
@@ -10646,17 +11060,17 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINCustomDialogLabel : UILabel {
+@interface TINCustomDialogLabel : UILabel
+{
     int startBold;
     int boldLength;
-    NSString * textContent;
+    NSString *textContent;
 }
-@property (nonatomic) int startBold;
-@property (nonatomic) int boldLength;
-@property (retain,nonatomic) NSString * textContent;
+@property(nonatomic) int startBold;
+@property(nonatomic) int boldLength;
+@property(retain, nonatomic) NSString *textContent;
 - (id)init;
 - (void)setText:(id)v1;
 - (void)drawRect:(struct CGRect)v1;
@@ -10666,23 +11080,23 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialog : TINDialogContainer {
+@interface TINDialog : TINDialogContainer
+{
     int modalType;
     int loopLevel;
-    struct _Widget * parent;
-    NSString * testAppTitle;
-    TINDialogViewController * controller;
-    TINDialogControl * escapeControl;
+    struct _Widget *parent;
+    NSString *testAppTitle;
+    TINDialogViewController *controller;
+    TINDialogControl *escapeControl;
 }
-@property struct _Widget * parent;
+@property struct _Widget *parent;
 @property int modalType;
 @property int loopLevel;
-@property (retain,nonatomic) NSString * testAppTitle;
-@property (retain,nonatomic) TINDialogViewController * controller;
-@property (retain,nonatomic) TINDialogControl * escapeControl;
+@property(retain, nonatomic) NSString *testAppTitle;
+@property(retain, nonatomic) TINDialogViewController *controller;
+@property(retain, nonatomic) TINDialogControl *escapeControl;
 - (id)init;
 - (id)initWithParent:(struct _Widget *)v1 title:(int *)v2 modalType:(int)v3 testAppTitle:(char *)v4;
 - (id)description;
@@ -10690,80 +11104,80 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogButton : TINDialogControl<TINDialogControlDelegate> {
+@interface TINDialogButton : TINDialogControl <TINDialogControlDelegate>
+{
     int defaultButton;
     int escape;
     int isGroup;
-    NSString * iconURI;
-    NSString * tooltip;
-    UIButton * control;
-    Callback * callBack;
+    NSString *iconURI;
+    NSString *tooltip;
+    UIButton *control;
+    Callback *callBack;
 }
 @property int defaultButton;
 @property int escape;
-@property (retain,nonatomic) NSString * iconURI;
-@property (retain,nonatomic) NSString * tooltip;
-@property (retain,nonatomic) UIButton * control;
-@property (retain,nonatomic) Callback * callBack;
+@property(retain, nonatomic) NSString *iconURI;
+@property(retain, nonatomic) NSString *tooltip;
+@property(retain, nonatomic) UIButton *control;
+@property(retain, nonatomic) Callback *callBack;
 @property int isGroup;
-@property (nonatomic) TINDialogPanel * container;
-@property (retain,nonatomic) NSString * text;
-@property (retain,nonatomic) NSString * placeHolderText;
-@property (retain,nonatomic) RootViewController * rootViewController;
-@property (nonatomic) void * * callback;
+@property(nonatomic) TINDialogPanel *container;
+@property(retain, nonatomic) NSString *text;
+@property(retain, nonatomic) NSString *placeHolderText;
+@property(retain, nonatomic) RootViewController *rootViewController;
+@property(nonatomic) void **callback;
 @property long long callbackData;
-@property (nonatomic) int isTopBarItem;
-@property (nonatomic) int isGroupItem;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
-- (id)initWithContainer:(void *)v1 text:(int *)v2 callback:(void * *)v3 data:(long long)v4 iconId:(int)v5 moduleId:(int)v6 tooltip:(int *)v7;
+@property(nonatomic) int isTopBarItem;
+@property(nonatomic) int isGroupItem;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
+- (id)initWithContainer:(void *)v1 text:(int *)v2 callback:(void **)v3 data:(long long)v4 iconId:(int)v5 moduleId:(int)v6 tooltip:(int *)v7;
 - (void)doCallback:(id)v1;
 - (id)view;
 - (void)dealloc;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogComboBox : TINDialogControl<TINDialogControlDelegate> {
+@interface TINDialogComboBox : TINDialogControl <TINDialogControlDelegate>
+{
     int editableType;
     int isInlinePrompt;
-    NSMutableArray * options;
-    TINDialogLabel * rightControl;
-    TINDialogLabel * leftControl;
+    NSMutableArray *options;
+    TINDialogLabel *rightControl;
+    TINDialogLabel *leftControl;
     long long selectedIndex;
-    TINDialogTextField * displayTextField;
-    TINDialogComponentController * cvc;
-    UIView * panelView;
+    TINDialogTextField *displayTextField;
+    TINDialogComponentController *cvc;
+    UIView *panelView;
 }
 @property int editableType;
-@property (retain,nonatomic) NSMutableArray * options;
-@property (retain,nonatomic) TINDialogLabel * rightControl;
-@property (retain,nonatomic) TINDialogLabel * leftControl;
-@property (retain,nonatomic) TINDialogTextField * displayTextField;
-@property (retain,nonatomic) TINDialogComponentController * cvc;
-@property (retain,nonatomic) UIView * panelView;
-@property (nonatomic) long long selectedIndex;
-@property (nonatomic) int isInlinePrompt;
-@property (nonatomic) TINDialogPanel * container;
-@property (retain,nonatomic) NSString * text;
-@property (retain,nonatomic) NSString * placeHolderText;
-@property (retain,nonatomic) RootViewController * rootViewController;
-@property (nonatomic) void * * callback;
+@property(retain, nonatomic) NSMutableArray *options;
+@property(retain, nonatomic) TINDialogLabel *rightControl;
+@property(retain, nonatomic) TINDialogLabel *leftControl;
+@property(retain, nonatomic) TINDialogTextField *displayTextField;
+@property(retain, nonatomic) TINDialogComponentController *cvc;
+@property(retain, nonatomic) UIView *panelView;
+@property(nonatomic) long long selectedIndex;
+@property(nonatomic) int isInlinePrompt;
+@property(nonatomic) TINDialogPanel *container;
+@property(retain, nonatomic) NSString *text;
+@property(retain, nonatomic) NSString *placeHolderText;
+@property(retain, nonatomic) RootViewController *rootViewController;
+@property(nonatomic) void **callback;
 @property long long callbackData;
-@property (nonatomic) int isTopBarItem;
-@property (nonatomic) int isGroupItem;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
-- (id)initWithContainer:(void *)v1 items:(int * *)v2 editableType:(int)v3 callback:(void * *)v4 data:(long long)v5;
+@property(nonatomic) int isTopBarItem;
+@property(nonatomic) int isGroupItem;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
+- (id)initWithContainer:(void *)v1 items:(int **)v2 editableType:(int)v3 callback:(void **)v4 data:(long long)v5;
 - (void)doCallbackGotFocus:(id)v1;
 - (void)doCallbackLostFocus:(id)v1;
 - (void)doCallbackDidSeletedInput:(id)v1;
@@ -10776,98 +11190,98 @@ struct anonymous_type_104 {
 - (void)setItemFromIndex:(int)v1;
 - (void)setComponentText:(id)v1;
 - (void)setPlaceHolder:(id)v1;
-- (void)updateCBItems:(int * *)v1;
+- (void)updateCBItems:(int **)v1;
 - (void)dealloc;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogContainer : NSObject<TINDialogContainerProtocol> {
-    NSMutableArray * elements;
-    NSString * title;
+@interface TINDialogContainer : NSObject <TINDialogContainerProtocol>
+{
+    NSMutableArray *elements;
+    NSString *title;
     long long controlsCount;
 }
-@property (retain,nonatomic) NSString * title;
-@property (retain,nonatomic) NSMutableArray * elements;
-@property (nonatomic) long long controlsCount;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) NSString *title;
+@property(retain, nonatomic) NSMutableArray *elements;
+@property(nonatomic) long long controlsCount;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)init;
 - (id)initWithTitle:(int *)v1;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogControl : NSObject<TINDialogControlDelegate> {
-    UIView * _view;
+@interface TINDialogControl : NSObject <TINDialogControlDelegate>
+{
+    UIView *_view;
     int isTopBarItem;
     int isGroupItem;
     int isEditable;
     int isDisabled;
     int isVisible;
     int isInValid;
-    TINDialogPanel * container;
-    NSString * text;
-    void * * callback;
+    TINDialogPanel *container;
+    NSString *text;
+    void **callback;
     long long callbackData;
-    UIView * view;
-    RootViewController * rootViewController;
-    UITextField * ctextField;
-    TINDialogComponentController * controlVC;
-    NSString * placeHolderText;
+    UIView *view;
+    RootViewController *rootViewController;
+    UITextField *ctextField;
+    TINDialogComponentController *controlVC;
+    NSString *placeHolderText;
     struct CGSize viewSize;
 }
-@property (retain,nonatomic) UIView * view;
-@property (retain,nonatomic) UITextField * ctextField;
-@property (nonatomic) int isEditable;
-@property (nonatomic) int isVisible;
-@property (nonatomic) int isDisabled;
-@property (nonatomic) int isInValid;
-@property (nonatomic) struct CGSize viewSize;
-@property (retain,nonatomic) TINDialogComponentController * controlVC;
-@property (nonatomic) TINDialogPanel * container;
-@property (retain,nonatomic) NSString * text;
-@property (retain,nonatomic) NSString * placeHolderText;
-@property (retain,nonatomic) RootViewController * rootViewController;
-@property (nonatomic) void * * callback;
+@property(retain, nonatomic) UIView *view;
+@property(retain, nonatomic) UITextField *ctextField;
+@property(nonatomic) int isEditable;
+@property(nonatomic) int isVisible;
+@property(nonatomic) int isDisabled;
+@property(nonatomic) int isInValid;
+@property(nonatomic) struct CGSize viewSize;
+@property(retain, nonatomic) TINDialogComponentController *controlVC;
+@property(nonatomic) TINDialogPanel *container;
+@property(retain, nonatomic) NSString *text;
+@property(retain, nonatomic) NSString *placeHolderText;
+@property(retain, nonatomic) RootViewController *rootViewController;
+@property(nonatomic) void **callback;
 @property long long callbackData;
-@property (nonatomic) int isTopBarItem;
-@property (nonatomic) int isGroupItem;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) int isTopBarItem;
+@property(nonatomic) int isGroupItem;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)init;
-- (id)initWithContainer:(void *)v1 text:(int *)v2 callback:(void * *)v3 data:(long long)v4;
+- (id)initWithContainer:(void *)v1 text:(int *)v2 callback:(void **)v3 data:(long long)v4;
 - (void)dealloc;
 - (void)setComponentsHidden:(int)v1;
 - (void)setComponentsEnable:(int)v1;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogControlView : UIView {
-    ToggleSwitchOnOff * toggle;
+@interface TINDialogControlView : UIView
+{
+    ToggleSwitchOnOff *toggle;
 }
-@property (retain,nonatomic) ToggleSwitchOnOff * toggle;
+@property(retain, nonatomic) ToggleSwitchOnOff *toggle;
 - (id)initWithFrame:(struct CGRect)v1;
 - (void)dealloc;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogElement : TINDialogContainer {
-    NSMutableArray * elements;
+@interface TINDialogElement : TINDialogContainer
+{
+    NSMutableArray *elements;
 }
 - (id)init;
 - (id)elements;
@@ -10875,13 +11289,13 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogGroup : TINDialogControl {
-    NSMutableArray * controls;
+@interface TINDialogGroup : TINDialogControl
+{
+    NSMutableArray *controls;
 }
-@property (retain,nonatomic) NSMutableArray * controls;
+@property(retain, nonatomic) NSMutableArray *controls;
 - (id)init;
 - (void)alignLabelWidth:(id)v1 forWidth:(float *)v2;
 - (void)alignNestedGroups:(id)v1;
@@ -10890,19 +11304,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogLabel : TINDialogButton {
+@interface TINDialogLabel : TINDialogButton
+{
     int layoutPref;
     int startBold;
     int boldLength;
-    TINCustomDialogLabel * dlControl;
+    TINCustomDialogLabel *dlControl;
 }
-@property (nonatomic) int startBold;
-@property (nonatomic) int boldLength;
-@property (retain,nonatomic) TINCustomDialogLabel * dlControl;
-@property (nonatomic) int layoutPref;
+@property(nonatomic) int startBold;
+@property(nonatomic) int boldLength;
+@property(retain, nonatomic) TINCustomDialogLabel *dlControl;
+@property(nonatomic) int layoutPref;
 - (id)view;
 - (void)setProperties;
 - (void)setBoldFont;
@@ -10910,55 +11324,55 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogListView : TINDialogControl {
+@interface TINDialogListView : TINDialogControl
+{
     int editableType;
     int selectedIndex;
-    NSMutableArray * options;
-    TINDialogLabel * rightControl;
-    TINDialogLabel * leftControl;
-    UITextField * displayTextField;
+    NSMutableArray *options;
+    TINDialogLabel *rightControl;
+    TINDialogLabel *leftControl;
+    UITextField *displayTextField;
 }
 @property int editableType;
-@property (retain,nonatomic) NSMutableArray * options;
-@property (retain,nonatomic) TINDialogLabel * rightControl;
-@property (retain,nonatomic) TINDialogLabel * leftControl;
-@property (retain,nonatomic) UITextField * displayTextField;
-@property (nonatomic) int selectedIndex;
-- (id)initWithContainer:(void *)v1 items:(int * *)v2 editableType:(int)v3 callback:(void * *)v4 data:(long long)v5;
+@property(retain, nonatomic) NSMutableArray *options;
+@property(retain, nonatomic) TINDialogLabel *rightControl;
+@property(retain, nonatomic) TINDialogLabel *leftControl;
+@property(retain, nonatomic) UITextField *displayTextField;
+@property(nonatomic) int selectedIndex;
+- (id)initWithContainer:(void *)v1 items:(int **)v2 editableType:(int)v3 callback:(void **)v4 data:(long long)v5;
 - (void)doCallbackGotFocus:(id)v1;
 - (void)doCallbackLostFocus:(id)v1;
 - (id)view;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogPanel : TINDialogContainer {
+@interface TINDialogPanel : TINDialogContainer
+{
     int layoutType;
     int gridColumns;
     int gridRows;
-    TINDialog * container;
+    TINDialog *container;
     unsigned long long tag;
 }
-@property (nonatomic) TINDialog * container;
-@property (nonatomic) int gridColumns;
-@property (nonatomic) int gridRows;
+@property(nonatomic) TINDialog *container;
+@property(nonatomic) int gridColumns;
+@property(nonatomic) int gridRows;
 @property int layoutType;
-@property (nonatomic) unsigned long long tag;
+@property(nonatomic) unsigned long long tag;
 - (id)initWithContainer:(id)v1 title:(int *)v2 layoutType:(int)v3;
 - (void)groupPanelElements;
 - (void)dealloc;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogSlider : TINDialogControl {
+@interface TINDialogSlider : TINDialogControl
+{
     float initialValue;
     float increment;
     float upperLimit;
@@ -10970,30 +11384,30 @@ struct anonymous_type_104 {
 @property float upperLimit;
 @property float lowerLimit;
 @property int isFloat;
-- (id)initWithContainer:(void *)v1 text:(int *)v2 initialValue:(float)v3 increment:(float)v4 upperLimit:(float)v5 lowerLimit:(float)v6 isFloat:(int)v7 callback:(void * *)v8 data:(long long)v9;
+- (id)initWithContainer:(void *)v1 text:(int *)v2 initialValue:(float)v3 increment:(float)v4 upperLimit:(float)v5 lowerLimit:(float)v6 isFloat:(int)v7 callback:(void **)v8 data:(long long)v9;
 - (id)view;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogStepper : TINDialogControl {
+@interface TINDialogStepper : TINDialogControl
+{
     float initialValue;
     float increment;
     float upperLimit;
     float lowerLimit;
     int isFloat;
-    TINDialogComponentController * cvc;
-    TINDialogTextField * displayTextField;
+    TINDialogComponentController *cvc;
+    TINDialogTextField *displayTextField;
 }
-@property (retain,nonatomic) TINDialogComponentController * cvc;
-@property (retain,nonatomic) TINDialogTextField * displayTextField;
+@property(retain, nonatomic) TINDialogComponentController *cvc;
+@property(retain, nonatomic) TINDialogTextField *displayTextField;
 @property float initialValue;
 @property float increment;
 @property float upperLimit;
 @property float lowerLimit;
 @property int isFloat;
-- (id)initWithContainer:(void *)v1 text:(int *)v2 initialValue:(float)v3 increment:(float)v4 upperLimit:(float)v5 lowerLimit:(float)v6 isFloat:(int)v7 callback:(void * *)v8 data:(long long)v9;
+- (id)initWithContainer:(void *)v1 text:(int *)v2 initialValue:(float)v3 increment:(float)v4 upperLimit:(float)v5 lowerLimit:(float)v6 isFloat:(int)v7 callback:(void **)v8 data:(long long)v9;
 - (void)doCallbackDidSeletedInput:(int)v1;
 - (void)doCallbackGotFocus:(id)v1;
 - (void)doCallbackLostFocus:(id)v1;
@@ -11003,34 +11417,34 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogTextPane : TINDialogControl {
+@interface TINDialogTextPane : TINDialogControl
+{
     int focus;
     int editableType;
 }
 @property int editableType;
 @property int focus;
-- (id)initWithContainer:(void *)v1 text:(int *)v2 focus:(int)v3 editableType:(int)v4 callback:(void * *)v5 data:(long long)v6;
+- (id)initWithContainer:(void *)v1 text:(int *)v2 focus:(int)v3 editableType:(int)v4 callback:(void **)v5 data:(long long)v6;
 - (id)view;
 - (void)setConstraints:(id)v1 panel:(id)v2;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogToggle : TINDialogControl {
+@interface TINDialogToggle : TINDialogControl
+{
     int toggleState;
     int isCheckboxWithLabel;
-    UISwitch * toggleSwitch;
-    TINDialogLabel * checkBoxLabel;
+    UISwitch *toggleSwitch;
+    TINDialogLabel *checkBoxLabel;
 }
-@property (nonatomic) int toggleState;
-@property (nonatomic) int isCheckboxWithLabel;
-@property (retain,nonatomic) TINDialogLabel * checkBoxLabel;
-@property (retain,nonatomic) UISwitch * toggleSwitch;
-- (id)initWithContainer:(void *)v1 DlgMgrToggleButtonType:(int)v2 buttonPaneType:(int)v3 text:(int *)v4 buttonState:(int)v5 horzLayoutPref:(int)v6 vertLayoutPref:(int)v7 data:(long long)v8 callback:(void * *)v9;
+@property(nonatomic) int toggleState;
+@property(nonatomic) int isCheckboxWithLabel;
+@property(retain, nonatomic) TINDialogLabel *checkBoxLabel;
+@property(retain, nonatomic) UISwitch *toggleSwitch;
+- (id)initWithContainer:(void *)v1 DlgMgrToggleButtonType:(int)v2 buttonPaneType:(int)v3 text:(int *)v4 buttonState:(int)v5 horzLayoutPref:(int)v6 vertLayoutPref:(int)v7 data:(long long)v8 callback:(void **)v9;
 - (id)view;
 - (void)setConstraints:(id)v1;
 - (void)switchValueChanged:(id)v1;
@@ -11039,48 +11453,48 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogCallback : NSObject {
+@interface TINDialogCallback : NSObject
+{
     long long data;
-    void * * callback;
+    void **callback;
     int eventType;
-    struct anonymous_type_545 * executionContext;
-    TINDialogControl * component;
+    struct anonymous_type_545 *executionContext;
+    TINDialogControl *component;
 }
-@property (nonatomic) TINDialogControl * component;
-- (id)initWithCallback:(void * *)v1 andData:(long long)v2 andComponent:(id)v3 andEventType:(int)v4;
-- (id)initWithCallback:(void * *)v1 andData:(long long)v2;
+@property(nonatomic) TINDialogControl *component;
+- (id)initWithCallback:(void **)v1 andData:(long long)v2 andComponent:(id)v3 andEventType:(int)v4;
+- (id)initWithCallback:(void **)v1 andData:(long long)v2;
 - (void)doCallback:(id)v1;
 - (void)dealloc;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogComboBoxViewController : TINDialogComponentController<UITableViewDataSource,UITableViewDelegate,TINDialogControlViewDelegate> {
+@interface TINDialogComboBoxViewController : TINDialogComponentController <UITableViewDataSource, UITableViewDelegate, TINDialogControlViewDelegate>
+{
     int makeClearText;
-    NSMutableArray * options;
-    UITableView * mTableView;
-    TINDialogComboBox * mComboBox;
+    NSMutableArray *options;
+    UITableView *mTableView;
+    TINDialogComboBox *mComboBox;
 }
-@property (retain,nonatomic) NSMutableArray * options;
-@property (retain,nonatomic) UITableView * mTableView;
-@property (nonatomic) TINDialogComboBox * mComboBox;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) NSMutableArray *options;
+@property(retain, nonatomic) UITableView *mTableView;
+@property(nonatomic) TINDialogComboBox *mComboBox;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (void)viewWillAppear:(int)v1;
 - (id)initWithComboView:(id)v1 options:(id)v2;
 - (void)setConstraints:(id)v1 panel:(id)v2 isGroupItem:(int)v3;
 - (void)setTextFieldConstraint:(id)v1;
 - (id)titleView;
 - (id)initWithTextField:(id)v1 options:(id)v2;
-- (id)initWithTextField:(id)v1 items:(int * *)v2;
-- (void)initOptions:(int * *)v1;
+- (id)initWithTextField:(id)v1 items:(int **)v2;
+- (void)initOptions:(int **)v1;
 - (void)popoverPresentationControllerDidDismissPopover:(id)v1;
 - (void)navigateToCBItems:(id)v1;
 - (int)textFieldShouldBeginEditing:(id)v1;
@@ -11096,27 +11510,27 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogComponentController : TINViewController<UINavigationControllerDelegate,UITextFieldDelegate,TINDialogControlViewDelegate,UIPopoverPresentationControllerDelegate> {
+@interface TINDialogComponentController : TINViewController <UINavigationControllerDelegate, UITextFieldDelegate, TINDialogControlViewDelegate, UIPopoverPresentationControllerDelegate>
+{
     int controlType;
     int isEditable;
-    TINDialogViewController * parentController;
-    UITextField * displayTextField;
-    UIButton * retractButton;
-    TINDialogPanel * panel;
+    TINDialogViewController *parentController;
+    UITextField *displayTextField;
+    UIButton *retractButton;
+    TINDialogPanel *panel;
 }
-@property (nonatomic) TINDialogViewController * parentController;
-@property (nonatomic) TINDialogPanel * panel;
-@property (retain,nonatomic) UITextField * displayTextField;
-@property (retain,nonatomic) UIButton * retractButton;
-@property (nonatomic) int isEditable;
+@property(nonatomic) TINDialogViewController *parentController;
+@property(nonatomic) TINDialogPanel *panel;
+@property(retain, nonatomic) UITextField *displayTextField;
+@property(retain, nonatomic) UIButton *retractButton;
+@property(nonatomic) int isEditable;
 @property int controlType;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithTextField:(id)v1;
 - (id)initWithButtonsAndTextField:(id)v1;
 - (void)navigateToCBItems:(id)v1;
@@ -11139,19 +11553,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogManager : NSObject {
+@interface TINDialogManager : NSObject
+{
     int _dialogVisibleCount;
     int ignoreDialog;
     int ignoreFlag;
-    NSMutableArray * dialogViewControllers;
-    NSLock * dialogLock;
+    NSMutableArray *dialogViewControllers;
+    NSLock *dialogLock;
 }
-@property (retain,nonatomic) NSMutableArray * dialogViewControllers;
-@property (retain,nonatomic) NSLock * dialogLock;
-@property (nonatomic) int ignoreDialog;
+@property(retain, nonatomic) NSMutableArray *dialogViewControllers;
+@property(retain, nonatomic) NSLock *dialogLock;
+@property(nonatomic) int ignoreDialog;
 @property int ignoreFlag;
 @property int dialogVisibleCount;
 + (id)sharedInstance;
@@ -11167,25 +11581,25 @@ struct anonymous_type_104 {
 - (void)enableViews;
 - (int)isDialogShowing;
 - (void)closeAllDialogs;
-- (void)closeAllDialogsWithCompletionHandler:(void (^ /* unknown block signature */)(void))v1;
+- (void)closeAllDialogsWithCompletionHandler:(void (^/* unknown block signature */)(void))v1;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogSliderViewController : TINDialogComponentController {
-    UILabel * rightValue;
-    UILabel * leftValue;
-    UISlider * slider;
-    NSString * formatter;
-    TINDialogSlider * model;
+@interface TINDialogSliderViewController : TINDialogComponentController
+{
+    UILabel *rightValue;
+    UILabel *leftValue;
+    UISlider *slider;
+    NSString *formatter;
+    TINDialogSlider *model;
 }
-@property (retain,nonatomic) UILabel * rightValue;
-@property (retain,nonatomic) UILabel * leftValue;
-@property (retain,nonatomic) UISlider * slider;
-@property (retain,nonatomic) NSString * formatter;
-@property (nonatomic) TINDialogSlider * model;
+@property(retain, nonatomic) UILabel *rightValue;
+@property(retain, nonatomic) UILabel *leftValue;
+@property(retain, nonatomic) UISlider *slider;
+@property(retain, nonatomic) NSString *formatter;
+@property(nonatomic) TINDialogSlider *model;
 - (id)initWithTextField:(id)v1 model:(id)v2 isFloat:(int)v3;
 - (void)sliderValueChanged:(id)v1;
 - (struct CGSize)popoverContentSize;
@@ -11194,21 +11608,21 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogStepperViewController : TINDialogComponentController {
-    NSString * formatter;
-    TINDialogStepper * model;
-    NSTimer * nTimer;
-    UIButton * minusButton;
-    UIButton * plusButton;
+@interface TINDialogStepperViewController : TINDialogComponentController
+{
+    NSString *formatter;
+    TINDialogStepper *model;
+    NSTimer *nTimer;
+    UIButton *minusButton;
+    UIButton *plusButton;
 }
-@property (retain,nonatomic) NSString * formatter;
-@property (nonatomic) TINDialogStepper * model;
-@property (retain,nonatomic) NSTimer * nTimer;
-@property (retain,nonatomic) UIButton * minusButton;
-@property (retain,nonatomic) UIButton * plusButton;
+@property(retain, nonatomic) NSString *formatter;
+@property(nonatomic) TINDialogStepper *model;
+@property(retain, nonatomic) NSTimer *nTimer;
+@property(retain, nonatomic) UIButton *minusButton;
+@property(retain, nonatomic) UIButton *plusButton;
 - (id)initWithTextField:(id)v1 model:(id)v2 isFloat:(int)v3;
 - (void)addSideButtons:(id)v1;
 - (void)setConstraints:(id)v1 textField:(id)v2 minusButton:(id)v3 plusButton:(id)v4;
@@ -11222,33 +11636,33 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface ExamModeControlleriOS : NSObject<TINAssessmentManagerDelegate> {
+@interface ExamModeControlleriOS : NSObject <TINAssessmentManagerDelegate>
+{
     int examModeEnabled;
     int isTimeout;
     int examModeLostFocus;
     int _summaryDialogWillAppear;
-    TINAssessmentManager * assessmentManager;
-    NSMutableArray * activities;
+    TINAssessmentManager *assessmentManager;
+    NSMutableArray *activities;
 }
-@property (nonatomic) int examModeEnabled;
-@property (nonatomic) int summaryDialogWillAppear;
-@property (nonatomic) int isTimeout;
-@property (nonatomic) int examModeLostFocus;
-@property (retain,nonatomic) NSMutableArray * activities;
-@property (retain,nonatomic) TINAssessmentManager * assessmentManager;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) int examModeEnabled;
+@property(nonatomic) int summaryDialogWillAppear;
+@property(nonatomic) int isTimeout;
+@property(nonatomic) int examModeLostFocus;
+@property(retain, nonatomic) NSMutableArray *activities;
+@property(retain, nonatomic) TINAssessmentManager *assessmentManager;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 + (id)instance;
 - (id)init;
 - (void)registerComponent:(id)v1;
 - (void)unregisterComponent:(id)v1;
-- (void)canEnterExamModeWithCompletionHandler:(void (^ /* unknown block signature */)(void))v1;
-- (void)checkAccessToEnterExamMode:(void (^ /* unknown block signature */)(void))v1;
+- (void)canEnterExamModeWithCompletionHandler:(void (^/* unknown block signature */)(void))v1;
+- (void)checkAccessToEnterExamMode:(void (^/* unknown block signature */)(void))v1;
 - (void)enterExamMode;
 - (void)startExamMode;
 - (void)exitExamMode;
@@ -11277,47 +11691,47 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDialogViewController : TINViewController<UITableViewDelegate,UINavigationControllerDelegate,UITableViewDataSource,TINDialogControlViewDelegate> {
-    NSMutableArray * panelArray;
+@interface TINDialogViewController : TINViewController <UITableViewDelegate, UINavigationControllerDelegate, UITableViewDataSource, TINDialogControlViewDelegate>
+{
+    NSMutableArray *panelArray;
     int topBarEnabled;
     int isVisible;
     int isWaiting;
     int isFocused;
     int isDifferentDialog;
     int dialogHasGroupComponent;
-    TINDialogViewController * parentDialogViewController;
-    UITableView * tableView;
-    UIViewController * rootVC;
-    TINDialog * dialog;
-    TINDialogManager * dialogManager;
-    TINDialogControl * leftControlItem;
-    TINDialogControl * rightControlItem;
+    TINDialogViewController *parentDialogViewController;
+    UITableView *tableView;
+    UIViewController *rootVC;
+    TINDialog *dialog;
+    TINDialogManager *dialogManager;
+    TINDialogControl *leftControlItem;
+    TINDialogControl *rightControlItem;
     double dialogHeight;
-    UITextField * selectedTextField;
-    NSMutableArray * displayElements;
+    UITextField *selectedTextField;
+    NSMutableArray *displayElements;
 }
-@property (retain,nonatomic) TINDialogViewController * parentDialogViewController;
-@property (nonatomic) UITableView * tableView;
-@property (retain,nonatomic) UIViewController * rootVC;
-@property (nonatomic) TINDialog * dialog;
-@property (retain,nonatomic) NSMutableArray * displayElements;
-@property (nonatomic) TINDialogManager * dialogManager;
-@property (nonatomic) TINDialogControl * leftControlItem;
-@property (nonatomic) TINDialogControl * rightControlItem;
-@property (retain,nonatomic) UITextField * selectedTextField;
-@property (nonatomic) int dialogHasGroupComponent;
-@property (nonatomic) int isFocused;
-@property (nonatomic) int isDifferentDialog;
+@property(retain, nonatomic) TINDialogViewController *parentDialogViewController;
+@property(nonatomic) UITableView *tableView;
+@property(retain, nonatomic) UIViewController *rootVC;
+@property(nonatomic) TINDialog *dialog;
+@property(retain, nonatomic) NSMutableArray *displayElements;
+@property(nonatomic) TINDialogManager *dialogManager;
+@property(nonatomic) TINDialogControl *leftControlItem;
+@property(nonatomic) TINDialogControl *rightControlItem;
+@property(retain, nonatomic) UITextField *selectedTextField;
+@property(nonatomic) int dialogHasGroupComponent;
+@property(nonatomic) int isFocused;
+@property(nonatomic) int isDifferentDialog;
 @property double dialogHeight;
 @property int isVisible;
 @property int isWaiting;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithModel:(id)v1 rootViewController:(id)v2 dialogManager:(id)v3;
 - (void)didReceiveMemoryWarning;
 - (void)loadViews;
@@ -11365,13 +11779,11 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface TINInspectorExclusiveSelectionView : TINInspectorSingleSelectionView
 - (void)buttonPressed:(id)v1;
 @end
-
 
 /*****************************************************************/
 
@@ -11379,14 +11791,14 @@ struct anonymous_type_104 {
 - (void)buttonPressed:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@interface TINTableViewCell : UITableViewCell {
-    UILabel * titleLable;
-    UILabel * dateLabel;
-    NSDateFormatter * dateFormatter;
-    UIImageView * iconImageView;
+@interface TINTableViewCell : UITableViewCell
+{
+    UILabel *titleLable;
+    UILabel *dateLabel;
+    NSDateFormatter *dateFormatter;
+    UIImageView *iconImageView;
 }
 - (id)initWithStyle:(long long)v1 reuseIdentifier:(id)v2;
 - (void)setSelected:(int)v1 animated:(int)v2;
@@ -11394,36 +11806,35 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface TINAlertManager : NSObject
-+ (void)createAndDisplayAlertWithTitle:(id)v1 message:(id)v2 actions:(id)v3 animated:(int)v4 completion:(void (^ /* unknown block signature */)(void))v5 presenter:(id)v6;
-+ (void)createAndDisplayActionSheetWithTitle:(id)v1 message:(id)v2 actions:(id)v3 animated:(int)v4 completion:(void (^ /* unknown block signature */)(void))v5 presenter:(id)v6 source:(id)v7;
++ (void)createAndDisplayAlertWithTitle:(id)v1 message:(id)v2 actions:(id)v3 animated:(int)v4 completion:(void (^/* unknown block signature */)(void))v5 presenter:(id)v6;
++ (void)createAndDisplayActionSheetWithTitle:(id)v1 message:(id)v2 actions:(id)v3 animated:(int)v4 completion:(void (^/* unknown block signature */)(void))v5 presenter:(id)v6 source:(id)v7;
 + (void)dismissAlertWithoutUserInput:(int)v1;
 + (long long)getCurrentAlertState;
 + (void)setCurrentAlertState:(long long)v1;
 + (void)setControllerAccessibilityLabel:(id)v1;
-+ (void)setDismissDefaultActionHandler:(void (^ /* unknown block signature */)(void))v1;
++ (void)setDismissDefaultActionHandler:(void (^/* unknown block signature */)(void))v1;
 @end
-
 
 /*****************************************************************/
 
-@interface DSActivityView : UIView {
-    UIView * _originalView;
-    UIView * _borderView;
-    UIActivityIndicatorView * _activityIndicator;
-    UILabel * _activityLabel;
+@interface DSActivityView : UIView
+{
+    UIView *_originalView;
+    UIView *_borderView;
+    UIActivityIndicatorView *_activityIndicator;
+    UILabel *_activityLabel;
     unsigned long long _labelWidth;
     int _showNetworkActivityIndicator;
 }
-@property (retain,nonatomic) UIView * originalView;
-@property (readonly,nonatomic) UIView * borderView;
-@property (readonly,nonatomic) UIActivityIndicatorView * activityIndicator;
-@property (readonly,nonatomic) UILabel * activityLabel;
-@property (nonatomic) unsigned long long labelWidth;
-@property (nonatomic) int showNetworkActivityIndicator;
+@property(retain, nonatomic) UIView *originalView;
+@property(readonly, nonatomic) UIView *borderView;
+@property(readonly, nonatomic) UIActivityIndicatorView *activityIndicator;
+@property(readonly, nonatomic) UILabel *activityLabel;
+@property(nonatomic) unsigned long long labelWidth;
+@property(nonatomic) int showNetworkActivityIndicator;
 + (id)currentActivityView;
 + (id)newActivityViewForView:(id)v1;
 + (id)newActivityViewForView:(id)v1 withLabel:(id)v2;
@@ -11439,14 +11850,12 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
 @interface DSWhiteActivityView : DSActivityView
 - (id)activityIndicator;
 - (id)activityLabel;
 @end
-
 
 /*****************************************************************/
 
@@ -11464,7 +11873,6 @@ struct anonymous_type_104 {
 - (void)removeAnimationDidStop:(id)v1 finished:(id)v2 context:(void *)v3;
 @end
 
-
 /*****************************************************************/
 
 @interface DSKeyboardActivityView : DSBezelActivityView
@@ -11477,32 +11885,32 @@ struct anonymous_type_104 {
 - (id)borderView;
 @end
 
-
 /*****************************************************************/
 
-@interface TINToolsWithWizardViewController : TINViewController<UITableViewDataSource,UITableViewDelegate,TINToolsWithWizardViewControllerDelgate> {
-    UITableView * myTableView;
-    UILabel * wizardLabel;
-    UISwitch * wizardSwitch;
-    UITextView * tooltipView;
-    UIView * wizardContainer;
+@interface TINToolsWithWizardViewController : TINViewController <UITableViewDataSource, UITableViewDelegate, TINToolsWithWizardViewControllerDelgate>
+{
+    UITableView *myTableView;
+    UILabel *wizardLabel;
+    UISwitch *wizardSwitch;
+    UITextView *tooltipView;
+    UIView *wizardContainer;
     int wizardEnabled;
     int showToolWizard;
-    NSMutableArray * listOfItems;
-    NSIndexPath * selectedIndexPath;
-    NSObject<TINToolsWithWizardViewControllerDelgate> * delegate;
-    UIImageView * wizardImageView;
+    NSMutableArray *listOfItems;
+    NSIndexPath *selectedIndexPath;
+    NSObject<TINToolsWithWizardViewControllerDelgate> *delegate;
+    UIImageView *wizardImageView;
 }
-@property (retain,nonatomic) NSMutableArray * listOfItems;
-@property (retain,nonatomic) NSIndexPath * selectedIndexPath;
-@property (nonatomic) NSObject<TINToolsWithWizardViewControllerDelgate> * delegate;
+@property(retain, nonatomic) NSMutableArray *listOfItems;
+@property(retain, nonatomic) NSIndexPath *selectedIndexPath;
+@property(nonatomic) NSObject<TINToolsWithWizardViewControllerDelgate> *delegate;
 @property int wizardEnabled;
 @property int showToolWizard;
-@property (retain) UIImageView * wizardImageView;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain) UIImageView *wizardImageView;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithToolTitle:(id)v1 backTitle:(id)v2;
 - (void)populateTools;
 - (void)loadView;
@@ -11522,23 +11930,23 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocumentPDFSettingsControllerViewController : TINViewController<UITextFieldDelegate> {
-    NSString * pdfSettingsTitle;
-    NSString * pdfHeaderTitle;
-    UITextField * titleField;
-    UIImageView * bannerImageCas;
-    UIImageView * bannerImageNCas;
+@interface TINDocumentPDFSettingsControllerViewController : TINViewController <UITextFieldDelegate>
+{
+    NSString *pdfSettingsTitle;
+    NSString *pdfHeaderTitle;
+    UITextField *titleField;
+    UIImageView *bannerImageCas;
+    UIImageView *bannerImageNCas;
 }
-@property (retain,nonatomic) UITextField * titleField;
-@property (retain,nonatomic) UIImageView * bannerImageCas;
-@property (retain,nonatomic) UIImageView * bannerImageNCas;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(retain, nonatomic) UITextField *titleField;
+@property(retain, nonatomic) UIImageView *bannerImageCas;
+@property(retain, nonatomic) UIImageView *bannerImageNCas;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
@@ -11548,18 +11956,18 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINInspectorListSpinner : TINInspectorControl {
-    UILabel * unitsLabel;
-    UIStepper * stepperControl;
+@interface TINInspectorListSpinner : TINInspectorControl
+{
+    UILabel *unitsLabel;
+    UIStepper *stepperControl;
     int intShowValue;
     int intSpinnerValue;
-    NSString * textValue;
+    NSString *textValue;
     long long controlData;
-    NSArray * sizeList;
-    void * * pCallback;
+    NSArray *sizeList;
+    void **pCallback;
 }
 - (id)initWithInfo:(struct anonymous_type_555 *)v1;
 - (id)view;
@@ -11572,14 +11980,13 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINQRCodeReaderViewController : TINViewController<AVCaptureMetadataOutputObjectsDelegate,UINavigationControllerDelegate>
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@interface TINQRCodeReaderViewController : TINViewController <AVCaptureMetadataOutputObjectsDelegate, UINavigationControllerDelegate>
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (void)viewDidLoad;
 - (void)initiateVideoCaptureSession;
 - (void)didReceiveMemoryWarning;
@@ -11593,47 +12000,47 @@ struct anonymous_type_104 {
 - (void)showAlert:(id)v1;
 @end
 
-
 /*****************************************************************/
 
-@interface TINTestModeInformationViewController : TINViewController<UINavigationControllerDelegate,UITextViewDelegate> {
+@interface TINTestModeInformationViewController : TINViewController <UINavigationControllerDelegate, UITextViewDelegate>
+{
     int isExamModeLostFocus;
-    UILabel * testCodeLbl;
-    UILabel * testCode;
-    UILabel * sessionIdLbl;
-    UILabel * sessionId;
-    UILabel * timeLbl;
-    UILabel * time;
-    UILabel * angle;
-    UILabel * casMode;
-    UILabel * versionLbl;
-    UILabel * version;
-    UISegmentedControl * segmentedControl;
-    UITableView * informationTbl;
-    UILabel * restrictionsNote;
-    NSMutableArray * restrictions;
-    NSMutableArray * activities;
+    UILabel *testCodeLbl;
+    UILabel *testCode;
+    UILabel *sessionIdLbl;
+    UILabel *sessionId;
+    UILabel *timeLbl;
+    UILabel *time;
+    UILabel *angle;
+    UILabel *casMode;
+    UILabel *versionLbl;
+    UILabel *version;
+    UISegmentedControl *segmentedControl;
+    UITableView *informationTbl;
+    UILabel *restrictionsNote;
+    NSMutableArray *restrictions;
+    NSMutableArray *activities;
 }
-@property (nonatomic) UILabel * testCodeLbl;
-@property (nonatomic) UILabel * testCode;
-@property (nonatomic) UILabel * sessionIdLbl;
-@property (nonatomic) UILabel * sessionId;
-@property (nonatomic) UILabel * timeLbl;
-@property (nonatomic) UILabel * time;
-@property (nonatomic) UILabel * angle;
-@property (nonatomic) UILabel * casMode;
-@property (nonatomic) UILabel * versionLbl;
-@property (nonatomic) UILabel * version;
-@property (nonatomic) UITableView * informationTbl;
-@property (nonatomic) UISegmentedControl * segmentedControl;
-@property (nonatomic) UILabel * restrictionsNote;
-@property (nonatomic) int isExamModeLostFocus;
-@property (retain,nonatomic) NSMutableArray * restrictions;
-@property (retain,nonatomic) NSMutableArray * activities;
-@property (readonly) unsigned long long hash;
-@property (readonly) Class superclass;
-@property (readonly,copy) NSString * description;
-@property (readonly,copy) NSString * debugDescription;
+@property(nonatomic) UILabel *testCodeLbl;
+@property(nonatomic) UILabel *testCode;
+@property(nonatomic) UILabel *sessionIdLbl;
+@property(nonatomic) UILabel *sessionId;
+@property(nonatomic) UILabel *timeLbl;
+@property(nonatomic) UILabel *time;
+@property(nonatomic) UILabel *angle;
+@property(nonatomic) UILabel *casMode;
+@property(nonatomic) UILabel *versionLbl;
+@property(nonatomic) UILabel *version;
+@property(nonatomic) UITableView *informationTbl;
+@property(nonatomic) UISegmentedControl *segmentedControl;
+@property(nonatomic) UILabel *restrictionsNote;
+@property(nonatomic) int isExamModeLostFocus;
+@property(retain, nonatomic) NSMutableArray *restrictions;
+@property(retain, nonatomic) NSMutableArray *activities;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
+@property(readonly, copy) NSString *description;
+@property(readonly, copy) NSString *debugDescription;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewDidDisappear;
 - (void)viewDidLoad;
@@ -11650,19 +12057,19 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINDocToolBarViewController : TINViewController {
-    UIButton * _pageSorterButton;
-    UIButton * _catalogButton;
-    UIButton * _insertImageButton;
-    UIButton * _angleModeLabel;
+@interface TINDocToolBarViewController : TINViewController
+{
+    UIButton *_pageSorterButton;
+    UIButton *_catalogButton;
+    UIButton *_insertImageButton;
+    UIButton *_angleModeLabel;
 }
-@property (retain,nonatomic) UIButton * pageSorterButton;
-@property (retain,nonatomic) UIButton * catalogButton;
-@property (retain,nonatomic) UIButton * insertImageButton;
-@property (retain,nonatomic) UIButton * angleModeLabel;
+@property(retain, nonatomic) UIButton *pageSorterButton;
+@property(retain, nonatomic) UIButton *catalogButton;
+@property(retain, nonatomic) UIButton *insertImageButton;
+@property(retain, nonatomic) UIButton *angleModeLabel;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewDidLoad;
 - (void)dealloc;
@@ -11673,29 +12080,29 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINExamModeBarView : UIView {
-    UILabel * _lblTestCode;
-    UILabel * _lblModeInfo;
-    UILabel * _lblTestTime;
+@interface TINExamModeBarView : UIView
+{
+    UILabel *_lblTestCode;
+    UILabel *_lblModeInfo;
+    UILabel *_lblTestTime;
 }
-@property (nonatomic) UILabel * lblTestCode;
-@property (nonatomic) UILabel * lblModeInfo;
-@property (nonatomic) UILabel * lblTestTime;
+@property(nonatomic) UILabel *lblTestCode;
+@property(nonatomic) UILabel *lblModeInfo;
+@property(nonatomic) UILabel *lblTestTime;
 - (void)setBarLabels;
 - (void)clearBarLabels;
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINLogger : NSObject {
+@interface TINLogger : NSObject
+{
     unsigned int checkPointLogLevel;
 }
-@property (nonatomic) unsigned int checkPointLogLevel;
+@property(nonatomic) unsigned int checkPointLogLevel;
 + (id)defaultLogger;
 + (void)disposeLogger;
 - (void)initialize;
@@ -11703,19 +12110,19 @@ struct anonymous_type_104 {
 - (void)setCheckpointLogLevel:(unsigned int)v1;
 @end
 
-
 /*****************************************************************/
 
-@interface TINTouchWindow : UIWindow {
-    struct __CFDictionary * _touchDictionary;
-    UIImage * _touchIndicatorImage;
-    NSTimer * _holdTimer;
-    NSMutableSet * _activeTouches;
+@interface TINTouchWindow : UIWindow
+{
+    struct __CFDictionary *_touchDictionary;
+    UIImage *_touchIndicatorImage;
+    NSTimer *_holdTimer;
+    NSMutableSet *_activeTouches;
 }
-@property (nonatomic) struct __CFDictionary * touchDictionary;
-@property (retain,nonatomic) UIImage * touchIndicatorImage;
-@property (retain,nonatomic) NSTimer * holdTimer;
-@property (retain,nonatomic) NSMutableSet * activeTouches;
+@property(nonatomic) struct __CFDictionary *touchDictionary;
+@property(retain, nonatomic) UIImage *touchIndicatorImage;
+@property(retain, nonatomic) NSTimer *holdTimer;
+@property(retain, nonatomic) NSMutableSet *activeTouches;
 - (void)initialization;
 - (id)initWithFrame:(struct CGRect)v1;
 - (id)initWithCoder:(id)v1;
@@ -11730,16 +12137,15 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINTapGestureRecognizer : UIGestureRecognizer {
+@interface TINTapGestureRecognizer : UIGestureRecognizer
+{
     struct CGPoint touchPoint;
 }
-@property (nonatomic) struct CGPoint touchPoint;
+@property(nonatomic) struct CGPoint touchPoint;
 - (struct CGPoint)locationInView:(id)v1;
 @end
-
 
 /*****************************************************************/
 
@@ -11750,13 +12156,13 @@ struct anonymous_type_104 {
 - (int)canPerformAction:(SEL)v1 withSender:(id)v2;
 @end
 
-
 /*****************************************************************/
 
-@interface TINConfigManager : NSObject {
-    NSMutableDictionary * configParameters;
+@interface TINConfigManager : NSObject
+{
+    NSMutableDictionary *configParameters;
 }
-@property (retain,nonatomic) NSMutableDictionary * configParameters;
+@property(retain, nonatomic) NSMutableDictionary *configParameters;
 + (id)sharedConfigManager;
 - (id)init;
 - (id)getConfigParameters;
@@ -11777,16 +12183,16 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINTopBarStatusAreaManager : NSObject {
+@interface TINTopBarStatusAreaManager : NSObject
+{
     int infoToDisplay;
-    NSTimer * availableMemoryDisplayTimer;
-    NSObject<TINTopBarStatusAreaDelegate> * delegate;
+    NSTimer *availableMemoryDisplayTimer;
+    NSObject<TINTopBarStatusAreaDelegate> *delegate;
 }
-@property NSObject<TINTopBarStatusAreaDelegate> * delegate;
-@property (retain,nonatomic) NSTimer * availableMemoryDisplayTimer;
+@property NSObject<TINTopBarStatusAreaDelegate> *delegate;
+@property(retain, nonatomic) NSTimer *availableMemoryDisplayTimer;
 @property int infoToDisplay;
 + (void)configureWithDelegate:(id)v1;
 + (void)log:(id)v1;
@@ -11795,13 +12201,13 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINOtherMenuViewController : UITableViewController {
-    NSArray * _items;
+@interface TINOtherMenuViewController : UITableViewController
+{
+    NSArray *_items;
 }
-@property (retain,nonatomic) NSArray * items;
+@property(retain, nonatomic) NSArray *items;
 - (id)init:(id)v1;
 - (void)viewDidLoad;
 - (long long)overrideUserInterfaceStyle;
@@ -11814,31 +12220,31 @@ struct anonymous_type_104 {
 - (void).cxx_destruct;
 @end
 
-
 /*****************************************************************/
 
-@interface TINRetinaDevOptimizationsViewController : TINViewController {
+@interface TINRetinaDevOptimizationsViewController : TINViewController
+{
     int interpolationValue;
-    NSString * interpolationQuality;
-    UISwitch * retinaOptimizationSwitch;
-    UISwitch * opaqueOptimizationSwitch;
-    UISwitch * displayInvalidatedRectanglesSwitch;
-    UISwitch * mergeRectanglesSwitch;
-    UISwitch * needsDisplayInRectSwitch;
-    UISlider * interpolationQualitySlider;
-    UILabel * interpolationQualityValue;
-    UISlider * linesThicknessScaleSlider;
-    UILabel * linesThicknessScaleValue;
+    NSString *interpolationQuality;
+    UISwitch *retinaOptimizationSwitch;
+    UISwitch *opaqueOptimizationSwitch;
+    UISwitch *displayInvalidatedRectanglesSwitch;
+    UISwitch *mergeRectanglesSwitch;
+    UISwitch *needsDisplayInRectSwitch;
+    UISlider *interpolationQualitySlider;
+    UILabel *interpolationQualityValue;
+    UISlider *linesThicknessScaleSlider;
+    UILabel *linesThicknessScaleValue;
 }
-@property (nonatomic) UISwitch * retinaOptimizationSwitch;
-@property (nonatomic) UISwitch * opaqueOptimizationSwitch;
-@property (nonatomic) UISwitch * displayInvalidatedRectanglesSwitch;
-@property (nonatomic) UISwitch * mergeRectanglesSwitch;
-@property (nonatomic) UISwitch * needsDisplayInRectSwitch;
-@property (nonatomic) UISlider * interpolationQualitySlider;
-@property (nonatomic) UILabel * interpolationQualityValue;
-@property (nonatomic) UISlider * linesThicknessScaleSlider;
-@property (nonatomic) UILabel * linesThicknessScaleValue;
+@property(nonatomic) UISwitch *retinaOptimizationSwitch;
+@property(nonatomic) UISwitch *opaqueOptimizationSwitch;
+@property(nonatomic) UISwitch *displayInvalidatedRectanglesSwitch;
+@property(nonatomic) UISwitch *mergeRectanglesSwitch;
+@property(nonatomic) UISwitch *needsDisplayInRectSwitch;
+@property(nonatomic) UISlider *interpolationQualitySlider;
+@property(nonatomic) UILabel *interpolationQualityValue;
+@property(nonatomic) UISlider *linesThicknessScaleSlider;
+@property(nonatomic) UILabel *linesThicknessScaleValue;
 - (id)initWithNibName:(id)v1 bundle:(id)v2;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
@@ -11846,7 +12252,6 @@ struct anonymous_type_104 {
 - (void)closeDialog:(id)v1;
 - (void).cxx_destruct;
 @end
-
 
 /*****************************************************************/
 
@@ -11856,14 +12261,14 @@ struct anonymous_type_104 {
 - (void)generatePDFFromDocument:(id)v1 url:(id)v2 header:(id)v3 footer:(id)v4 printPageNumber:(int)v5;
 @end
 
-
 /*****************************************************************/
 
-@interface TINPageCapture : NSObject {
-    UIImage * _currentCopiedImage;
+@interface TINPageCapture : NSObject
+{
+    UIImage *_currentCopiedImage;
 }
-@property (retain,nonatomic) UIImage * currentCopiedImage;
+@property(retain, nonatomic) UIImage *currentCopiedImage;
 + (id)sharedInstance;
-- (void)saveImageForActivePageWithCompletionHandler:(void (^ /* unknown block signature */)(void))v1;
+- (void)saveImageForActivePageWithCompletionHandler:(void (^/* unknown block signature */)(void))v1;
 - (void).cxx_destruct;
 @end

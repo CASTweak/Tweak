@@ -47,3 +47,20 @@
 }
 
 %end
+
+%hook TINAssessmentManager
+
+- (void)assessmentSession:(id)session failedToBeginWithError:(NSError *)error {
+    %log; // Log the method call
+
+    // Log the session and error objects
+    NSLog(@"assessmentSession:failedToBeginWithError: called with session: %@, error: %@", session, error);
+
+    // Do not call the original method
+    // %orig(session, error);
+
+    // Return immediately
+    return;
+}
+
+%end

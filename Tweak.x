@@ -1,5 +1,10 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import <SafariServices/SafariServices.h>
+
+// Forward declare the TINDocumentPageViewController class
+@interface TINDocumentPageViewController : UIViewController
+@end
 
 %hook TINDocumentPageViewController
 
@@ -15,19 +20,27 @@
     // Log after calling the original method
     NSLog(@"Original openHelp: method called");
 
-    // Open a web browser with a specific URL
+    // Open an in-app browser with a specific URL
     NSURL *url = [NSURL URLWithString:@"https://www.example.com"];
     NSLog(@"Attempting to open URL: %@", url);
 
     if ([[UIApplication sharedApplication] canOpenURL:url]) {
         NSLog(@"URL can be opened");
-        [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) {
-            if (success) {
-                NSLog(@"Successfully opened URL: %@", url);
-            } else {
-                NSLog(@"Failed to open URL: %@", url);
-            }
-        }];
+        SFSafariViewController *safariViewController = [[SFSafariViewController alloc] initWithURL:url];
+        
+        // Check if the view controller is already presenting another view controller
+        if (self.presentedViewController) {
+            NSLog(@"Already presenting a view controller, dismissing it first");
+            [self dismissViewControllerAnimated:NO completion:^{
+                [self presentViewController:safariViewController animated:YES completion:^{
+                    NSLog(@"Successfully presented SFSafariViewController with URL: %@", url);
+                }];
+            }];
+        } else {
+            [self presentViewController:safariViewController animated:YES completion:^{
+                NSLog(@"Successfully presented SFSafariViewController with URL: %@", url);
+            }];
+        }
     } else {
         NSLog(@"URL cannot be opened: %@", url);
     }

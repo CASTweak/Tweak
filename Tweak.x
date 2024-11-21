@@ -2,85 +2,34 @@
 #import <Foundation/Foundation.h>
 #import <SafariServices/SafariServices.h>
 
-// Forward declare the TINDocumentPageViewController class
-@interface TINDocumentPageViewController : UIViewController
-@end
-
 // Forward declare the TINAssessmentManager class
 @interface TINAssessmentManager : NSObject
 - (void)assessmentSessionDidBegin:(id)session;
 @end
 
-%hook TINDocumentPageViewController
-
-- (void)openHelp:(id)sender {
-    %log; // Log the method call
-
-    // Log the sender object
-    NSLog(@"openHelp: called with sender: %@", sender);
-
-    // Call the original method
-    %orig(sender);
-
-    // Log after calling the original method
-    NSLog(@"Original openHelp: method called");
-
-    // Open an in-app browser with a specific URL
-    NSURL *url = [NSURL URLWithString:@"https://www.example.com"];
-    NSLog(@"Attempting to open URL: %@", url);
-
-    if ([[UIApplication sharedApplication] canOpenURL:url]) {
-        NSLog(@"URL can be opened");
-        SFSafariViewController *safariViewController = [[SFSafariViewController alloc] initWithURL:url];
-        
-        // Check if the view controller is already presenting another view controller
-        if (self.presentedViewController) {
-            NSLog(@"Already presenting a view controller, dismissing it first");
-            [self dismissViewControllerAnimated:NO completion:^{
-                [self presentViewController:safariViewController animated:YES completion:^{
-                    NSLog(@"Successfully presented SFSafariViewController with URL: %@", url);
-                }];
-            }];
-        } else {
-            [self presentViewController:safariViewController animated:YES completion:^{
-                NSLog(@"Successfully presented SFSafariViewController with URL: %@", url);
-            }];
-        }
-    } else {
-        NSLog(@"URL cannot be opened: %@", url);
-    }
-}
-
-%end
-
+// Bypass entitlement checks
 %hook TINAssessmentManager
-
 - (void)assessmentSession:(id)session failedToBeginWithError:(NSError *)error {
-    %log; // Log the method call
-
-    // Log the session and error objects
-    NSLog(@"assessmentSession:failedToBeginWithError: called with session: %@, error: %@", session, error);
-
-    // Call the assessmentSessionDidBegin: method
+    NSLog(@"CASTweak: assessmentSession:failedToBeginWithError: called with session: %@, error: %@", session, error);
     [self assessmentSessionDidBegin:session];
-
-    // Do not call the original method
-    // %orig(session, error);
-
-    // Return immediately
     return;
 }
+%end
 
-- (void)assessmentSession:(id)session wasInterruptedWithError:(NSError *)error {
-    %log; // Log the method call
+%hook ExamModeControlleriOS
+- (void)applicationDidBecomeActive {
+    %log;
+    NSLog(@"CASTweak: applicationDidBecomeActive called");
+    return;
+}
+%end
 
-    // Log the session and error objects
-    NSLog(@"assessmentSession:wasInterruptedWithError: called with session: %@, error: %@", session, error);
+%hook TINDocumentPageViewController
 
-    // Do not call the original method
-    // %orig(session, error);
-
-    // Return immediately
+- (void)showDocumentSettings:(id)sender {
+    %log;
+    NSLog(@"CASTweak: showDocumentSettings: called with sender: %@", sender);
+    %orig(sender);
     return;
 }
 

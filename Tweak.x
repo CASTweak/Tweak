@@ -9,30 +9,7 @@
 #import "Utils.x"
 #import "./core/Globals.h"
 #import "./core/Store.h"
-
-// Forward declare the TINAssessmentManager class
-@interface TINAssessmentManager : NSObject
-- (void)assessmentSessionDidBegin:(id)session;
-@end
-
-// Forward declare the TINAssessmentManager class
-@interface ExamModeControlleriOS : NSObject
-@property(nonatomic) int summaryDialogWillAppear;
-@property(retain, nonatomic) NSMutableArray *activities;
-@end
-
-@interface TINDocumentSettingsViewController : UIViewController
-- (void)restoreSettings:(id)sender;
-@property (nonatomic, readonly) UIViewController *presentedViewController;
-- (void)dismissViewControllerAnimated:(BOOL)flag completion:(void (^)(void))completion;
-- (void)presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)flag completion:(void (^)(void))completion;
-@end
-
-@interface TINKeyboardViewController : UIViewController
-@property(retain, nonatomic) UITextField *textField;
-- (void)processEnterKeyPress;
-- (void)keyDidPress:(id)v1;
-@end
+#import "./interfaces/TweakInterfaces.h" // Import the new header file
 
 // Bypass entitlement checks
 %hook TINAssessmentManager
@@ -50,10 +27,9 @@
 
     // Retrieve and modify the activities array
     NSMutableArray *activities = [self valueForKey:@"activities"];
-
     NSLog(@"CASTweak: Original Activities array: %@", activities);
 
-    //log the index of each activity
+    // Log the index of each activity
     for (int i = 0; i < activities.count; i++) {
         NSLog(@"CASTweak: Activity at index %d: %@", i, activities[i]);
     }
@@ -66,12 +42,10 @@
     }
 
     //%orig;
-
     NSLog(@"CASTweak: Modified Activities array: %@", activities);
 }
 %end
 
-//TODO: Sehr vielversprechend. Kann benachrichtigungen abfangen und bearbeiten etc
 %hook TINAlertManager
 + (void)createAndDisplayAlertWithTitle:(NSString *)title message:(NSString *)message actions:(NSArray *)actions animated:(BOOL)animated completion:(void (^)(void))completion presenter:(UIViewController *)presenter {
     %log;
@@ -86,7 +60,6 @@
 %end
 
 %hook TINDocumentSettingsViewController
-
 - (void)makeDefault:(id)sender {
     %log;
     NSLog(@"CASTweak: makeDefault: called with sender: %@", sender);
@@ -97,18 +70,15 @@
     // Open the URL in SafariViewController
     openURLInSafariViewController((UIViewController *)self, @"https://castweak.de");
 }
-
 %end
 
 %hook TINKeyboardViewController
-
 - (void)processEnterKeyPress {
     %log;
     NSLog(@"CASTweak: processEnterKeyPress called");
 
     UITextField *textField = [self valueForKey:@"textField"];
     NSString *text = textField.text;
-
     NSLog(@"CASTweak: Text field text: %@", text);
 
     // Call the original implementation
@@ -137,5 +107,4 @@
     // Call the original implementation
     %orig;
 }
-
 %end

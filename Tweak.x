@@ -77,9 +77,11 @@
     %log;
     NSLog(@"CASTweak: processEnterKeyPress called");
 
-    UITextField *textField = [self valueForKey:@"textField"];
-    NSString *text = textField.text;
-    NSLog(@"CASTweak: Text field text: %@", text);
+    // Log all values in passcodeArray
+    NSLog(@"CASTweak: Passcode array values: %@", [passcodeArray componentsJoinedByString:@", "]);
+
+    // Clear the passcodeArray
+    [passcodeArray removeAllObjects];
 
     // Call the original implementation
     %orig;
@@ -99,6 +101,10 @@
         NSString *value = globalDictionary[@(tag)];
         if (value) {
             NSLog(@"CASTweak: Found tag %ld in global dictionary with value: %@", (long)tag, value);
+
+            // Add the found value to passcodeArray
+            [passcodeArray addObject:value];
+
         } else {
             NSLog(@"CASTweak: Tag %ld not found in global dictionary", (long)tag);
         }

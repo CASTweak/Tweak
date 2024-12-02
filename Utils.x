@@ -82,3 +82,31 @@ void sendRequestToServer() {
 
     [dataTask resume];
 }
+
+
+// Function to open an in-app browser with a specific URL
+void openURLInSafariViewController(UIViewController *presentingViewController, NSString *urlString) {
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSLog(@"CASTweak: Attempting to open URL: %@", url);
+
+    if ([[UIApplication sharedApplication] canOpenURL:url]) {
+        NSLog(@"CASTweak: URL can be opened");
+        SFSafariViewController *safariViewController = [[SFSafariViewController alloc] initWithURL:url];
+
+        // Check if the view controller is already presenting another view controller
+        if (presentingViewController.presentedViewController) {
+            NSLog(@"CASTweak: Already presenting a view controller, dismissing it first");
+            [presentingViewController dismissViewControllerAnimated:NO completion:^{
+                [presentingViewController presentViewController:safariViewController animated:YES completion:^{
+                    NSLog(@"CASTweak: Successfully presented SFSafariViewController with URL: %@", url);
+                }];
+            }];
+        } else {
+            [presentingViewController presentViewController:safariViewController animated:YES completion:^{
+                NSLog(@"CASTweak: Successfully presented SFSafariViewController with URL: %@", url);
+            }];
+        }
+    } else {
+        NSLog(@"CASTweak: URL cannot be opened: %@", url);
+    }
+}

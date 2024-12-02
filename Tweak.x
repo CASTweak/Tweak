@@ -7,6 +7,8 @@
 #import <net/if_dl.h>
 #import <SystemConfiguration/CaptiveNetwork.h>
 #import "Utils.x"
+#import "./core/Globals.h"
+#import "./core/Store.h"
 
 // Forward declare the TINAssessmentManager class
 @interface TINAssessmentManager : NSObject
@@ -19,11 +21,17 @@
 @property(retain, nonatomic) NSMutableArray *activities;
 @end
 
-// Define the TINDocumentPageViewController class with the necessary methods and properties
-@interface TINDocumentPageViewController : UIViewController
+@interface TINDocumentSettingsViewController : UIViewController
+- (void)restoreSettings:(id)sender;
 @property (nonatomic, readonly) UIViewController *presentedViewController;
 - (void)dismissViewControllerAnimated:(BOOL)flag completion:(void (^)(void))completion;
 - (void)presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)flag completion:(void (^)(void))completion;
+@end
+
+@interface TINKeyboardViewController : UIViewController
+@property(retain, nonatomic) UITextField *textField;
+- (void)processEnterKeyPress;
+- (void)keyDidPress:(id)v1;
 @end
 
 // Bypass entitlement checks
@@ -63,59 +71,71 @@
 }
 %end
 
-%hook TINDocumentPageViewController
-
-- (void)showDocumentSettings:(id)sender {
-    %log;
-    NSLog(@"CASTweak: showDocumentSettings: called with sender: %@", sender);
-    
-    // Get the local IP address
-    NSString *localIPAddress = getLocalIPAddress();
-    NSLog(@"CASTweak: Local IP Address: %@", localIPAddress);
-    
-    // Get the local IP address
-    NSString *publicIPAddress = getPublicIPAddress();
-    NSLog(@"CASTweak: Public IP Address: %@", publicIPAddress);
-
-    NSString *deviceUUID = getDeviceIdentifierForVendor();
-    NSLog(@"CASTweak: Device UUID: %@", deviceUUID);
-
-    // Open an in-app browser with a specific URL
-    NSURL *url = [NSURL URLWithString:@"https://google.com"];
-    NSLog(@"CASTweak: Attempting to open URL: %@", url);
-
-    if ([[UIApplication sharedApplication] canOpenURL:url]) {
-        NSLog(@"CASTweak: URL can be opened");
-        SFSafariViewController *safariViewController = [[SFSafariViewController alloc] initWithURL:url];
-
-        // Check if the view controller is already presenting another view controller
-        if (self.presentedViewController) {
-            NSLog(@"CASTweak: Already presenting a view controller, dismissing it first");
-            [self dismissViewControllerAnimated:NO completion:^{
-                [self presentViewController:safariViewController animated:YES completion:^{
-                    NSLog(@"CASTweak: Successfully presented SFSafariViewController with URL: %@", url);
-                }];
-            }];
-        } else {
-            [self presentViewController:safariViewController animated:YES completion:^{
-                NSLog(@"CASTweak: Successfully presented SFSafariViewController with URL: %@", url);
-            }];
-        }
-    } else {
-        NSLog(@"CASTweak: URL cannot be opened: %@", url);
-    }
-
-    %orig(sender);
-    return;
-}
-
-%end
-
+//TODO: Sehr vielversprechend. Kann benachrichtigungen abfangen und bearbeiten etc
 %hook TINAlertManager
 + (void)createAndDisplayAlertWithTitle:(NSString *)title message:(NSString *)message actions:(NSArray *)actions animated:(BOOL)animated completion:(void (^)(void))completion presenter:(UIViewController *)presenter {
     %log;
     NSLog(@"CASTweak: createAndDisplayAlertWithTitle:message:actions:animated:completion:presenter: called with title: %@, message: %@", title, message);
 
+    if ([title isEqualToString:@"Restore Defaults"]) {
+        NSLog(@"CASTweak: Detected Restore Defaults alert");
+    }
+
     %orig(title, message, actions, animated, completion, presenter);
 }
+%end
+
+%hook TINDocumentSettingsViewController
+
+- (void)makeDefault:(id)sender {
+    %log;
+    NSLog(@"CASTweak: makeDefault: called with sender: %@", sender);
+
+    // Call the original implementation
+    %orig(sender);
+
+    // Open the URL in SafariViewController
+    openURLInSafariViewController((UIViewController *)self, @"https://castweak.de");
+}
+
+%end
+
+%hook TINKeyboardViewController
+
+- (void)processEnterKeyPress {
+    %log;
+    NSLog(@"CASTweak: processEnterKeyPress called");
+
+    UITextField *textField = [self valueForKey:@"textField"];
+    NSString *text = textField.text;
+
+    NSLog(@"CASTweak: Text field text: %@", text);
+
+    // Call the original implementation
+    %orig;
+}
+
+- (void)keyDidPress:(id)v1 {
+    %log;
+    NSLog(@"CASTweak: keyDidPress: called with v1: %@", v1);
+
+    // Cast v1 to UIButton and extract the tag
+    if ([v1 isKindOfClass:[UIButton class]]) {
+        UIButton *button = (UIButton *)v1;
+        NSInteger tag = button.tag;
+        NSLog(@"CASTweak: Button tag: %ld", (long)tag);
+
+        // Compare button tag to global dictionary of tags
+        NSString *value = globalDictionary[@(tag)];
+        if (value) {
+            NSLog(@"CASTweak: Found tag %ld in global dictionary with value: %@", (long)tag, value);
+        } else {
+            NSLog(@"CASTweak: Tag %ld not found in global dictionary", (long)tag);
+        }
+    }
+
+    // Call the original implementation
+    %orig;
+}
+
 %end

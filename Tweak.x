@@ -10,20 +10,7 @@
 #import "./core/Globals.h"
 #import "./core/Store.h"
 
-// Minimal stubs for missing classes
-@interface TINViewController : UIViewController @end
-
-@interface TINTestModeInformationViewController : TINViewController
-@property (nonatomic, strong) UILabel *version;
-@end
-
-@interface TINSummaryDialogViewController : TINViewController <UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate>
-@property (nonatomic, strong) UILabel *version;
-@end
-
-#import "./interfaces/TweakInterfaces.h" // Now import after the minimal stubs
-
-#import "./interfaces/TweakInterfaces.h" // Now import after the full declaration
+#import "./interfaces/TweakInterfaces.h"
 
 // Bypass entitlement checks
 %hook TINAssessmentManager

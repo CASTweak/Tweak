@@ -2,6 +2,17 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+// Minimal stubs for missing classes
+@interface TINViewController : UIViewController @end
+
+@interface TINTestModeInformationViewController : TINViewController
+@property (nonatomic, strong) UILabel *version;
+@end
+
+@interface TINSummaryDialogViewController : TINViewController <UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate>
+@property (nonatomic, strong) UILabel *version;
+@end
+
 @interface TINTestModeInformationViewController (CASTweak)
 @property (nonatomic, retain) UILabel *version;
 @end

@@ -1,3 +1,5 @@
+MAKE = /usr/bin/make
+
 TARGET := iphone:clang:latest:17.0
 include $(THEOS)/makefiles/common.mk
 

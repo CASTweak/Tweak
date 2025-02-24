@@ -2,6 +2,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+@interface TINTestModeInformationViewController (CASTweak)
+@property (nonatomic, retain) UILabel *version;
+@end
+
 // Forward declare the TINAssessmentManager class
 @interface TINAssessmentManager : NSObject
 - (void)assessmentSessionDidBegin:(id)session;

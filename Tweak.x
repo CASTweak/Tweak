@@ -9,7 +9,21 @@
 #import "Utils.x"
 #import "./core/Globals.h"
 #import "./core/Store.h"
-#import "./interfaces/TweakInterfaces.h" // Import the new header file
+
+// Minimal stubs for missing classes
+@interface TINViewController : UIViewController @end
+
+@interface TINTestModeInformationViewController : TINViewController
+@property (nonatomic, strong) UILabel *version;
+@end
+
+@interface TINSummaryDialogViewController : TINViewController <UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate>
+@property (nonatomic, strong) UILabel *version;
+@end
+
+#import "./interfaces/TweakInterfaces.h" // Now import after the minimal stubs
+
+#import "./interfaces/TweakInterfaces.h" // Now import after the full declaration
 
 // Bypass entitlement checks
 %hook TINAssessmentManager
@@ -113,4 +127,17 @@
     // Call the original implementation
     %orig;
 }
+%end
+
+%hook TINSummaryDialogViewController
+
+- (void)viewDidAppear:(int)arg1 {
+    NSLog(@"CASTweak: Forced version in viewDidAppear to 1.2.3.4");
+    //log entire self object
+    NSLog(@"CASTweak: self object: %@", self);
+    self.version.text = @"1.2.3.7";
+    self.version.textColor = [UIColor redColor];
+    %orig(arg1);
+}
+
 %end

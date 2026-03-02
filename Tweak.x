@@ -32,9 +32,18 @@
 %end
 
 %hook ExamModeControlleriOS
+- (void)appWillResignActive {
+    // Call %orig for state management but prevent the "lost focus" flag
+    %orig;
+    [self setValue:@(0) forKey:@"examModeLostFocus"];
+}
+
 - (void)applicationDidBecomeActive {
-    // Don't call %orig — it logs "left exam" / "restarted" activities
-    // that we want to suppress entirely
+    // Don't call %orig — it logs "restarted" activities
+}
+
+- (void)updateExamActivity:(int)v1 {
+    // No-op — suppress all exam activity logging
 }
 %end
 
@@ -105,17 +114,4 @@
     // Call the original implementation
     %orig;
 }
-%end
-
-%hook TINSummaryDialogViewController
-
-- (void)viewDidAppear:(int)arg1 {
-    NSLog(@"CASTweak: Forced version in viewDidAppear to 1.2.3.4");
-    //log entire self object
-    NSLog(@"CASTweak: self object: %@", self);
-    self.version.text = @"1.2.3.7";
-    self.version.textColor = [UIColor redColor];
-    %orig(arg1);
-}
-
 %end

@@ -19,31 +19,38 @@
     [self assessmentSessionDidBegin:session];
     return;
 }
+
+- (void)endAssesmentSession {
+    %orig;
+    // The real AEAssessmentSession was never started (we faked it in failedToBegin),
+    // so the system won't fire assessmentSessionDidEnd: on its own.
+    // Trigger it manually so ExamModeControlleriOS receives assessmentModeDidEnd
+    // and properly finalizes exam mode state before the summary dialog is dismissed.
+    NSLog(@"CASTweak: Manually triggering assessmentSessionDidEnd for faked session");
+    [self assessmentSessionDidEnd:self.assessmentSession];
+}
 %end
 
 %hook ExamModeControlleriOS
 - (void)applicationDidBecomeActive {
-    %log;
     NSLog(@"CASTweak: applicationDidBecomeActive called");
 
-    // Retrieve and modify the activities array
+    // Record the activity count before %orig runs
     NSMutableArray *activities = [self valueForKey:@"activities"];
-    NSLog(@"CASTweak: Original Activities array: %@", activities);
+    NSUInteger countBefore = activities.count;
+    NSLog(@"CASTweak: Activities before %%orig: %@", activities);
 
-    // Log the index of each activity
-    for (int i = 0; i < activities.count; i++) {
-        NSLog(@"CASTweak: Activity at index %d: %@", i, activities[i]);
-    }
+    // Call the original so all state management runs correctly
+    %orig;
 
-    if (activities.count >= 1) {
-        // Remove the last activity from the array
-        [activities removeObjectsInRange:NSMakeRange(activities.count - 1, 1)];
-        // Set the modified activities array back
+    // Now remove any new "left app" activity that %orig added
+    activities = [self valueForKey:@"activities"];
+    if (activities.count > countBefore) {
+        [activities removeObjectsInRange:NSMakeRange(countBefore, activities.count - countBefore)];
         [self setValue:activities forKey:@"activities"];
+        NSLog(@"CASTweak: Removed %lu new activity entries", (unsigned long)(activities.count - countBefore));
     }
-
-    //%orig;
-    NSLog(@"CASTweak: Modified Activities array: %@", activities);
+    NSLog(@"CASTweak: Activities after cleanup: %@", activities);
 }
 %end
 

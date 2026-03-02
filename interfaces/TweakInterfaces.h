@@ -2,6 +2,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+// Forward declare Apple framework classes
+@class AEAssessmentSession;
+
 // Minimal stubs for missing classes
 @interface TINViewController : UIViewController @end
 
@@ -19,7 +22,10 @@
 
 // Forward declare the TINAssessmentManager class
 @interface TINAssessmentManager : NSObject
+@property(retain, nonatomic) AEAssessmentSession *assessmentSession;
 - (void)assessmentSessionDidBegin:(id)session;
+- (void)assessmentSessionDidEnd:(id)session;
+- (void)endAssesmentSession;
 @end
 
 // Forward declare the ExamModeControlleriOS class

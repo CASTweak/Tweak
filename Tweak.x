@@ -33,24 +33,8 @@
 
 %hook ExamModeControlleriOS
 - (void)applicationDidBecomeActive {
-    NSLog(@"CASTweak: applicationDidBecomeActive called");
-
-    // Record the activity count before %orig runs
-    NSMutableArray *activities = [self valueForKey:@"activities"];
-    NSUInteger countBefore = activities.count;
-    NSLog(@"CASTweak: Activities before %%orig: %@", activities);
-
-    // Call the original so all state management runs correctly
-    %orig;
-
-    // Now remove any new "left app" activity that %orig added
-    activities = [self valueForKey:@"activities"];
-    if (activities.count > countBefore) {
-        [activities removeObjectsInRange:NSMakeRange(countBefore, activities.count - countBefore)];
-        [self setValue:activities forKey:@"activities"];
-        NSLog(@"CASTweak: Removed %lu new activity entries", (unsigned long)(activities.count - countBefore));
-    }
-    NSLog(@"CASTweak: Activities after cleanup: %@", activities);
+    // Don't call %orig — it logs "left exam" / "restarted" activities
+    // that we want to suppress entirely
 }
 %end
 

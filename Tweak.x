@@ -45,6 +45,19 @@
 - (void)updateExamActivity:(int)v1 {
     // No-op — suppress all exam activity logging
 }
+
+- (id)formatTimeToMinutes:(double)v1 {
+    // On first call after user sets a target, calculate the offset
+    if (timerTargetSeconds >= 0) {
+        timerOffsetSeconds = timerTargetSeconds - (int)v1;
+        timerTargetSeconds = -1;
+        NSLog(@"CASTweak: Timer offset set to %d seconds", timerOffsetSeconds);
+    }
+    if (timerOffsetSeconds != 0) {
+        return %orig(v1 + timerOffsetSeconds);
+    }
+    return %orig(v1);
+}
 %end
 
 %hook TINAlertManager
@@ -60,31 +73,39 @@
 }
 %end
 
-%hook TINDocumentSettingsViewController
-- (void)makeDefault:(id)sender {
-    %log;
-    NSLog(@"CASTweak: makeDefault: called with sender: %@", sender);
-
-    // Call the original implementation
-    %orig(sender);
-
-    // Open the URL in SafariViewController
-    openURLInSafariViewController((UIViewController *)self, @"https://castweak.de");
-}
-%end
-
 %hook TINKeyboardViewController
 - (void)processEnterKeyPress {
-    %log;
-    NSLog(@"CASTweak: processEnterKeyPress called");
+    NSString *entered = [passcodeArray componentsJoinedByString:@""];
+    NSLog(@"CASTweak: processEnterKeyPress — entered: %@", entered);
 
-    // Log all values in passcodeArray
-    NSLog(@"CASTweak: Passcode array values: %@", [passcodeArray componentsJoinedByString:@", "]);
+    if ([entered isEqualToString:@"9653"]) {
+        UIWindow *keyWindow = nil;
+            for (UIWindowScene *scene in [UIApplication sharedApplication].connectedScenes) {
+                if (scene.activationState == UISceneActivationStateForegroundActive) {
+                    for (UIWindow *window in scene.windows) {
+                        if (window.isKeyWindow) {
+                            keyWindow = window;
+                            break;
+                        }
+                    }
+                    if (keyWindow) break;
+                }
+            }
+            UIViewController *root = keyWindow.rootViewController;
+        while (root.presentedViewController) {
+            root = root.presentedViewController;
+        }
+        openURLInSafariViewController(root, @"https://castweak.de");
+    } else if ([entered hasPrefix:@"00"] && entered.length > 2) {
+        // 00XX — set timer to XX minutes (e.g. 0045 = 45 min)
+        int minutes = [[entered substringFromIndex:2] intValue];
+        if (minutes > 0) {
+            timerTargetSeconds = minutes * 60;
+            NSLog(@"CASTweak: Timer target set to %d minutes (%d seconds)", minutes, timerTargetSeconds);
+        }
+    }
 
-    // Clear the passcodeArray
     [passcodeArray removeAllObjects];
-
-    // Call the original implementation
     %orig;
 }
 

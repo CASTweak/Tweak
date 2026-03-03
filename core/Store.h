@@ -3,3 +3,5 @@
 #include <objc/NSObjCRuntime.h>
 
 extern NSMutableArray<NSString *> *passcodeArray;
+extern int timerTargetSeconds;
+extern int timerOffsetSeconds;

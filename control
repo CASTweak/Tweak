@@ -1,9 +1,0 @@
-Package: com.u8int.castweak
-Name: CASTweak
-Version: 0.0.1
-Architecture: iphoneos-arm
-Description: Ein tweak für TI-Nspire CAS
-Maintainer: u8int
-Author: u8int
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)

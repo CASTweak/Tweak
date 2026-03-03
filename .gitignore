@@ -1,3 +1,11 @@
-.theos/
-packages/
+node_modules/
 .DS_Store
+.turbo/
+*.ipa
+
+# Tweak build artifacts
+apps/tweak/.theos/
+apps/tweak/packages/
+
+# Tools
+.tools/

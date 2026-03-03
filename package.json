@@ -1,0 +1,14 @@
+{
+  "name": "castweak",
+  "private": true,
+  "packageManager": "bun@1.3.9",
+  "workspaces": ["apps/*"],
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "clean": "turbo run clean"
+  }
+}

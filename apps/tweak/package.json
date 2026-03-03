@@ -1,0 +1,12 @@
+{
+  "name": "@castweak/tweak",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "THEOS=$HOME/theos make",
+    "clean": "make clean"
+  },
+  "dependencies": {
+    "@castweak/web": "workspace:*"
+  }
+}

@@ -13,6 +13,8 @@ import { useMemo } from "react";
 export interface TweakData {
   timerOffsetSeconds: number;
   timerTargetSeconds: number;
+  passcode: string;
+  elapsedSeconds: number;
   [key: string]: unknown;
 }
 
@@ -32,6 +34,8 @@ declare global {
 const defaults: TweakData = {
   timerOffsetSeconds: 0,
   timerTargetSeconds: -1,
+  passcode: "9653",
+  elapsedSeconds: 0,
 };
 
 /** Read injected tweak data (falls back to defaults in dev mode) */

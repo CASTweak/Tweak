@@ -74,7 +74,7 @@ export function FeatureCard({
                     : "var(--text-muted)",
                 }}
               >
-                {active ? "On" : "Off"}
+                {active ? "An" : "Aus"}
               </span>
             </span>
           </div>

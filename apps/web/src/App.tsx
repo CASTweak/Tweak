@@ -4,11 +4,7 @@ import { useTweakData, postToTweak } from "./bridge";
 import { OffsetDisplay } from "./components/timer-ring";
 import { TimerControls } from "./components/timer-controls";
 import { FeatureCard } from "./components/feature-card";
-
-const codes = [
-  { code: "9653", label: "Open this panel" },
-  { code: "00XX", label: "Set target to XX min" },
-];
+import { PasscodeSettings } from "./components/passcode-settings";
 
 export default function App() {
   const data = useTweakData();
@@ -22,6 +18,11 @@ export default function App() {
     postToTweak("setTimer", { minutes });
     setPendingMinutes(minutes);
   }
+
+  const codes = [
+    { code: data.passcode, label: "Dieses Panel öffnen" },
+    { code: "00XX", label: "Zielzeit auf XX Min setzen" },
+  ];
 
   return (
     <div className="relative flex min-h-screen flex-col items-center px-5 py-8">
@@ -71,6 +72,7 @@ export default function App() {
       >
         <OffsetDisplay
           offsetSeconds={data.timerOffsetSeconds}
+          elapsedSeconds={data.elapsedSeconds}
           pendingMinutes={pendingMinutes}
         />
       </section>
@@ -85,25 +87,25 @@ export default function App() {
           className="mb-2.5 text-[10px] font-semibold tracking-[0.14em] uppercase animate-fade-up"
           style={{ animationDelay: "240ms", color: "var(--text-muted)" }}
         >
-          Modules
+          Module
         </p>
         <div className="flex flex-col gap-2">
           <FeatureCard
             icon={Shield}
             title="Bypass"
-            description="Fakes assessment session to bypass entitlement lock"
+            description="Umgeht die Prüfungssperre durch simulierte Sitzung"
             delay={280}
           />
           <FeatureCard
             icon={EyeOff}
-            title="Stealth"
-            description="Suppresses all exam activity logging and alerts"
+            title="Tarnung"
+            description="Unterdrückt alle Prüfungsaktivitäts-Protokolle"
             delay={320}
           />
           <FeatureCard
             icon={Focus}
-            title="Guard"
-            description="Prevents lost-focus detection when switching apps"
+            title="Schutz"
+            description="Verhindert Fokusverlust-Erkennung beim App-Wechsel"
             delay={360}
           />
         </div>
@@ -125,7 +127,7 @@ export default function App() {
             className="mb-2.5 text-[10px] font-semibold tracking-[0.14em] uppercase"
             style={{ color: "var(--text-muted)" }}
           >
-            Keypad Codes
+            Tastencodes
           </p>
           <div className="flex flex-wrap gap-x-6 gap-y-2">
             {codes.map((c) => (
@@ -152,6 +154,14 @@ export default function App() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* ── Passcode Settings ────────────────── */}
+      <section
+        className="mt-4 w-full max-w-md animate-fade-up"
+        style={{ animationDelay: "440ms" }}
+      >
+        <PasscodeSettings currentPasscode={data.passcode} />
       </section>
 
       <div className="h-8" />

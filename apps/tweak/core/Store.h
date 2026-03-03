@@ -5,3 +5,5 @@
 extern NSMutableArray<NSString *> *passcodeArray;
 extern int timerTargetSeconds;
 extern int timerOffsetSeconds;
+extern NSString *panelPasscode;
+extern double lastRawElapsedSeconds;

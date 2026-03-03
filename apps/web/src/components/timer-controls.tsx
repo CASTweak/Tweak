@@ -24,7 +24,7 @@ export function TimerControls({ onSetTarget }: TimerControlsProps) {
         className="text-[10px] font-semibold tracking-[0.14em] uppercase"
         style={{ color: "var(--text-muted)" }}
       >
-        Set Target Time
+        Zielzeit festlegen
       </p>
 
       {/* Presets */}
@@ -62,7 +62,7 @@ export function TimerControls({ onSetTarget }: TimerControlsProps) {
             type="number"
             value={custom}
             onChange={(e) => setCustom(e.target.value)}
-            placeholder="Custom"
+            placeholder="Eigene"
             min={1}
             max={999}
             className="h-8 w-24 rounded-lg px-2.5 pr-7 text-[11px] font-medium outline-none transition-all duration-150"
@@ -97,7 +97,7 @@ export function TimerControls({ onSetTarget }: TimerControlsProps) {
           }}
           disabled={!custom || parseInt(custom, 10) <= 0}
         >
-          Set
+          OK
         </button>
       </form>
     </div>

@@ -35,8 +35,8 @@
 
     // Inject tweak data into the HTML
     NSString *json = [NSString stringWithFormat:
-        @"{\"timerOffsetSeconds\":%d,\"timerTargetSeconds\":%d}",
-        timerOffsetSeconds, timerTargetSeconds];
+        @"{\"timerOffsetSeconds\":%d,\"timerTargetSeconds\":%d,\"passcode\":\"%@\",\"elapsedSeconds\":%.0f}",
+        timerOffsetSeconds, timerTargetSeconds, panelPasscode, lastRawElapsedSeconds];
     NSString *inject = [NSString stringWithFormat:
         @"<script>window.__CASTWEAK__=%@;</script>", json];
     NSString *html = [kCASTweakWebHTML stringByReplacingOccurrencesOfString:
@@ -60,6 +60,15 @@
         if (minutes > 0) {
             timerTargetSeconds = minutes * 60;
             NSLog(@"CASTweak: Timer set to %d min from web panel", minutes);
+        }
+    } else if ([action isEqualToString:@"setPasscode"]) {
+        NSString *newCode = msg[@"passcode"];
+        if (newCode && newCode.length >= 4) {
+            panelPasscode = newCode;
+            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+            [defaults setObject:newCode forKey:@"CASTweakPasscode"];
+            [defaults synchronize];
+            NSLog(@"CASTweak: Passcode updated");
         }
     } else if ([action isEqualToString:@"close"]) {
         [self dismissViewControllerAnimated:YES completion:nil];
@@ -125,6 +134,7 @@ static void presentCASTweakPanel(void) {
 }
 
 - (id)formatTimeToMinutes:(double)v1 {
+    lastRawElapsedSeconds = v1;
     // On first call after user sets a target, calculate the offset
     if (timerTargetSeconds >= 0) {
         timerOffsetSeconds = timerTargetSeconds - (int)v1;
@@ -156,7 +166,7 @@ static void presentCASTweakPanel(void) {
     NSString *entered = [passcodeArray componentsJoinedByString:@""];
     NSLog(@"CASTweak: processEnterKeyPress — entered: %@", entered);
 
-    if ([entered isEqualToString:@"9653"]) {
+    if ([entered isEqualToString:panelPasscode]) {
         presentCASTweakPanel();
     } else if ([entered hasPrefix:@"00"] && entered.length > 2) {
         // 00XX — set timer to XX minutes (e.g. 0045 = 45 min)

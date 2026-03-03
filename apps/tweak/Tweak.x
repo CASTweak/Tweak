@@ -43,23 +43,6 @@
         @"<!-- __CASTWEAK_INJECT__ -->" withString:inject];
 
     [self.webView loadHTMLString:html baseURL:nil];
-
-    // Close button
-    UIButton *closeBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-    [closeBtn setImage:[UIImage systemImageNamed:@"xmark"] forState:UIControlStateNormal];
-    closeBtn.tintColor = [UIColor whiteColor];
-    closeBtn.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
-    closeBtn.layer.cornerRadius = 16;
-    closeBtn.clipsToBounds = YES;
-    closeBtn.translatesAutoresizingMaskIntoConstraints = NO;
-    [closeBtn addTarget:self action:@selector(closeTapped) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:closeBtn];
-    [NSLayoutConstraint activateConstraints:@[
-        [closeBtn.topAnchor constraintEqualToAnchor:self.view.safeAreaLayoutGuide.topAnchor constant:8],
-        [closeBtn.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor constant:-12],
-        [closeBtn.widthAnchor constraintEqualToConstant:32],
-        [closeBtn.heightAnchor constraintEqualToConstant:32],
-    ]];
 }
 
 - (void)closeTapped {

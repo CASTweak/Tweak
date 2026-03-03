@@ -1,13 +1,13 @@
 import { useState } from "react";
-import { Shield, EyeOff, Focus, Terminal } from "lucide-react";
+import { Shield, EyeOff, Focus } from "lucide-react";
 import { useTweakData, postToTweak } from "./bridge";
-import { TimerRing } from "./components/timer-ring";
+import { OffsetDisplay } from "./components/timer-ring";
 import { TimerControls } from "./components/timer-controls";
 import { FeatureCard } from "./components/feature-card";
 
 const codes = [
   { code: "9653", label: "Open this panel" },
-  { code: "00XX", label: "Set timer to XX minutes" },
+  { code: "00XX", label: "Set target to XX min" },
 ];
 
 export default function App() {
@@ -18,36 +18,42 @@ export default function App() {
       : null
   );
 
-  function handleSetTimer(minutes: number) {
+  function handleSetTarget(minutes: number) {
     postToTweak("setTimer", { minutes });
     setPendingMinutes(minutes);
   }
 
   return (
-    <div className="relative flex min-h-screen flex-col items-center px-6 py-10">
+    <div className="relative flex min-h-screen flex-col items-center px-5 py-8">
       {/* ── Header ──────────────────────────── */}
       <header
-        className="flex w-full max-w-2xl items-center justify-between animate-fade-up"
+        className="flex w-full max-w-md items-center justify-between animate-fade-up"
         style={{ animationDelay: "0ms" }}
       >
-        <div className="flex items-center gap-3">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-400/10 border border-emerald-400/20">
-            <Terminal size={14} className="text-emerald-400" />
-          </div>
-          <div>
-            <h1 className="text-[15px] font-bold tracking-tight text-zinc-100">
-              CASTweak
-            </h1>
-            <p className="text-[10px] font-medium tracking-wider text-zinc-600 uppercase">
-              v0.0.1
-            </p>
-          </div>
+        <div className="flex items-center gap-2.5">
+          <h1
+            className="text-[15px] font-semibold tracking-tight"
+            style={{ color: "var(--text-primary)" }}
+          >
+            CASTweak
+          </h1>
+          <span
+            className="text-[10px] font-medium tracking-wider uppercase"
+            style={{ color: "var(--text-muted)" }}
+          >
+            v0.0.1
+          </span>
         </div>
         <button
           onClick={() => postToTweak("close")}
-          className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/[0.04] border border-white/[0.06] text-zinc-500 transition-colors hover:text-zinc-300 hover:bg-white/[0.08] active:scale-95"
+          className="flex h-7 w-7 items-center justify-center rounded-lg transition-colors active:scale-95"
+          style={{
+            background: "var(--surface)",
+            border: "1px solid var(--border)",
+            color: "var(--text-secondary)",
+          }}
         >
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+          <svg width="10" height="10" viewBox="0 0 12 12" fill="none">
             <path
               d="M1 1L11 11M11 1L1 11"
               stroke="currentColor"
@@ -58,85 +64,97 @@ export default function App() {
         </button>
       </header>
 
-      {/* Divider */}
-      <div
-        className="mt-6 mb-8 w-full max-w-2xl h-px animate-fade-up"
-        style={{
-          animationDelay: "60ms",
-          background:
-            "linear-gradient(90deg, transparent, rgba(255,255,255,0.06) 50%, transparent)",
-        }}
-      />
-
-      {/* ── Timer Section ───────────────────── */}
+      {/* ── Offset ──────────────────────────── */}
       <section
-        className="animate-fade-up"
-        style={{ animationDelay: "100ms" }}
+        className="mt-10 animate-fade-up"
+        style={{ animationDelay: "80ms" }}
       >
-        <TimerRing
+        <OffsetDisplay
           offsetSeconds={data.timerOffsetSeconds}
           pendingMinutes={pendingMinutes}
         />
       </section>
 
-      <div className="mt-8">
-        <TimerControls onSetTimer={handleSetTimer} />
+      <div className="mt-6 animate-fade-up" style={{ animationDelay: "160ms" }}>
+        <TimerControls onSetTarget={handleSetTarget} />
       </div>
 
-      {/* ── Features ────────────────────────── */}
-      <section className="mt-10 w-full max-w-2xl">
+      {/* ── Modules ─────────────────────────── */}
+      <section className="mt-10 w-full max-w-md">
         <p
-          className="mb-3 text-[10px] font-semibold tracking-[0.15em] uppercase text-zinc-600 animate-fade-up"
-          style={{ animationDelay: "300ms" }}
+          className="mb-2.5 text-[10px] font-semibold tracking-[0.14em] uppercase animate-fade-up"
+          style={{ animationDelay: "240ms", color: "var(--text-muted)" }}
         >
-          Active Modules
+          Modules
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div className="flex flex-col gap-2">
           <FeatureCard
             icon={Shield}
             title="Bypass"
             description="Fakes assessment session to bypass entitlement lock"
-            delay={350}
+            delay={280}
           />
           <FeatureCard
             icon={EyeOff}
             title="Stealth"
             description="Suppresses all exam activity logging and alerts"
-            delay={400}
+            delay={320}
           />
           <FeatureCard
             icon={Focus}
             title="Guard"
             description="Prevents lost-focus detection when switching apps"
-            delay={450}
+            delay={360}
           />
         </div>
       </section>
 
-      {/* ── Quick Reference ─────────────────── */}
-      <section className="mt-8 w-full max-w-2xl">
+      {/* ── Codes ───────────────────────────── */}
+      <section
+        className="mt-6 w-full max-w-md animate-fade-up"
+        style={{ animationDelay: "400ms" }}
+      >
         <div
-          className="rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5 animate-fade-up"
-          style={{ animationDelay: "500ms" }}
+          className="rounded-xl p-4"
+          style={{
+            background: "var(--surface)",
+            border: "1px solid var(--border)",
+          }}
         >
-          <p className="mb-3 text-[10px] font-semibold tracking-[0.15em] uppercase text-zinc-600">
+          <p
+            className="mb-2.5 text-[10px] font-semibold tracking-[0.14em] uppercase"
+            style={{ color: "var(--text-muted)" }}
+          >
             Keypad Codes
           </p>
-          <div className="flex flex-wrap gap-x-8 gap-y-2">
+          <div className="flex flex-wrap gap-x-6 gap-y-2">
             {codes.map((c) => (
-              <div key={c.code} className="flex items-center gap-3">
-                <code className="rounded-md bg-white/[0.04] border border-white/[0.06] px-2.5 py-1 text-[12px] font-semibold text-emerald-300 font-[ui-monospace,'SF_Mono',SFMono-Regular,Menlo,monospace]">
+              <div key={c.code} className="flex items-center gap-2.5">
+                <code
+                  className="rounded-md px-2 py-0.5 text-[12px] font-semibold"
+                  style={{
+                    background: "rgba(56, 118, 220, 0.08)",
+                    border: "1px solid rgba(56, 118, 220, 0.12)",
+                    color: "var(--blue-400)",
+                    fontFamily:
+                      "ui-monospace, 'SF Mono', SFMono-Regular, Menlo, monospace",
+                  }}
+                >
                   {c.code}
                 </code>
-                <span className="text-[12px] text-zinc-500">{c.label}</span>
+                <span
+                  className="text-[11px]"
+                  style={{ color: "var(--text-secondary)" }}
+                >
+                  {c.label}
+                </span>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Bottom spacing */}
-      <div className="h-10" />
+      <div className="h-8" />
     </div>
   );
 }

@@ -19,49 +19,69 @@ export function FeatureCard({
   return (
     <div
       className={cn(
-        "group relative overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5",
-        "backdrop-blur-sm transition-all duration-300",
-        "hover:border-white/[0.1] hover:bg-white/[0.04]",
-        "animate-fade-up"
+        "group relative rounded-xl p-3.5 transition-all duration-200 animate-fade-up"
       )}
-      style={{ animationDelay: `${delay}ms` }}
+      style={{
+        animationDelay: `${delay}ms`,
+        background: "var(--surface)",
+        border: "1px solid var(--border)",
+      }}
     >
-      {/* Subtle gradient highlight on hover */}
-      <div className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-        style={{
-          background: "radial-gradient(circle at 50% 0%, rgba(52,211,153,0.04) 0%, transparent 60%)",
-        }}
-      />
-
-      <div className="relative flex items-start gap-4">
-        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/[0.04] border border-white/[0.06]">
-          <Icon size={18} className="text-zinc-400" />
+      <div className="flex items-center gap-3">
+        <div
+          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg"
+          style={{
+            background: active
+              ? "rgba(56, 118, 220, 0.1)"
+              : "rgba(255,255,255,0.03)",
+            border: active
+              ? "1px solid rgba(56, 118, 220, 0.15)"
+              : "1px solid rgba(255,255,255,0.05)",
+          }}
+        >
+          <Icon
+            size={15}
+            style={{
+              color: active ? "var(--blue-400)" : "var(--text-muted)",
+            }}
+          />
         </div>
         <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2.5 mb-1">
-            <span className="text-[13px] font-semibold text-zinc-200 tracking-tight">
+          <div className="flex items-center gap-2">
+            <span
+              className="text-[12px] font-semibold tracking-tight"
+              style={{ color: "var(--text-primary)" }}
+            >
               {title}
             </span>
-            <span className="flex items-center gap-1.5">
+            <span className="flex items-center gap-1">
               <span
-                className={cn(
-                  "h-1.5 w-1.5 rounded-full",
-                  active
-                    ? "bg-emerald-400 shadow-[0_0_6px_rgba(52,211,153,0.5)] animate-pulse-slow"
-                    : "bg-zinc-600"
-                )}
+                className={cn("h-1.5 w-1.5 rounded-full", {
+                  "animate-pulse-slow": active,
+                })}
+                style={{
+                  background: active ? "var(--blue-400)" : "var(--text-muted)",
+                  boxShadow: active
+                    ? "0 0 6px rgba(56, 118, 220, 0.4)"
+                    : "none",
+                }}
               />
               <span
-                className={cn(
-                  "text-[10px] font-medium tracking-wider uppercase",
-                  active ? "text-emerald-400/80" : "text-zinc-600"
-                )}
+                className="text-[9px] font-medium tracking-wider uppercase"
+                style={{
+                  color: active
+                    ? "var(--blue-400)"
+                    : "var(--text-muted)",
+                }}
               >
-                {active ? "Active" : "Off"}
+                {active ? "On" : "Off"}
               </span>
             </span>
           </div>
-          <p className="text-[11px] leading-relaxed text-zinc-500">
+          <p
+            className="text-[10px] leading-relaxed mt-0.5"
+            style={{ color: "var(--text-secondary)" }}
+          >
             {description}
           </p>
         </div>

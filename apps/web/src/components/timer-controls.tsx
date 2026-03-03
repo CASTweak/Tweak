@@ -1,39 +1,54 @@
 import { useState } from "react";
-import { cn } from "../lib/utils";
 
 interface TimerControlsProps {
-  onSetTimer: (minutes: number) => void;
+  onSetTarget: (minutes: number) => void;
 }
 
 const presets = [15, 30, 45, 60, 90];
 
-export function TimerControls({ onSetTimer }: TimerControlsProps) {
+export function TimerControls({ onSetTarget }: TimerControlsProps) {
   const [custom, setCustom] = useState("");
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     const m = parseInt(custom, 10);
     if (m > 0) {
-      onSetTimer(m);
+      onSetTarget(m);
       setCustom("");
     }
   }
 
   return (
-    <div className="flex flex-col items-center gap-4 animate-fade-up" style={{ animationDelay: "200ms" }}>
+    <div className="flex flex-col items-center gap-3">
+      <p
+        className="text-[10px] font-semibold tracking-[0.14em] uppercase"
+        style={{ color: "var(--text-muted)" }}
+      >
+        Set Target Time
+      </p>
+
       {/* Presets */}
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-1.5">
         {presets.map((m) => (
           <button
             key={m}
-            onClick={() => onSetTimer(m)}
-            className={cn(
-              "h-9 px-3.5 rounded-lg text-[12px] font-semibold tracking-wide",
-              "bg-white/[0.04] border border-white/[0.06] text-zinc-400",
-              "transition-all duration-200",
-              "hover:bg-emerald-400/10 hover:border-emerald-400/20 hover:text-emerald-300",
-              "active:scale-95"
-            )}
+            onClick={() => onSetTarget(m)}
+            className="h-8 px-3 rounded-lg text-[11px] font-semibold tracking-wide transition-all duration-150 active:scale-95"
+            style={{
+              background: "var(--surface)",
+              border: "1px solid var(--border)",
+              color: "var(--text-secondary)",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "rgba(56, 118, 220, 0.1)";
+              e.currentTarget.style.borderColor = "rgba(56, 118, 220, 0.2)";
+              e.currentTarget.style.color = "var(--blue-300)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "var(--surface)";
+              e.currentTarget.style.borderColor = "var(--border)";
+              e.currentTarget.style.color = "var(--text-secondary)";
+            }}
           >
             {m}m
           </button>
@@ -41,7 +56,7 @@ export function TimerControls({ onSetTimer }: TimerControlsProps) {
       </div>
 
       {/* Custom input */}
-      <form onSubmit={handleSubmit} className="flex items-center gap-2">
+      <form onSubmit={handleSubmit} className="flex items-center gap-1.5">
         <div className="relative">
           <input
             type="number"
@@ -50,28 +65,36 @@ export function TimerControls({ onSetTimer }: TimerControlsProps) {
             placeholder="Custom"
             min={1}
             max={999}
-            className={cn(
-              "h-9 w-28 rounded-lg bg-white/[0.04] border border-white/[0.06] px-3 pr-8",
-              "text-[12px] font-medium text-zinc-300 placeholder:text-zinc-600",
-              "outline-none transition-all duration-200",
-              "focus:border-emerald-400/30 focus:bg-white/[0.06]",
-              "[-moz-appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
-            )}
+            className="h-8 w-24 rounded-lg px-2.5 pr-7 text-[11px] font-medium outline-none transition-all duration-150"
+            style={{
+              background: "var(--surface)",
+              border: "1px solid var(--border)",
+              color: "var(--text-primary)",
+            }}
+            onFocus={(e) => {
+              e.currentTarget.style.borderColor = "rgba(56, 118, 220, 0.25)";
+              e.currentTarget.style.background = "rgba(15, 25, 50, 0.7)";
+            }}
+            onBlur={(e) => {
+              e.currentTarget.style.borderColor = "var(--border)";
+              e.currentTarget.style.background = "var(--surface)";
+            }}
           />
-          <span className="absolute right-3 top-1/2 -translate-y-1/2 text-[10px] font-medium text-zinc-600">
+          <span
+            className="absolute right-2.5 top-1/2 -translate-y-1/2 text-[9px] font-medium"
+            style={{ color: "var(--text-muted)" }}
+          >
             min
           </span>
         </div>
         <button
           type="submit"
-          className={cn(
-            "h-9 px-4 rounded-lg text-[12px] font-semibold tracking-wide",
-            "bg-emerald-400/10 border border-emerald-400/20 text-emerald-300",
-            "transition-all duration-200",
-            "hover:bg-emerald-400/20 hover:border-emerald-400/30",
-            "active:scale-95",
-            "disabled:opacity-40 disabled:pointer-events-none"
-          )}
+          className="h-8 px-3.5 rounded-lg text-[11px] font-semibold tracking-wide transition-all duration-150 active:scale-95 disabled:opacity-30 disabled:pointer-events-none"
+          style={{
+            background: "rgba(56, 118, 220, 0.12)",
+            border: "1px solid rgba(56, 118, 220, 0.18)",
+            color: "var(--blue-300)",
+          }}
           disabled={!custom || parseInt(custom, 10) <= 0}
         >
           Set

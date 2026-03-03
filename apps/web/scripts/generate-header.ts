@@ -1,9 +1,6 @@
 /**
  * Reads the Vite single-file build output (dist/index.html)
  * and generates an Objective-C header with the HTML as a string literal.
- *
- * The tweak replaces __CASTWEAK_INJECT__ with a <script> tag
- * containing the runtime JSON data before loading the HTML.
  */
 import { readFileSync, writeFileSync, mkdirSync } from "fs";
 import { resolve, dirname } from "path";
@@ -29,7 +26,10 @@ static NSString *const kCASTweakWebHTML = @"${escaped}";
 #endif
 `;
 
-const outPath = resolve(import.meta.dirname!, "../../../apps/tweak/generated/WebHTML.h");
+const outPath = resolve(
+  import.meta.dirname!,
+  "../../../apps/tweak/generated/WebHTML.h"
+);
 mkdirSync(dirname(outPath), { recursive: true });
 writeFileSync(outPath, header);
 console.log(`Generated ${outPath}`);

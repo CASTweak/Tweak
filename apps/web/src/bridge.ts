@@ -1,18 +1,18 @@
+import { useMemo } from "react";
+
 /**
- * Bridge between the Objective-C tweak and the web view.
+ * Bridge between the Objective-C tweak and the React web view.
  *
- * The tweak injects a JSON object into the HTML before loading it:
+ * The tweak injects a JSON object into the HTML before loading:
  *   <script>window.__CASTWEAK__ = { ... }</script>
  *
- * This module provides type-safe access to those injected values
- * and a way to send messages back to the native side via
- * webkit.messageHandlers.
+ * This module provides type-safe access + a React hook,
+ * and a way to send messages back to native via webkit.messageHandlers.
  */
 
 export interface TweakData {
   timerOffsetSeconds: number;
   timerTargetSeconds: number;
-  examModeLostFocus: boolean;
   [key: string]: unknown;
 }
 
@@ -29,18 +29,25 @@ declare global {
   }
 }
 
+const defaults: TweakData = {
+  timerOffsetSeconds: 0,
+  timerTargetSeconds: -1,
+};
+
 /** Read injected tweak data (falls back to defaults in dev mode) */
 export function getTweakData(): TweakData {
-  return (
-    window.__CASTWEAK__ ?? {
-      timerOffsetSeconds: 0,
-      timerTargetSeconds: -1,
-      examModeLostFocus: false,
-    }
-  );
+  return window.__CASTWEAK__ ?? defaults;
+}
+
+/** React hook for tweak data */
+export function useTweakData(): TweakData {
+  return useMemo(() => getTweakData(), []);
 }
 
 /** Send a message back to the native tweak */
-export function postToTweak(action: string, payload?: Record<string, unknown>) {
+export function postToTweak(
+  action: string,
+  payload?: Record<string, unknown>
+) {
   window.webkit?.messageHandlers.castweak.postMessage({ action, ...payload });
 }
